@@ -1,37 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ebiza Orthopaedic & AI Interview Assistant
 
-## Getting Started
+A modern, high-performance web application built with Next.js, featuring an advanced AI Interview Assistant and a professional showcase for Ebiza Orthopaedic products.
 
-First, run the development server:
+## 🚀 Key Features
 
+### 🤖 AI Interview Assistant
+*   **Real-time Streaming**: Utilizes `ReadableStream` for near-instantaneous AI feedback, minimizing latency.
+*   **Multi-Model Support**: Integrated with Gemini 1.5 Flash, OpenAI, Groq, and Claude.
+*   **Language Detection**: Automatic detection of Hindi/Hinglish keywords to provide localized support.
+*   **Glassmorphism 2.0 Design**: A premium, modern UI with smooth transitions, blur effects, and high-quality aesthetics.
+*   **Sensitivity Control**: Adjustable sensitivity settings for audio input to adapt to different environments.
+
+### 🏥 Ebiza Orthopaedic Platform
+*   **Product Showcase**: Dynamic product galleries with high-resolution imagery and detailed specifications.
+*   **Certifications & Trust**: Dedicated section for quality certifications (ISO, CE, etc.) to build brand authority.
+*   **SEO Optimized**: Full implementation of JSON-LD schema for FAQ sections and semantic HTML for better search engine visibility.
+*   **PWA Ready**: Progressive Web App support for offline access and app-like experience on mobile devices.
+
+## 🛠️ Tech Stack
+*   **Framework**: [Next.js](https://nextjs.org/) (App Router)
+*   **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+*   **Language**: [TypeScript](https://www.typescriptlang.org/)
+*   **AI**: Google Gemini, OpenAI, Claude, Groq
+*   **State Management**: React Hooks & Context API
+
+## 📦 Recent Updates
+*   **AI Latency Optimization**: Transitioned to streaming responses to eliminate wait times.
+*   **UI Overhaul**: Implemented "Glassmorphism 2.0" across all major screens.
+*   **PWA Integration**: Added `manifest.ts` and `service-worker.js` for enhanced mobile experience.
+*   **Image Processing Pipeline**: Custom scripts for automating product image optimization and catalog management.
+
+## 🚀 Getting Started
+
+First, install dependencies:
+```bash
+npm install
+```
+
+Then, run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Ebiza-Othopadic" 
+## 📄 License
+This project is private and confidential.
