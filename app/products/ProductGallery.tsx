@@ -29,7 +29,12 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
   }, [onClose]);
 
   const cat = CATEGORIES.find(c => c.id === product.cat);
-  const waText = encodeURIComponent(`Hi, I'm interested in ${product.name} (${code}). Please share pricing.`);
+  const waText = encodeURIComponent(`Hi, I'm interested in ${product.name} (${code}). MRP: ₹${product.mrp || 'Contact for price'}. Please share more details.`);
+
+  // Parse sizes from comma-separated string or default to UNI
+  const sizeList = product.sizes 
+    ? product.sizes.split(',').map((s: string) => s.trim()).filter((s: string) => s.length > 0) 
+    : ['UNI'];
 
   return (
     <div className="modal-overlay open" onClick={e => { if (e.target === e.currentTarget) onClose(); }}>
@@ -54,16 +59,27 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
           </div>
           <div className="modal-details">
             <p className="modal-desc">{product.desc}</p>
-            <div className="modal-sizes-label">Available Sizes</div>
-            <div className="modal-sizes">
-              <span className="size-chip">S</span>
-              <span className="size-chip">M</span>
-              <span className="size-chip">L</span>
-              <span className="size-chip">XL</span>
-              <span className="size-chip">XXL</span>
+            
+            {product.mrp && (
+              <div className="modal-price-wrap" style={{marginBottom:'24px', padding:'16px', background:'var(--bg-light)', borderRadius:'12px', border:'1px solid var(--border)'}}>
+                <div style={{fontSize:'13px', fontWeight:600, color:'var(--text-light)', marginBottom:'4px', textTransform:'uppercase', letterSpacing:'0.05em'}}>Maximum Retail Price (MRP)</div>
+                <div style={{fontSize:'32px', fontWeight:800, color:'var(--primary)', display:'flex', alignItems:'baseline', gap:'4px'}}>
+                  <span style={{fontSize:'20px', fontWeight:600}}>₹</span>
+                  {product.mrp}
+                </div>
+              </div>
+            )}
+
+            <div className="modal-sizes-label" style={{fontSize:'14px', fontWeight:600, marginBottom:'10px'}}>Available Sizes / Variants</div>
+            <div className="modal-sizes" style={{display:'flex', flexWrap:'wrap', gap:'8px', marginBottom:'16px'}}>
+              {sizeList.map((size: string, idx: number) => (
+                <span key={idx} className="size-chip" style={{padding:'6px 14px', background:'white', border:'1px solid var(--border)', borderRadius:'8px', fontSize:'13px', fontWeight:500, boxShadow:'0 1px 2px rgba(0,0,0,0.05)'}}>{size}</span>
+              ))}
             </div>
-            <p style={{fontSize:'12px', color:'var(--text-light)', marginBottom:'16px'}}>* Custom sizes available on bulk orders.</p>
-            <a href={`https://wa.me/916291816264?text=${waText}`} target="_blank" rel="noopener noreferrer" className="modal-cta">📞 Inquire This Product</a>
+            <p style={{fontSize:'12px', color:'var(--text-light)', marginBottom:'20px'}}>* Prices are inclusive of all taxes. Custom sizes available for bulk orders.</p>
+            <a href={`https://wa.me/916291816264?text=${waText}`} target="_blank" rel="noopener noreferrer" className="modal-cta" style={{display:'flex', alignItems:'center', justifyContent:'center', gap:'8px', padding:'16px', background:'var(--primary)', color:'white', borderRadius:'12px', fontWeight:600, textDecoration:'none', transition:'all 0.2s', boxShadow:'0 4px 12px rgba(0,0,0,0.1)'}}>
+              <span>📞 Inquire This Product</span>
+            </a>
           </div>
         </div>
         <div className="modal-footer">
@@ -73,6 +89,7 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
     </div>
   );
 }
+
 
 export default function ProductGallery({ products }: { products: Record<string, any> }) {
   const [activeTab, setActiveTab] = useState('body-belts');
@@ -252,8 +269,12 @@ export default function ProductGallery({ products }: { products: Record<string, 
                       <div className="product-info">
                         <div className="product-name">{product.name}</div>
                         <div className="product-desc-short">{product.desc}</div>
+                        {product.mrp && (
+                          <div className="product-price" style={{marginTop:'8px', fontSize:'18px', fontWeight:700, color:'var(--primary)'}}>₹{product.mrp}</div>
+                        )}
                         <div className="product-action-hint">View Details →</div>
                       </div>
+
                     </div>
                   ))}
                 </div>

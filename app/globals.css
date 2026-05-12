@@ -353,20 +353,30 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:var(--text);backgrou
 .features-inner{max-width:1280px;margin:0 auto}
 .features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;margin-top:40px}
 .feature-card{
-  background:rgba(255,255,255,0.05);
-  border:1px solid rgba(255,255,255,0.1);
+  background:white;
+  border:1px solid var(--border);
   border-radius:var(--radius);padding:24px;
   transition:all var(--transition);
 }
-.feature-card:hover{background:rgba(255,255,255,0.08);border-color:rgba(41,182,246,0.3)}
+.features .feature-card{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.1);
+}
+.feature-card:hover{
+  border-color:var(--primary);
+  box-shadow:var(--shadow);
+}
+.features .feature-card:hover{background:rgba(255,255,255,0.08);border-color:rgba(41,182,246,0.3)}
 .feature-icon{
   width:48px;height:48px;border-radius:10px;
   background:linear-gradient(135deg,var(--primary),#29B6F6);
   display:flex;align-items:center;justify-content:center;
   font-size:22px;margin-bottom:16px;
 }
-.feature-title{font-family:'Space Grotesk',sans-serif;font-size:16px;font-weight:700;color:white;margin-bottom:8px}
-.feature-desc{font-size:13.5px;color:rgba(255,255,255,0.6);line-height:1.6}
+.feature-title{font-family:'Space Grotesk',sans-serif;font-size:16px;font-weight:700;color:var(--text);margin-bottom:8px}
+.features .feature-title{color:white}
+.feature-desc{font-size:13.5px;color:var(--text-mid);line-height:1.6}
+.features .feature-desc{color:rgba(255,255,255,0.6)}
 
 /* ── CONTACT ── */
 .contact-section{background:white;padding:60px 24px}

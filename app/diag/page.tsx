@@ -1,3 +1,5 @@
+"use client";
+
 import { PRODUCTS } from '@/data/products';
 
 export default function DiagPage() {
@@ -16,7 +18,10 @@ export default function DiagPage() {
               onError={(e) => e.currentTarget.style.border = '2px solid red'}
             />
             <div style={{fontSize: '10px'}}>{p.name}</div>
+            <div style={{fontSize: '11px', fontWeight: 'bold', color: 'blue'}}>₹{p.mrp || 'N/A'}</div>
+            <div style={{fontSize: '9px', color: '#666'}}>{p.sizes || 'N/A'}</div>
           </div>
+
         ))}
       </div>
     </div>
