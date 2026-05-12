@@ -253,7 +253,7 @@ export default function ProductGallery({ products }: { products: Record<string, 
                   <div className="section-divider"></div>
                 </div>
                 <div className="products-grid">
-                  {catProducts.map(([code, product]) => (
+                  {catProducts.map(([code, product]: [string, any]) => (
                     <div key={code} className="product-card" onClick={() => setModal({ code, product })} style={{cursor:'pointer'}}>
                       <div className="product-img-wrap">
                         <div className="product-code">{code}</div>

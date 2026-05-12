@@ -8,7 +8,7 @@ export default function DiagPage() {
     <div style={{padding: '20px'}}>
       <h1>Image Diagnostic ({products.length} products)</h1>
       <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '10px'}}>
-        {products.map(([code, p]) => (
+        {products.map(([code, p]: [string, any]) => (
           <div key={code} style={{border: '1px solid #ccc', padding: '10px'}}>
             <div style={{fontSize: '10px'}}>{code}</div>
             <img 
@@ -21,7 +21,6 @@ export default function DiagPage() {
             <div style={{fontSize: '11px', fontWeight: 'bold', color: 'blue'}}>₹{p.mrp || 'N/A'}</div>
             <div style={{fontSize: '9px', color: '#666'}}>{p.sizes || 'N/A'}</div>
           </div>
-
         ))}
       </div>
     </div>
