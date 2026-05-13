@@ -1,6 +1,6 @@
 export const PRODUCTS = {
   "EA-01": {
-    "name": "Contoured Back Support",
+    "name": "Contoured Lumbosacral Support",
     "desc": "Anatomically contoured rigid back support for lumbar stability",
     "mrp": "1,200.00",
     "sizes": "S,M,L,XL,XXL,XXXL",
@@ -8,7 +8,7 @@ export const PRODUCTS = {
     "cat": "body-belts"
   },
   "EA-02": {
-    "name": "Lumbo Sacral Support",
+    "name": "Lumbosacral Support",
     "desc": "Standard lumbar support for lower back pain relief",
     "mrp": "935.00",
     "sizes": "S,M,L,XL,XXL,XXXL",
@@ -16,7 +16,7 @@ export const PRODUCTS = {
     "cat": "body-belts"
   },
   "EA-03": {
-    "name": "Lumbosacral Support Eco",
+    "name": "Lumbosacral Support (Eco)",
     "desc": "Economical lumbosacral brace with effective support",
     "mrp": "760.00",
     "sizes": "S,M,L,XL,XXL",
@@ -24,7 +24,7 @@ export const PRODUCTS = {
     "cat": "body-belts"
   },
   "EA-04": {
-    "name": "Taylor'S Brace",
+    "name": "Taylor's Brace (Long/Short)",
     "desc": "Thoracolumbar support brace for spinal fracture management",
     "mrp": "2,275.00",
     "sizes": "UNI",
@@ -40,7 +40,7 @@ export const PRODUCTS = {
     "cat": "body-belts"
   },
   "EA-06": {
-    "name": "Ash Brace (Hyper Extension Brace)",
+    "name": "Ash Brace Hyper Extension (Long/Short)",
     "desc": "Hyperextension brace for thoracolumbar fractures",
     "mrp": "1,700.00",
     "sizes": "UNI",
@@ -48,7 +48,7 @@ export const PRODUCTS = {
     "cat": "body-belts"
   },
   "EA-07": {
-    "name": "Rib Support",
+    "name": "Rib Belt",
     "desc": "Elastic rib belt for rib fracture support and pain relief",
     "mrp": "665.00",
     "sizes": "S,M,L,XL,XXL",
@@ -104,7 +104,7 @@ export const PRODUCTS = {
     "cat": "body-belts"
   },
   "EA-14": {
-    "name": "Orthopedic Backrest Support",
+    "name": "Orthopaedic Backrest",
     "desc": "Ergonomic backrest cushion for lumbar support",
     "mrp": "1,700.00",
     "sizes": "UNI",
@@ -112,7 +112,7 @@ export const PRODUCTS = {
     "cat": "body-belts"
   },
   "EB-01": {
-    "name": "Cervical Collar Foft",
+    "name": "Cervical Soft Collar",
     "desc": "Soft foam cervical collar for mild neck support",
     "mrp": "360.00",
     "sizes": "S,M,L,XL,XXL",
@@ -120,7 +120,7 @@ export const PRODUCTS = {
     "cat": "cervical"
   },
   "EB-02": {
-    "name": "Adjustable Hard Cervical Collar",
+    "name": "Adjustable Hard Collar",
     "desc": "Rigid adjustable collar for cervical immobilization",
     "mrp": "440.00",
     "sizes": "S,M,L,XL,XXL",
@@ -144,7 +144,7 @@ export const PRODUCTS = {
     "cat": "cervical"
   },
   "EB-05": {
-    "name": "Cervical Pillow Regular",
+    "name": "Cervical Regular Pillow",
     "desc": "Contoured cervical pillow for neck pain relief",
     "mrp": "1,275.00",
     "sizes": "UNI",
@@ -160,7 +160,7 @@ export const PRODUCTS = {
     "cat": "cervical"
   },
   "EB-07": {
-    "name": "U Pillow",
+    "name": "U-Pillow",
     "desc": "Travel U-shaped neck support pillow",
     "mrp": "1,550.00",
     "sizes": "UNI",
@@ -168,7 +168,7 @@ export const PRODUCTS = {
     "cat": "cervical"
   },
   "EC-01": {
-    "name": "Pouch Arm Sling Baggy",
+    "name": "Pouch Arm Sling",
     "desc": "Comfortable pouch-style arm sling for forearm support",
     "mrp": "390.00",
     "sizes": "S,M,L,XL,XXL",
@@ -208,7 +208,7 @@ export const PRODUCTS = {
     "cat": "fracture"
   },
   "EC-06": {
-    "name": "Bobath Caff",
+    "name": "Bobath Cuff",
     "desc": "Bobath-style shoulder subluxation support",
     "mrp": "1,050.00",
     "sizes": "UNI",
@@ -216,7 +216,7 @@ export const PRODUCTS = {
     "cat": "fracture"
   },
   "EC-07": {
-    "name": "Shoulder Support Elastic",
+    "name": "Shoulder Support",
     "desc": "Elastic compression shoulder support",
     "mrp": "1,250.00",
     "sizes": "UNI",
@@ -288,7 +288,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-03": {
-    "name": "Foot Drop Splint",
+    "name": "Foot Drop Splint (Left/Right)",
     "desc": "AFO-style foot drop correction splint",
     "mrp": "1,100.00",
     "sizes": "S,M,L,XL",
@@ -296,7 +296,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-04": {
-    "name": "Foot Drop Splint With Padding",
+    "name": "Foot Drop Splint Padding (Left/Right)",
     "desc": "Padded foot drop splint for comfort",
     "mrp": "1,240.00",
     "sizes": "S,M,L,XL",
@@ -304,7 +304,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-05": {
-    "name": "Anklet Comfort Pair",
+    "name": "Anklet Comfort",
     "desc": "Premium comfort anklet pair",
     "mrp": "340.00",
     "sizes": "S,M,L,XL",
@@ -312,7 +312,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-06": {
-    "name": "Pf Night Splint De-Rotation",
+    "name": "PF Night Splint De-Rotation",
     "desc": "Plantar fasciitis night splint with de-rotation",
     "mrp": "1,375.00",
     "sizes": "UNI",
@@ -328,7 +328,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-08": {
-    "name": "Anklet Pair",
+    "name": "Anklet",
     "desc": "Standard compression anklet pair",
     "mrp": "300.00",
     "sizes": "S,M,L,XL",
@@ -344,7 +344,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-10": {
-    "name": "De-Rotation Shoe",
+    "name": "De-Rotation Shoe (Left/Right)",
     "desc": "Rotational correction shoe",
     "mrp": "400.00",
     "sizes": "UNI",
@@ -352,23 +352,15 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-11": {
-    "name": "Afo Night Splint",
+    "name": "AFO Night Splint (Left/Right)",
     "desc": "Ankle foot orthosis night splint",
     "mrp": "4,000.00",
     "sizes": "UNI",
     "img": "/images/products/EE-11.jpg",
     "cat": "foot-ankle"
   },
-  "EE-11-A": {
-    "name": "Compression Stockings Above Knee",
-    "desc": "Ankle foot orthosis night splint",
-    "mrp": "4,000.00",
-    "sizes": "UNI",
-    "img": "/images/products/EE-11-A.jpg",
-    "cat": "foot-ankle"
-  },
   "EE-12": {
-    "name": "Compression Stockings Below Knee",
+    "name": "Compression Stockings Above Knee",
     "desc": "Above-knee graduated compression stockings",
     "mrp": "2,550.00",
     "sizes": "S,M,L,XL,XXL",
@@ -376,7 +368,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-13": {
-    "name": "Dvt Stockings Above Knee",
+    "name": "Compression Stockings Below Knee",
     "desc": "Below-knee compression stockings",
     "mrp": "1,690.00",
     "sizes": "S,M,L,XL,XXL",
@@ -384,11 +376,19 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-14": {
-    "name": "Dvt Stockings Below Knee",
+    "name": "DVT Stockings Above Knee",
     "desc": "Anti-DVT stockings above knee",
     "mrp": "1,900.00",
     "sizes": "S,M,L,XL,XXL",
     "img": "/images/products/EE-14.jpg",
+    "cat": "foot-ankle"
+  },
+  "EE-15": {
+    "name": "DVT Stockings Below Knee",
+    "desc": "Premium quality DVT Stockings Below Knee designed for optimal support and comfort.",
+    "mrp": "1,500.00",
+    "sizes": "UNI",
+    "img": "/images/products/EE-15.jpg",
     "cat": "foot-ankle"
   },
   "EF-01": {
@@ -416,7 +416,7 @@ export const PRODUCTS = {
     "cat": "knee"
   },
   "EF-04": {
-    "name": "Neoprene Knee Hinge Support",
+    "name": "Neoprene Knee Support With Hinges",
     "desc": "Hinged neoprene knee brace",
     "mrp": "1,575.00",
     "sizes": "XXL",
@@ -440,7 +440,7 @@ export const PRODUCTS = {
     "cat": "knee"
   },
   "EF-07": {
-    "name": "Knee Cap 3d",
+    "name": "Knee Support 3D",
     "desc": "3D knit knee support pair",
     "mrp": "480.00",
     "sizes": "S,M,L,XL,XXL",
@@ -464,7 +464,7 @@ export const PRODUCTS = {
     "cat": "knee"
   },
   "EF-10": {
-    "name": "Rom Knee Brace",
+    "name": "ROM Knee Brace",
     "desc": "Range of motion adjustable knee brace",
     "mrp": "2,750.00",
     "sizes": "UNI",
@@ -504,7 +504,7 @@ export const PRODUCTS = {
     "cat": "knee"
   },
   "EG-01": {
-    "name": "Writs & Forearm Short",
+    "name": "Wrist & Forearm Brace Short",
     "desc": "Short wrist and forearm support brace",
     "mrp": "640.00",
     "sizes": "UNI",
@@ -512,7 +512,7 @@ export const PRODUCTS = {
     "cat": "wrist-forearm"
   },
   "EG-02": {
-    "name": "Wrsit & Forearm Long",
+    "name": "Wrist & Forearm Brace Long",
     "desc": "Long forearm and wrist immobilization brace",
     "mrp": "740.00",
     "sizes": "UNI",
@@ -528,7 +528,7 @@ export const PRODUCTS = {
     "cat": "wrist-forearm"
   },
   "EG-04": {
-    "name": "Wrist Brace With Thumb Support",
+    "name": "Wrist Brace With Thumb",
     "desc": "Wrist brace with thumb spica support",
     "mrp": "230.00",
     "sizes": "UNI",
@@ -544,7 +544,7 @@ export const PRODUCTS = {
     "cat": "wrist-forearm"
   },
   "EG-06": {
-    "name": "Tennis Elbow Support",
+    "name": "Tennis Elbow Support Silicone Pad",
     "desc": "Silicone pad tennis elbow support",
     "mrp": "250.00",
     "sizes": "UNI",
@@ -592,7 +592,7 @@ export const PRODUCTS = {
     "cat": "wrist-forearm"
   },
   "EG-12": {
-    "name": "Static Cockup Splint",
+    "name": "Static Cockup Splint (Left/Right)",
     "desc": "Static cock-up wrist splint",
     "mrp": "950.00",
     "sizes": "S,M,L",
@@ -600,7 +600,7 @@ export const PRODUCTS = {
     "cat": "wrist-forearm"
   },
   "EG-13": {
-    "name": "Dynamik Splint",
+    "name": "Dynamic Splint (Left/Right)",
     "desc": "Dynamic extension wrist splint",
     "mrp": "1,050.00",
     "sizes": "S,M,L,XL",
@@ -624,7 +624,7 @@ export const PRODUCTS = {
     "cat": "wrist-forearm"
   },
   "EH-01": {
-    "name": "Foot Traction Support",
+    "name": "Foot/Skin Traction Support-UNI",
     "desc": "Skin traction support for lower limb",
     "mrp": "400.00",
     "sizes": "UNI",
@@ -648,7 +648,7 @@ export const PRODUCTS = {
     "cat": "traction"
   },
   "EH-04": {
-    "name": "Foot Traction Kit",
+    "name": "Cervical Traction Kit",
     "desc": "Complete foot traction kit",
     "mrp": "2,000.00",
     "sizes": "UNI",
@@ -656,7 +656,7 @@ export const PRODUCTS = {
     "cat": "traction"
   },
   "EH-05": {
-    "name": "Cervical Traction Kit",
+    "name": "Foot Traction Kit",
     "desc": "Cervical traction kit for neck pain",
     "mrp": "1,550.00",
     "sizes": "UNI",
@@ -680,15 +680,15 @@ export const PRODUCTS = {
     "cat": "traction"
   },
   "EH-08": {
-    "name": "Traction Weight Rubber",
+    "name": "Traction Weight",
     "desc": "Rubber traction weight",
-    "mrp": "500.00",
+    "mrp": "250.00 - 500.00",
     "sizes": "UNI",
     "img": "/images/products/EH-08.jpg",
     "cat": "traction"
   },
   "EH-09": {
-    "name": "Thmas Splint",
+    "name": "Thomas Splint",
     "desc": "Thomas ring splint for femur fractures",
     "mrp": "850.00",
     "sizes": ",S,M,L,XL,XXL",
@@ -696,7 +696,7 @@ export const PRODUCTS = {
     "cat": "traction"
   },
   "EH-10": {
-    "name": "Bohler Braun Splint",
+    "name": "Bholer Braun Splint",
     "desc": "Bohler-Braun frame for lower limb traction",
     "mrp": "2,050.00",
     "sizes": "UNI",
@@ -752,7 +752,7 @@ export const PRODUCTS = {
     "cat": "silicone-foot"
   },
   "EI-06": {
-    "name": "Toe Seperator",
+    "name": "Toe Separator With Silicone",
     "desc": "Silicone toe separators for toe alignment",
     "mrp": "120.00",
     "sizes": "S,M,L,XL",
@@ -760,7 +760,7 @@ export const PRODUCTS = {
     "cat": "silicone-foot"
   },
   "EI-07": {
-    "name": "Silicone Full Insole With Medial Arch",
+    "name": "Silicone Insole With Medical Arch",
     "desc": "Medial arch silicone full insole",
     "mrp": "1,550.00",
     "sizes": "S,M,L,XL",
@@ -776,45 +776,46 @@ export const PRODUCTS = {
     "cat": "silicone-foot"
   },
   "EI-09": {
-    "name": "Round Head Rest Open Bottom",
+    "name": "Round Head Rest Support-Open",
     "desc": "Open round head rest support",
-    "mrp": "7,000.00",
+    "mrp": "2,000.00 - 7,000.00",
     "sizes": "XL",
     "img": "/images/products/EI-09.jpg",
     "cat": "silicone-foot"
   },
   "EI-10": {
-    "name": "Round Head Rest Close Bottom",
+    "name": "Round Head Rest Support-Close",
     "desc": "Closed round head rest support",
-    "mrp": "7,800.00",
+    "mrp": "2,000.00 - 7,800.00",
     "sizes": "XL",
     "img": "/images/products/EI-10.jpg",
     "cat": "silicone-foot"
   },
   "EI-11": {
-    "name": "Horse Shoe Head Support Open",
+    "name": "Horse Shoe Head Support-Open",
     "desc": "Open horseshoe head support",
-    "mrp": "7,000.00",
+    "mrp": "2,000.00 - 6,900.00",
     "sizes": "XL",
     "img": "/images/products/EI-11.jpg",
     "cat": "silicone-foot"
   },
   "EI-12": {
-    "name": "Horse Shoe Head Support Close",
+    "name": "Horse Shoe Head Support-Close",
     "desc": "Closed horseshoe head support",
+    "mrp": "2,100.00 - 7,000.00",
     "img": "/images/products/EI-12.jpg",
     "cat": "silicone-foot"
   },
   "EJ-01": {
     "name": "Weight Cuff",
     "desc": "Adjustable weight cuff for exercise",
-    "mrp": "1,225.00",
+    "mrp": "500.00 - 1,225.00",
     "sizes": " 2 KG",
     "img": "/images/products/EJ-01.jpg",
     "cat": "physio"
   },
   "EJ-02": {
-    "name": "Sponj Ball",
+    "name": "Exercising Ball (Sponj)",
     "desc": "Sponge exercise ball for hand therapy",
     "mrp": "75.00",
     "sizes": "UNI",
@@ -824,7 +825,7 @@ export const PRODUCTS = {
   "EJ-03": {
     "name": "Theraband",
     "desc": "Resistance theraband for physiotherapy",
-    "mrp": "1,700.00",
+    "mrp": "720.00 - 1,700.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-03.jpg",
     "cat": "physio"
@@ -838,7 +839,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-05": {
-    "name": "Hand Exercise Spike Ball",
+    "name": "Hand Exerciser Spike Ball",
     "desc": "Spike ball for sensory and hand exercise",
     "mrp": "570.00",
     "sizes": "UNI",
@@ -862,7 +863,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-08": {
-    "name": "Oval Gel Ball",
+    "name": "Gel Oval Ball-Set",
     "desc": "Oval gel ball for hand therapy",
     "mrp": "1,100.00",
     "sizes": "UNI",
@@ -872,7 +873,7 @@ export const PRODUCTS = {
   "EJ-09": {
     "name": "Flex Bar",
     "desc": "Flex bar for elbow rehab",
-    "mrp": "6,750.00",
+    "mrp": "4,150.00 - 6,750.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-09.jpg",
     "cat": "physio"
@@ -894,7 +895,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-12": {
-    "name": "Stability Trainer Theraband",
+    "name": "Stability Trainer-Theraband",
     "desc": "Stability disc trainer",
     "mrp": "12,000.00",
     "sizes": "UNI",
@@ -910,7 +911,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-14": {
-    "name": "Kinesiology Tape",
+    "name": "Kinesiology Tape Cotton",
     "desc": "Athletic kinesiology tape",
     "mrp": "995.00",
     "sizes": "UNI",
@@ -918,7 +919,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-15": {
-    "name": "Moist Heat Pad",
+    "name": "Moist Head Pad",
     "desc": "Moist heat pad set for therapy",
     "mrp": "2,100.00",
     "sizes": "UNI",
@@ -926,7 +927,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-16": {
-    "name": "V Shape Hand Grip",
+    "name": "V-Shape Hand Grip",
     "desc": "V-shape hand grip exerciser",
     "mrp": "150.00",
     "sizes": "UNI",
@@ -934,7 +935,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-17": {
-    "name": "Feeding Bottle 125 Ml",
+    "name": "Feeding Bottle",
     "desc": "Patient feeding bottle",
     "mrp": "100.00",
     "sizes": " 125 ML",
@@ -942,7 +943,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-18": {
-    "name": "Eye Mask Neonatal",
+    "name": "Eye Mask",
     "desc": "Neonatal eye mask",
     "mrp": "350.00",
     "sizes": "UNI",
@@ -960,29 +961,29 @@ export const PRODUCTS = {
   "EJ-20": {
     "name": "Pocket Exerciser",
     "desc": "Premium quality Pocket Exerciser for medical use.",
-    "mrp": "125.00",
+    "mrp": "75.00 - 125.00",
     "sizes": "M",
     "img": "/images/products/EJ-20.jpg",
     "cat": "physio"
   },
   "EJ-21": {
-    "name": "Resistence Tubbing With Handle",
+    "name": "Tubbing W/Handle",
     "desc": "Premium quality Resistence Tubbing With Handle for medical use.",
-    "mrp": "900.00",
+    "mrp": "480.00 - 1,300.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-21.jpg",
     "cat": "physio"
   },
   "EJ-22": {
-    "name": "Resistence Tubing Sleeve",
+    "name": "Resistance Tubing Sleeve",
     "desc": "Premium quality Resistence Tubing Sleeve for medical use.",
-    "mrp": "900.00",
+    "mrp": "900.00 - 1,000.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-22.jpg",
     "cat": "physio"
   },
   "EJ-23": {
-    "name": "Power Web Exerciser",
+    "name": "Web Exerciser",
     "desc": "Premium quality Power Web Exerciser for medical use.",
     "mrp": "4,500.00",
     "sizes": "UNI",
@@ -1006,7 +1007,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-26": {
-    "name": "Us Gel 250 Ml",
+    "name": "US Gel-250 ML",
     "desc": "Ultrasound transmission gel 250mL",
     "mrp": "125.00",
     "sizes": "250 ML",
@@ -1014,7 +1015,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-27": {
-    "name": "Us Gel 5 Ltr",
+    "name": "US Gel-5 LTR",
     "desc": "Ultrasound transmission gel 5kg",
     "mrp": "1,300.00",
     "sizes": "5 LTR",
@@ -1022,23 +1023,23 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-28": {
-    "name": "Thera-Wax",
+    "name": "Thera Wax",
     "desc": "Paraffin therapy wax",
-    "mrp": "500.00",
+    "mrp": "250.00 - 500.00",
     "sizes": " 500 GM",
     "img": "/images/products/EJ-28.jpg",
     "cat": "physio"
   },
   "EJ-29": {
-    "name": "Theraband Loop Band",
+    "name": "Theraband Loop",
     "desc": "Resistance loop theraband",
-    "mrp": "1,047.00",
+    "mrp": "1,047.00 - 1,502.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-29.jpg",
     "cat": "physio"
   },
   "EJ-30": {
-    "name": "Adjustable Weight Cuff 2 Kg",
+    "name": "Adjustable Weight Cuff-2 KG",
     "desc": "Adjustable weighted cuff for rehab",
     "mrp": "1,200.00",
     "sizes": "2 KG",
@@ -1046,7 +1047,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EK-01": {
-    "name": "Mono Pod Walking Stick Black",
+    "name": "Mono Pod Walking Stick-Black",
     "desc": "Adjustable walking stick in black",
     "mrp": "580.00",
     "sizes": "UNI",
@@ -1054,7 +1055,7 @@ export const PRODUCTS = {
     "cat": "walking-aid"
   },
   "EK-02": {
-    "name": "Mono Pod Walking Stick Green",
+    "name": "Mono Pod Walking Stick-Green",
     "desc": "Adjustable walking stick in green",
     "mrp": "695.00",
     "sizes": "UNI",
@@ -1062,7 +1063,7 @@ export const PRODUCTS = {
     "cat": "walking-aid"
   },
   "EK-03": {
-    "name": "Tripod Walking Stick",
+    "name": "Tripod Stick",
     "desc": "Three-point tripod walking stick",
     "mrp": "975.00",
     "sizes": "UNI",
@@ -1070,7 +1071,7 @@ export const PRODUCTS = {
     "cat": "walking-aid"
   },
   "EK-04": {
-    "name": "Quadripod Walking Stick",
+    "name": "Quadripod Stick",
     "desc": "Four-point quadripod walking stick",
     "mrp": "975.00",
     "sizes": "UNI",
@@ -1118,7 +1119,7 @@ export const PRODUCTS = {
     "cat": "walking-aid"
   },
   "EK-10": {
-    "name": "Walker With Wheel Crc",
+    "name": "Walking Fram CRC With Wheel",
     "desc": "CRC walking frame with wheels",
     "mrp": "2,550.00",
     "sizes": "L",
@@ -1126,7 +1127,7 @@ export const PRODUCTS = {
     "cat": "walking-aid"
   },
   "EK-11": {
-    "name": "Walker Without Wheel Crc",
+    "name": "Walking Fram CRC Without Wheel",
     "desc": "CRC walking frame without wheels",
     "mrp": "2,240.00",
     "sizes": "L",
@@ -1142,7 +1143,7 @@ export const PRODUCTS = {
     "cat": "walking-aid"
   },
   "EK-13": {
-    "name": "Commode Stool With Pod",
+    "name": "Commode Stool With Pot",
     "desc": "Commode stool with removable pot",
     "mrp": "1,650.00",
     "sizes": "UNI",
@@ -1294,7 +1295,7 @@ export const PRODUCTS = {
     "cat": "allied"
   },
   "EL-12": {
-    "name": "Urine Pot Male",
+    "name": "Urine Pot-Male",
     "desc": "Male urinal pot",
     "mrp": "160.00",
     "sizes": "UNI",
@@ -1302,7 +1303,7 @@ export const PRODUCTS = {
     "cat": "allied"
   },
   "EL-13": {
-    "name": "Urine Pot Female",
+    "name": "Urine Pot-Female",
     "desc": "Female urinal pot",
     "mrp": "160.00",
     "sizes": "UNI",
@@ -1310,7 +1311,7 @@ export const PRODUCTS = {
     "cat": "allied"
   },
   "EL-14": {
-    "name": "Urine Pot Unisex",
+    "name": "Urine Pot-Unisex",
     "desc": "Unisex urinal pot",
     "mrp": "190.00",
     "sizes": "X",
@@ -1341,6 +1342,22 @@ export const PRODUCTS = {
     "img": "/images/products/EL-17.jpg",
     "cat": "allied"
   },
+  "EL-18": {
+    "name": "Medial Arch Shoe",
+    "desc": "Premium quality Medial Arch Shoe designed for optimal support and comfort.",
+    "mrp": "2,500.00",
+    "sizes": "UNI",
+    "img": "/images/products/EL-18.jpg",
+    "cat": "allied"
+  },
+  "EL-19": {
+    "name": "Calcalium Shoe",
+    "desc": "Premium quality Calcalium Shoe designed for optimal support and comfort.",
+    "mrp": "3,000.00",
+    "sizes": "UNI",
+    "img": "/images/products/EL-19.jpg",
+    "cat": "allied"
+  },
   "EL-20": {
     "name": "Spirometer",
     "desc": "Incentive spirometer for lung exercise",
@@ -1358,7 +1375,7 @@ export const PRODUCTS = {
     "cat": "allied"
   },
   "EL-22": {
-    "name": "Spirometer",
+    "name": "Oval Thermometer",
     "desc": "Oval digital thermometer",
     "mrp": "2,150.00",
     "sizes": "UNI",
@@ -1376,7 +1393,7 @@ export const PRODUCTS = {
   "EL-24": {
     "name": "Hot Water Bag",
     "desc": "Rubber hot water bottle",
-    "mrp": "325.00",
+    "mrp": "199.00 - 375.00",
     "sizes": "5 LTR",
     "img": "/images/products/EL-24.jpg",
     "cat": "allied"
@@ -1400,7 +1417,7 @@ export const PRODUCTS = {
   "EL-27": {
     "name": "Electric Hot Pack",
     "desc": "Electric hot pack for therapy",
-    "mrp": "250.00",
+    "mrp": "300.00",
     "sizes": "UNI",
     "img": "/images/products/EL-27.jpg",
     "cat": "allied"
@@ -1408,15 +1425,23 @@ export const PRODUCTS = {
   "EL-28": {
     "name": "Stethoscope",
     "desc": "Professional stethoscope",
-    "mrp": "300.00",
+    "mrp": "850.00",
     "sizes": "UNI",
     "img": "/images/products/EL-28.jpg",
+    "cat": "allied"
+  },
+  "EL-29": {
+    "name": "Nebulizer",
+    "desc": "Premium quality Nebulizer designed for optimal support and comfort.",
+    "mrp": "500.00",
+    "sizes": "UNI",
+    "img": "/images/products/EL-29.jpg",
     "cat": "allied"
   },
   "EL-30": {
     "name": "Pulse Oximeter",
     "desc": "Finger pulse oximeter for SpO2 monitoring",
-    "mrp": "500.00",
+    "mrp": "3,500.00",
     "sizes": "UNI",
     "img": "/images/products/EL-30.jpg",
     "cat": "allied"
@@ -1424,7 +1449,7 @@ export const PRODUCTS = {
   "EL-31": {
     "name": "Breast Pump Machine",
     "desc": "Electric breast pump machine",
-    "mrp": "3,500.00",
+    "mrp": "1,400.00",
     "sizes": "UNI",
     "img": "/images/products/EL-31.jpg",
     "cat": "allied"
@@ -1448,7 +1473,7 @@ export const PRODUCTS = {
   "EL-34": {
     "name": "Oxygen Cylinder Cover",
     "desc": "Protective oxygen cylinder cover",
-    "mrp": "1,400.00",
+    "mrp": "1,700.00",
     "sizes": "UNI",
     "img": "/images/products/EL-34.jpg",
     "cat": "allied"
@@ -1493,22 +1518,12 @@ export const PRODUCTS = {
     "img": "/images/products/EL-39.jpg",
     "cat": "allied"
   },
-  "EL-41": {
-    "name": "Anesthetic Face Mask",
-    "desc": "Premium quality Anesthetic Face Mask for medical use.",
-    "img": "/images/products/EL-41.jpg",
-    "cat": "allied"
-  },
-  "EL-42": {
-    "name": "Air Mattress",
-    "desc": "Premium quality Air Mattress designed for optimal support and comfort.",
-    "img": "/images/products/EL-42.jpg",
-    "cat": "allied"
-  },
-  "EL-43": {
+  "EL-40": {
     "name": "Patients Welcome Kit",
     "desc": "Premium quality Patients Welcome Kit designed for optimal support and comfort.",
-    "img": "/images/products/EL-43.jpg",
+    "mrp": "500.00",
+    "sizes": "UNI",
+    "img": "/images/products/EL-40.jpg",
     "cat": "allied"
   },
   "EM-01": {
@@ -1584,10 +1599,10 @@ export const PRODUCTS = {
     "cat": "child-care"
   },
   "EM-10": {
-    "name": "Pediatric AFO Night Splint",
+    "name": "Pediatric AFO Night Splint (Left/Right)",
     "desc": "Paediatric ankle foot orthosis night splint",
     "mrp": "3,500.00",
-    "sizes": "(LEFT/RIGHT)",
+    "sizes": "LEFT/RIGHT",
     "img": "/images/products/EM-10.jpg",
     "cat": "child-care"
   }
