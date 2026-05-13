@@ -44,7 +44,7 @@ export default function ContactForm() {
             <option>Physio Products</option>
             <option>Walking Aid Products</option>
             <option>Allied Products</option>
-            <option>Child Care Products</option>
+            <option>Pediatric Products</option>
             <option>General Inquiry</option>
           </select>
         </div>

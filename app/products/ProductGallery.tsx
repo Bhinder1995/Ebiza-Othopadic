@@ -17,7 +17,7 @@ const CATEGORIES = [
   { id: 'physio',          name: 'Physio Products',              icon: '💊', desc: 'Physiotherapy accessories including hot/cold packs, TENS pads and therapy aids.' },
   { id: 'walking-aid',     name: 'Walking Aid Products',         icon: '🦯', desc: 'Crutches, walking frames, rollators and mobility aids for safe patient ambulation.' },
   { id: 'allied',          name: 'Allied Products',              icon: '🏥', desc: 'Wheelchairs, stretchers and other allied healthcare products for complete patient care.' },
-  { id: 'child-care',      name: 'Child Care Products',          icon: '👶', desc: 'Paediatric braces, splints and orthoses designed specifically for children.' },
+  { id: 'child-care',      name: 'Pediatric Products',          icon: '👶', desc: 'Pediatric braces, splints and orthoses designed specifically for children.' },
 ];
 
 function ProductModal({ product, code, onClose }: { product: any; code: string; onClose: () => void }) {

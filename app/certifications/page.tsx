@@ -71,13 +71,6 @@ const CERTIFICATES = [
     icon: "🔥"
   },
   {
-    name: "Manufacturing Licence",
-    title: "Form 25/28 Compliance",
-    desc: "Additional regulatory licensing for specialized manufacturing processes and medical device production lines.",
-    file: "DRUG LICENCE 1.pdf",
-    icon: "🏭"
-  },
-  {
     name: "Trade License",
     title: "Commercial Authorization",
     desc: "Official trade license for legal commercial operations and distribution of medical orthopaedic equipment.",

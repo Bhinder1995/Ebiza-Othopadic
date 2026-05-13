@@ -19,7 +19,7 @@ const CATEGORIES = [
   { id: 'physio',        name: 'Physio Products',            icon: '💊', count: 30 },
   { id: 'walking-aid',   name: 'Walking Aid Products',       icon: '🦯', count: 20 },
   { id: 'allied',        name: 'Allied Products',            icon: '🏥', count: 41 },
-  { id: 'child-care',    name: 'Child Care Products',        icon: '👶', count: 9  },
+  { id: 'child-care',    name: 'Pediatric Products',        icon: '👶', count: 9  },
 ];
 
 export default function Home() {

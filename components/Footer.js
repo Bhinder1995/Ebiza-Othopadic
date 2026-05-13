@@ -31,7 +31,7 @@ export default function Footer() {
               <li><Link href="/products#physio">Physio Products</Link></li>
               <li><Link href="/products#walking-aid">Walking Aids</Link></li>
               <li><Link href="/products#allied">Allied Products</Link></li>
-              <li><Link href="/products#child-care">Child Care</Link></li>
+              <li><Link href="/products#child-care">Pediatric Products</Link></li>
             </ul>
           </div>
           <div className="footer-col">
