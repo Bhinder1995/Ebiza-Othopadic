@@ -254,7 +254,7 @@ export default function ProductGallery({ products }: { products: Record<string, 
                 </div>
                 <div className="products-grid">
                   {catProducts.map(([code, product]: [string, any]) => (
-                    <div key={code} className="product-card" onClick={() => setModal({ code, product })} style={{cursor:'pointer'}}>
+                    <div key={code} className="product-card" onClick={() => setModal({ code, product })} style={{cursor:'pointer', display:'flex', flexDirection:'column'}}>
                       <div className="product-img-wrap">
                         <div className="product-code">{code}</div>
                         {product.img ? (
@@ -270,7 +270,10 @@ export default function ProductGallery({ products }: { products: Record<string, 
                         <div className="product-name">{product.name}</div>
                         <div className="product-desc-short">{product.desc}</div>
                         {product.mrp && (
-                          <div className="product-price" style={{marginTop:'8px', fontSize:'18px', fontWeight:700, color:'var(--primary)'}}>₹{product.mrp}</div>
+                          <div className="product-price">₹{product.mrp}</div>
+                        )}
+                        {!product.mrp && (
+                          <div className="product-price" style={{opacity:0}}>₹0.00</div>
                         )}
                         <div className="product-action-hint">View Details →</div>
                       </div>

@@ -145,6 +145,8 @@ files.forEach(file => {
         newProducts[finalCode] = {
             name: name,
             desc: existingProducts[code] ? existingProducts[code].desc : `Premium quality ${name} designed for optimal support and comfort.`,
+            mrp: existingProducts[code] ? existingProducts[code].mrp : undefined,
+            sizes: existingProducts[code] ? existingProducts[code].sizes : undefined,
             img: `/images/products/${finalCode}.jpg`,
             cat: cat
         };
@@ -155,6 +157,8 @@ files.forEach(file => {
         newProducts[code] = {
             name: name,
             desc: existingProducts[code] ? existingProducts[code].desc : `Premium quality ${name} for medical use.`,
+            mrp: existingProducts[code] ? existingProducts[code].mrp : undefined,
+            sizes: existingProducts[code] ? existingProducts[code].sizes : undefined,
             img: '',
             cat: cat
         };
