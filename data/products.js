@@ -27,7 +27,7 @@ export const PRODUCTS = {
     "name": "Taylor's Brace (Long/Short)",
     "desc": "Thoracolumbar support brace for spinal fracture management",
     "mrp": "2,275.00",
-    "sizes": "UNI",
+    "sizes": "LONG,SHORT",
     "img": "/images/products/EA-04.jpg",
     "cat": "body-belts"
   },
@@ -43,7 +43,7 @@ export const PRODUCTS = {
     "name": "Ash Brace Hyper Extension (Long/Short)",
     "desc": "Hyperextension brace for thoracolumbar fractures",
     "mrp": "1,700.00",
-    "sizes": "UNI",
+    "sizes": "LONG,SHORT",
     "img": "/images/products/EA-06.jpg",
     "cat": "body-belts"
   },
@@ -107,7 +107,7 @@ export const PRODUCTS = {
     "name": "Orthopaedic Backrest",
     "desc": "Ergonomic backrest cushion for lumbar support",
     "mrp": "1,700.00",
-    "sizes": "UNI",
+    "sizes": "GREY,BLUE",
     "img": "/images/products/EA-14.jpg",
     "cat": "body-belts"
   },
@@ -147,7 +147,7 @@ export const PRODUCTS = {
     "name": "Cervical Regular Pillow",
     "desc": "Contoured cervical pillow for neck pain relief",
     "mrp": "1,275.00",
-    "sizes": "UNI",
+    "sizes": "GREY,BLUE",
     "img": "/images/products/EB-05.jpg",
     "cat": "cervical"
   },
@@ -291,7 +291,7 @@ export const PRODUCTS = {
     "name": "Foot Drop Splint (Left/Right)",
     "desc": "AFO-style foot drop correction splint",
     "mrp": "1,100.00",
-    "sizes": "S,M,L,XL",
+    "sizes": "LEFT,RIGHT",
     "img": "/images/products/EE-03.jpg",
     "cat": "foot-ankle"
   },
@@ -299,7 +299,7 @@ export const PRODUCTS = {
     "name": "Foot Drop Splint Padding (Left/Right)",
     "desc": "Padded foot drop splint for comfort",
     "mrp": "1,240.00",
-    "sizes": "S,M,L,XL",
+    "sizes": "LEFT,RIGHT",
     "img": "/images/products/EE-04.jpg",
     "cat": "foot-ankle"
   },
@@ -347,19 +347,11 @@ export const PRODUCTS = {
     "name": "De-Rotation Shoe (Left/Right)",
     "desc": "Rotational correction shoe",
     "mrp": "400.00",
-    "sizes": "UNI",
+    "sizes": "LEFT,RIGHT",
     "img": "/images/products/EE-10.jpg",
     "cat": "foot-ankle"
   },
   "EE-11": {
-    "name": "AFO Night Splint (Left/Right)",
-    "desc": "Ankle foot orthosis night splint",
-    "mrp": "4,000.00",
-    "sizes": "UNI",
-    "img": "/images/products/EE-11.jpg",
-    "cat": "foot-ankle"
-  },
-  "EE-12": {
     "name": "Compression Stockings Above Knee",
     "desc": "Above-knee graduated compression stockings",
     "mrp": "2,550.00",
@@ -367,7 +359,7 @@ export const PRODUCTS = {
     "img": "/images/products/EE-12.jpg",
     "cat": "foot-ankle"
   },
-  "EE-13": {
+  "EE-12": {
     "name": "Compression Stockings Below Knee",
     "desc": "Below-knee compression stockings",
     "mrp": "1,690.00",
@@ -375,7 +367,7 @@ export const PRODUCTS = {
     "img": "/images/products/EE-13.jpg",
     "cat": "foot-ankle"
   },
-  "EE-14": {
+  "EE-13": {
     "name": "DVT Stockings Above Knee",
     "desc": "Anti-DVT stockings above knee",
     "mrp": "1,900.00",
@@ -383,11 +375,11 @@ export const PRODUCTS = {
     "img": "/images/products/EE-14.jpg",
     "cat": "foot-ankle"
   },
-  "EE-15": {
+  "EE-14": {
     "name": "DVT Stockings Below Knee",
-    "desc": "Premium quality DVT Stockings Below Knee designed for optimal support and comfort.",
+    "desc": "Anti-DVT stockings below knee",
     "mrp": "1,500.00",
-    "sizes": "UNI",
+    "sizes": "S,M,L,XL,XXL",
     "img": "/images/products/EE-15.jpg",
     "cat": "foot-ankle"
   },
@@ -499,7 +491,7 @@ export const PRODUCTS = {
     "name": "OA Knee Support (Left/Right)",
     "desc": "Osteoarthritis offloading knee brace",
     "mrp": "1,500.00",
-    "sizes": "LEFT/RIGHT",
+    "sizes": "LEFT,RIGHT",
     "img": "/images/products/EF-14.jpg",
     "cat": "knee"
   },
@@ -1567,7 +1559,7 @@ export const PRODUCTS = {
     "cat": "child-care"
   },
   "EM-06": {
-    "name": "Pediatric Pouch Arm Sling",
+    "name": "Pediatric Arm Sling Baggy",
     "desc": "Paediatric baggy arm sling",
     "mrp": "425.00",
     "sizes": "UNI",
@@ -1596,14 +1588,6 @@ export const PRODUCTS = {
     "mrp": "1,800.00",
     "sizes": "L",
     "img": "/images/products/EM-09.jpg",
-    "cat": "child-care"
-  },
-  "EM-10": {
-    "name": "Pediatric AFO Night Splint (Left/Right)",
-    "desc": "Paediatric ankle foot orthosis night splint",
-    "mrp": "3,500.00",
-    "sizes": "LEFT/RIGHT",
-    "img": "/images/products/EM-10.jpg",
     "cat": "child-care"
   }
 };

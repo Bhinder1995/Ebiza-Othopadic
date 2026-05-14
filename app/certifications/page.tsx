@@ -69,13 +69,6 @@ const CERTIFICATES = [
     desc: "Certification of full compliance with fire safety protocols at our manufacturing facilities, ensuring a safe environment for production.",
     file: "FIRE SAFETY CERTIFICATE.pdf",
     icon: "🔥"
-  },
-  {
-    name: "Trade License",
-    title: "Commercial Authorization",
-    desc: "Official trade license for legal commercial operations and distribution of medical orthopaedic equipment.",
-    file: "TRADE LICENSE.pdf",
-    icon: "📜"
   }
 ];
 
