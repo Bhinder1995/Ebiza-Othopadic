@@ -731,7 +731,7 @@ export const PRODUCTS = {
     "name": "Gel Ball",
     "desc": "Silicone gel exercise ball",
     "mrp": "400.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "Red,Yellow",
     "img": "/images/products/EI-03.jpg",
     "cat": "silicone-foot"
   },
@@ -778,39 +778,40 @@ export const PRODUCTS = {
   "EI-09": {
     "name": "Round Head Rest Support-Open",
     "desc": "Open round head rest support",
-    "mrp": "2,000.00 - 7,000.00",
-    "sizes": "XL",
+    "mrp": { "S": "2,000.00", "M": "2,550.00", "L": "6,100.00", "XL": "7,000.00" },
+    "sizes": "S,M,L,XL",
     "img": "/images/products/EI-09.jpg",
     "cat": "silicone-foot"
   },
   "EI-10": {
     "name": "Round Head Rest Support-Close",
     "desc": "Closed round head rest support",
-    "mrp": "2,000.00 - 7,800.00",
-    "sizes": "XL",
+    "mrp": { "S": "2,000.00", "M": "2,550.00", "L": "6,100.00", "XL": "7,000.00" },
+    "sizes": "S,M,L,XL",
     "img": "/images/products/EI-10.jpg",
     "cat": "silicone-foot"
   },
   "EI-11": {
     "name": "Horse Shoe Head Support-Open",
     "desc": "Open horseshoe head support",
-    "mrp": "2,000.00 - 6,900.00",
-    "sizes": "XL",
+    "mrp": { "S": "2,000.00", "M": "2,550.00", "L": "6,100.00", "XL": "7,000.00" },
+    "sizes": "S,M,L,XL",
     "img": "/images/products/EI-11.jpg",
     "cat": "silicone-foot"
   },
   "EI-12": {
     "name": "Horse Shoe Head Support-Close",
     "desc": "Closed horseshoe head support",
-    "mrp": "2,100.00 - 7,000.00",
+    "mrp": { "S": "2,000.00", "M": "2,550.00", "L": "6,100.00", "XL": "7,000.00" },
+    "sizes": "S,M,L,XL",
     "img": "/images/products/EI-12.jpg",
     "cat": "silicone-foot"
   },
   "EJ-01": {
     "name": "Weight Cuff",
     "desc": "Adjustable weight cuff for exercise",
-    "mrp": "550.00",
-    "sizes": "S,M,L,XL,XXL",
+    "mrp": { "500gm": "500.00", "1kg": "780.00", "2kg": "1,225.00" },
+    "sizes": "500gm,1kg,2kg",
     "img": "/images/products/EJ-01.jpg",
     "cat": "physio"
   },
@@ -825,16 +826,30 @@ export const PRODUCTS = {
   "EJ-03": {
     "name": "Theraband",
     "desc": "Resistance theraband for physiotherapy",
-    "mrp": "1,055.00",
-    "sizes": "S,M,L,XL,XXL",
+    "mrp": {
+      "Yellow": "720.00",
+      "Red": "815.00",
+      "Green": "935.00",
+      "Blue": "1,055.00",
+      "Black": "1,140.00",
+      "Silver": "1,380.00",
+      "Gold": "1,700.00"
+    },
+    "sizes": "Yellow,Red,Green,Blue,Black,Silver,Gold",
     "img": "/images/products/EJ-03.jpg",
     "cat": "physio"
   },
   "EJ-04": {
     "name": "Theraputty",
     "desc": "Therapeutic putty for hand strengthening",
-    "mrp": "999.00",
-    "sizes": "S,M,L,XL,XXL",
+    "mrp": {
+      "Yellow": "999.00",
+      "Red": "999.00",
+      "Green": "999.00",
+      "Blue": "999.00",
+      "Black": "999.00"
+    },
+    "sizes": "Yellow,Red,Green,Blue,Black",
     "img": "/images/products/EJ-04.jpg",
     "cat": "physio"
   },
@@ -850,7 +865,7 @@ export const PRODUCTS = {
     "name": "Finger Exerciser",
     "desc": "Individual finger exerciser",
     "mrp": "325.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "Blue-Soft,Green-Medium,Orange-Hard",
     "img": "/images/products/EJ-06.jpg",
     "cat": "physio"
   },
@@ -873,8 +888,13 @@ export const PRODUCTS = {
   "EJ-09": {
     "name": "Flex Bar",
     "desc": "Flex bar for elbow rehab",
-    "mrp": "5,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "mrp": {
+      "Yellow": "4,150.00",
+      "Red": "5,500.00",
+      "Green": "5,600.00",
+      "Blue": "6,750.00"
+    },
+    "sizes": "Yellow,Red,Green,Blue",
     "img": "/images/products/EJ-09.jpg",
     "cat": "physio"
   },
@@ -906,7 +926,7 @@ export const PRODUCTS = {
     "name": "Hand Xtrainer",
     "desc": "Hand exercise trainer",
     "mrp": "3,200.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "Red,Blue,Green,Black",
     "img": "/images/products/EJ-13.jpg",
     "cat": "physio"
   },
@@ -914,7 +934,7 @@ export const PRODUCTS = {
     "name": "Kinesiology Tape Cotton",
     "desc": "Athletic kinesiology tape",
     "mrp": "995.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "Pink,Yellow,Blue,Green",
     "img": "/images/products/EJ-14.jpg",
     "cat": "physio"
   },
@@ -962,15 +982,21 @@ export const PRODUCTS = {
     "name": "Pocket Exerciser",
     "desc": "Premium quality Pocket Exerciser for medical use.",
     "mrp": "550.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-20.jpg",
     "cat": "physio"
   },
   "EJ-21": {
     "name": "Tubbing W/Handle",
     "desc": "Premium quality Resistence Tubbing With Handle for medical use.",
-    "mrp": "1,300.00",
-    "sizes": "S,M,L,XL,XXL",
+    "mrp": {
+      "Yellow": "480.00",
+      "Red": "540.00",
+      "Green": "600.00",
+      "Blue": "660.00",
+      "Silver": "900.00"
+    },
+    "sizes": "Yellow,Red,Green,Blue,Silver",
     "img": "/images/products/EJ-21.jpg",
     "cat": "physio"
   },
@@ -986,7 +1012,7 @@ export const PRODUCTS = {
     "name": "Web Exerciser",
     "desc": "Premium quality Power Web Exerciser for medical use.",
     "mrp": "4,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "Yellow,Red,Green",
     "img": "/images/products/EJ-23.jpg",
     "cat": "physio"
   },
@@ -994,7 +1020,7 @@ export const PRODUCTS = {
     "name": "Palm Exerciser",
     "desc": "Premium quality Palm Exerciser for medical use.",
     "mrp": "550.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "Yellow,Blue,Green",
     "img": "/images/products/EJ-24.jpg",
     "cat": "physio"
   },
@@ -1023,18 +1049,23 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-28": {
-    "name": "Thera Wax",
+    "name": "Thera Wax (250gm)",
     "desc": "Paraffin therapy wax",
     "mrp": "250.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "250gm",
     "img": "/images/products/EJ-28.jpg",
     "cat": "physio"
   },
   "EJ-29": {
     "name": "Theraband Loop",
     "desc": "Resistance loop theraband",
-    "mrp": "1,502.00",
-    "sizes": "S,M,L,XL,XXL",
+    "mrp": {
+      "Yellow": "1,047.00",
+      "Red": "1,226.00",
+      "Green": "1,331.00",
+      "Blue": "1,502.00"
+    },
+    "sizes": "Yellow,Red,Green,Blue",
     "img": "/images/products/EJ-29.jpg",
     "cat": "physio"
   },
@@ -1596,6 +1627,14 @@ export const PRODUCTS = {
     "mrp": "1,800.00",
     "sizes": "L",
     "img": "/images/products/EM-09.jpg",
+    "cat": "child-care"
+  },
+  "EM-10": {
+    "name": "AFO Night Splint Child",
+    "desc": "Paediatric AFO night splint for foot stabilization",
+    "mrp": "1,200.00",
+    "sizes": "UNI",
+    "img": "/images/products/EM-10.jpg",
     "cat": "child-care"
   }
 };
