@@ -246,7 +246,53 @@ export default function ProductGallery({ products }: { products: Record<string, 
               value={searchTerm}
               onChange={e => setSearchTerm(e.target.value)}
             />
+            {searchTerm && (
+              <button 
+                className="search-clear" 
+                onClick={() => setSearchTerm('')}
+                aria-label="Clear search"
+                style={{
+                  position: 'absolute',
+                  right: '12px',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  background: '#eee',
+                  border: 'none',
+                  borderRadius: '50%',
+                  width: '24px',
+                  height: '24px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  cursor: 'pointer',
+                  color: '#666',
+                  fontSize: '12px',
+                  zIndex: 2
+                }}
+              >
+                ✕
+              </button>
+            )}
           </div>
+          {searchTerm && (
+            <div style={{ marginTop: '12px', fontSize: '13px', color: 'var(--text-light)', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <span>Showing results for &ldquo;{searchTerm}&rdquo;</span>
+              <button 
+                onClick={() => setSearchTerm('')}
+                style={{ 
+                  background: 'none', 
+                  border: 'none', 
+                  color: 'var(--primary)', 
+                  fontWeight: 600, 
+                  textDecoration: 'underline', 
+                  cursor: 'pointer',
+                  padding: 0
+                }}
+              >
+                Show all products
+              </button>
+            </div>
+          )}
         </div>
       </div>
 
@@ -313,8 +359,17 @@ export default function ProductGallery({ products }: { products: Record<string, 
           })}
 
           {q && Object.entries(products).filter(([code, p]) => p.name.toLowerCase().includes(q) || code.toLowerCase().includes(q)).length === 0 && (
-            <div style={{ padding: '3rem', textAlign: 'center' }}>
-              <p>No products found matching &ldquo;{searchTerm}&rdquo;</p>
+            <div style={{ padding: '4rem 2rem', textAlign: 'center', background: 'var(--bg-light)', borderRadius: '24px', border: '2px dashed var(--border)' }}>
+              <div style={{ fontSize: '48px', marginBottom: '16px' }}>🔍</div>
+              <h3 style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>No products found</h3>
+              <p style={{ color: 'var(--text-light)', marginBottom: '24px' }}>We couldn&rsquo;t find anything matching &ldquo;{searchTerm}&rdquo;.<br/>Try checking the spelling or use a different keyword.</p>
+              <button 
+                onClick={() => setSearchTerm('')}
+                className="btn-primary"
+                style={{ padding: '12px 24px', borderRadius: '12px', fontWeight: 600 }}
+              >
+                Clear Search & Show All
+              </button>
             </div>
           )}
         </div>
