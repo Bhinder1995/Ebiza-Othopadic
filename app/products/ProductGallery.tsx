@@ -293,7 +293,11 @@ export default function ProductGallery({ products }: { products: Record<string, 
                         <div className="product-name">{product.name}</div>
                         <div className="product-desc-short">{product.desc}</div>
                         {product.mrp && (
-                          <div className="product-price">₹{product.mrp}</div>
+                          <div className="product-price">
+                            ₹{typeof product.mrp === 'object' 
+                              ? `${Object.values(product.mrp)[0]}${Object.values(product.mrp).length > 1 ? '+' : ''}` 
+                              : product.mrp}
+                          </div>
                         )}
                         {!product.mrp && (
                           <div className="product-price" style={{opacity:0}}>₹0.00</div>
