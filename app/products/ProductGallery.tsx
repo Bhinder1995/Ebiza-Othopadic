@@ -21,6 +21,13 @@ const CATEGORIES = [
 ];
 
 function ProductModal({ product, code, onClose }: { product: any; code: string; onClose: () => void }) {
+  // Parse sizes from comma-separated string or default to UNI
+  const sizeList = product.sizes 
+    ? product.sizes.split(',').map((s: string) => s.trim()).filter((s: string) => s.length > 0) 
+    : ['UNI'];
+
+  const [selectedSize, setSelectedSize] = useState<string>(sizeList[0] || 'UNI');
+
   useEffect(() => {
     document.body.style.overflow = 'hidden';
     const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
@@ -28,13 +35,11 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
     return () => { document.body.style.overflow = ''; window.removeEventListener('keydown', handler); };
   }, [onClose]);
 
-  const cat = CATEGORIES.find(c => c.id === product.cat);
-  const waText = encodeURIComponent(`Hi, I'm interested in ${product.name} (${code}). MRP: ₹${product.mrp || 'Contact for price'}. Please share more details.`);
+  // Determine current MRP based on selected size if it's an object
+  const currentMrp = typeof product.mrp === 'object' ? product.mrp[selectedSize] : product.mrp;
 
-  // Parse sizes from comma-separated string or default to UNI
-  const sizeList = product.sizes 
-    ? product.sizes.split(',').map((s: string) => s.trim()).filter((s: string) => s.length > 0) 
-    : ['UNI'];
+  const cat = CATEGORIES.find(c => c.id === product.cat);
+  const waText = encodeURIComponent(`Hi, I'm interested in ${product.name} (${code}). Size: ${selectedSize}. MRP: ₹${currentMrp || 'Contact for price'}. Please share more details.`);
 
   return (
     <div className="modal-overlay open" onClick={e => { if (e.target === e.currentTarget) onClose(); }}>
@@ -60,12 +65,12 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
           <div className="modal-details">
             <p className="modal-desc">{product.desc}</p>
             
-            {product.mrp && (
+            {currentMrp && (
               <div className="modal-price-wrap" style={{marginBottom:'24px', padding:'16px', background:'var(--bg-light)', borderRadius:'12px', border:'1px solid var(--border)'}}>
                 <div style={{fontSize:'13px', fontWeight:600, color:'var(--text-light)', marginBottom:'4px', textTransform:'uppercase', letterSpacing:'0.05em'}}>Maximum Retail Price (MRP)</div>
                 <div style={{fontSize:'32px', fontWeight:800, color:'var(--primary)', display:'flex', alignItems:'baseline', gap:'4px'}}>
                   <span style={{fontSize:'20px', fontWeight:600}}>₹</span>
-                  {product.mrp}
+                  {currentMrp}
                 </div>
               </div>
             )}
@@ -73,7 +78,25 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
             <div className="modal-sizes-label" style={{fontSize:'14px', fontWeight:600, marginBottom:'10px'}}>Available Sizes / Variants</div>
             <div className="modal-sizes" style={{display:'flex', flexWrap:'wrap', gap:'8px', marginBottom:'16px'}}>
               {sizeList.map((size: string, idx: number) => (
-                <span key={idx} className="size-chip" style={{padding:'6px 14px', background:'white', border:'1px solid var(--border)', borderRadius:'8px', fontSize:'13px', fontWeight:500, boxShadow:'0 1px 2px rgba(0,0,0,0.05)'}}>{size}</span>
+                <button 
+                  key={idx} 
+                  className={`size-chip ${selectedSize === size ? 'active' : ''}`}
+                  onClick={() => setSelectedSize(size)}
+                  style={{
+                    padding:'8px 16px', 
+                    background: selectedSize === size ? 'var(--primary)' : 'white', 
+                    color: selectedSize === size ? 'white' : 'var(--text)',
+                    border:'1px solid var(--border)', 
+                    borderRadius:'8px', 
+                    fontSize:'13px', 
+                    fontWeight:600, 
+                    boxShadow:'0 1px 2px rgba(0,0,0,0.05)',
+                    cursor: 'pointer',
+                    transition: 'all 0.2s'
+                  }}
+                >
+                  {size}
+                </button>
               ))}
             </div>
             <p style={{fontSize:'12px', color:'var(--text-light)', marginBottom:'20px'}}>* Prices are inclusive of all taxes. Custom sizes available for bulk orders.</p>
