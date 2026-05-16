@@ -45,11 +45,28 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
     <div className="modal-overlay open" onClick={e => { if (e.target === e.currentTarget) onClose(); }}>
       <div className="modal-box">
         <div className="modal-header">
-          <div>
-            <div className="modal-code">{code}</div>
-            <div className="modal-title">{product.name}</div>
+          <div style={{display:'flex', justifyContent:'space-between', alignItems:'flex-start', width:'100%'}}>
+            <div>
+              <div style={{display:'flex', alignItems:'center', gap:'8px', marginBottom:'4px'}}>
+                <div className="modal-code">{code}</div>
+                <div style={{
+                  background: 'linear-gradient(135deg, #FFD700, #FFA500)',
+                  color: '#000',
+                  padding: '2px 8px',
+                  borderRadius: '4px',
+                  fontSize: '10px',
+                  fontWeight: 800,
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.05em',
+                  boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+                }}>
+                  Premium Quality
+                </div>
+              </div>
+              <div className="modal-title">{product.name}</div>
+            </div>
+            <button className="modal-close" onClick={onClose} style={{marginTop:'-8px'}}>✕</button>
           </div>
-          <button className="modal-close" onClick={onClose}>✕</button>
         </div>
         <div className="modal-body">
           <div className="modal-img-wrap">
@@ -99,7 +116,25 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
                 </button>
               ))}
             </div>
-            <p style={{fontSize:'12px', color:'var(--text-light)', marginBottom:'20px'}}>* Prices are inclusive of all taxes. Custom sizes available for bulk orders.</p>
+            <div style={{
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '6px',
+              marginTop: '12px',
+              padding: '12px',
+              background: 'rgba(59, 130, 246, 0.05)',
+              borderRadius: '8px',
+              border: '1px solid rgba(59, 130, 246, 0.1)',
+              marginBottom: '20px'
+            }}>
+              <div style={{display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--primary)', fontWeight: 600, fontSize: '12px'}}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                Pricing Information
+              </div>
+              <p style={{fontSize:'12px', color:'var(--text-light)', margin: 0, lineHeight: 1.4}}>
+                * Prices are inclusive of all taxes. {typeof product.mrp === 'object' ? 'MRP may vary according to the selected size, weight, or variant.' : ''} Custom sizes available for bulk orders.
+              </p>
+            </div>
             <a href={`https://wa.me/916291816264?text=${waText}`} target="_blank" rel="noopener noreferrer" className="modal-cta" style={{display:'flex', alignItems:'center', justifyContent:'center', gap:'8px', padding:'16px', background:'var(--primary)', color:'white', borderRadius:'12px', fontWeight:600, textDecoration:'none', transition:'all 0.2s', boxShadow:'0 4px 12px rgba(0,0,0,0.1)'}}>
               <span>📞 Inquire This Product</span>
             </a>

@@ -155,7 +155,7 @@ export const PRODUCTS = {
     "name": "Memory Foam Pillow",
     "desc": "Premium memory foam cervical pillow",
     "mrp": "2,425.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EB-06.jpg",
     "cat": "cervical"
   },
@@ -163,7 +163,7 @@ export const PRODUCTS = {
     "name": "U-Pillow",
     "desc": "Travel U-shaped neck support pillow",
     "mrp": "1,550.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EB-07.jpg",
     "cat": "cervical"
   },
@@ -227,7 +227,7 @@ export const PRODUCTS = {
     "name": "Sling Strap",
     "desc": "Universal adjustable sling strap",
     "mrp": "175.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EC-08.jpg",
     "cat": "fracture"
   },
@@ -419,7 +419,7 @@ export const PRODUCTS = {
     "name": "Neoprene Knee Support With Hinges",
     "desc": "Hinged neoprene knee brace",
     "mrp": "1,575.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EF-04.jpg",
     "cat": "knee"
   },
@@ -451,7 +451,7 @@ export const PRODUCTS = {
     "name": "Knee Immobilizer Long",
     "desc": "Long knee immobilizer for post-operative care",
     "mrp": "1,150.00",
-    "sizes": "S,M,L,XL,XXL,XXXL",
+    "sizes": "UNI",
     "img": "/images/products/EF-08.jpg",
     "cat": "knee"
   },
@@ -818,8 +818,8 @@ export const PRODUCTS = {
   "EJ-02": {
     "name": "Exercising Ball (Sponj)",
     "desc": "Sponge exercise ball for hand therapy",
-    "mrp": "325.00",
-    "sizes": "S,M,L,XL,XXL",
+    "mrp": "75.00",
+    "sizes": "UNI",
     "img": "/images/products/EJ-02.jpg",
     "cat": "physio"
   },
@@ -857,7 +857,7 @@ export const PRODUCTS = {
     "name": "Hand Exerciser Spike Ball",
     "desc": "Spike ball for sensory and hand exercise",
     "mrp": "570.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-05.jpg",
     "cat": "physio"
   },
@@ -873,7 +873,7 @@ export const PRODUCTS = {
     "name": "Balance Pad Square",
     "desc": "Balance pad for proprioception training",
     "mrp": "3,700.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-07.jpg",
     "cat": "physio"
   },
@@ -881,7 +881,7 @@ export const PRODUCTS = {
     "name": "Gel Oval Ball-Set",
     "desc": "Oval gel ball for hand therapy",
     "mrp": "1,100.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-08.jpg",
     "cat": "physio"
   },
@@ -902,7 +902,7 @@ export const PRODUCTS = {
     "name": "Hand Exerciser",
     "desc": "Spring-loaded hand exerciser",
     "mrp": "300.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-10.jpg",
     "cat": "physio"
   },
@@ -910,7 +910,7 @@ export const PRODUCTS = {
     "name": "Adjustable Hand Grip",
     "desc": "Adjustable resistance hand gripper",
     "mrp": "500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-11.jpg",
     "cat": "physio"
   },
@@ -918,7 +918,7 @@ export const PRODUCTS = {
     "name": "Stability Trainer-Theraband",
     "desc": "Stability disc trainer",
     "mrp": "12,000.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-12.jpg",
     "cat": "physio"
   },
@@ -942,7 +942,7 @@ export const PRODUCTS = {
     "name": "Moist Head Pad",
     "desc": "Moist heat pad set for therapy",
     "mrp": "2,100.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-15.jpg",
     "cat": "physio"
   },
@@ -950,7 +950,7 @@ export const PRODUCTS = {
     "name": "V-Shape Hand Grip",
     "desc": "V-shape hand grip exerciser",
     "mrp": "150.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-16.jpg",
     "cat": "physio"
   },
@@ -958,7 +958,7 @@ export const PRODUCTS = {
     "name": "Feeding Bottle",
     "desc": "Patient feeding bottle",
     "mrp": "100.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-17.jpg",
     "cat": "physio"
   },
@@ -966,7 +966,7 @@ export const PRODUCTS = {
     "name": "Eye Mask",
     "desc": "Neonatal eye mask",
     "mrp": "350.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-18.jpg",
     "cat": "physio"
   },
@@ -974,7 +974,7 @@ export const PRODUCTS = {
     "name": "Acupuncture Needle",
     "desc": "Premium quality Acupuncture Needle for medical use.",
     "mrp": "500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "0.25*13 MM,0.25*25 MM,0.25*50 MM",
     "img": "/images/products/EJ-19.jpg",
     "cat": "physio"
   },
@@ -1004,7 +1004,7 @@ export const PRODUCTS = {
     "name": "Resistance Tubing Sleeve",
     "desc": "Premium quality Resistence Tubing Sleeve for medical use.",
     "mrp": "1,000.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-22.jpg",
     "cat": "physio"
   },
@@ -1028,7 +1028,7 @@ export const PRODUCTS = {
     "name": "Foam Roller",
     "desc": "Foam roller for myofascial release",
     "mrp": "2,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-25.jpg",
     "cat": "physio"
   },
@@ -1036,7 +1036,7 @@ export const PRODUCTS = {
     "name": "US Gel-250 ML",
     "desc": "Ultrasound transmission gel 250mL",
     "mrp": "125.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-26.jpg",
     "cat": "physio"
   },
@@ -1044,7 +1044,7 @@ export const PRODUCTS = {
     "name": "US Gel-5 LTR",
     "desc": "Ultrasound transmission gel 5kg",
     "mrp": "1,300.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-27.jpg",
     "cat": "physio"
   },
@@ -1073,7 +1073,7 @@ export const PRODUCTS = {
     "name": "Adjustable Weight Cuff-2 KG",
     "desc": "Adjustable weighted cuff for rehab",
     "mrp": "1,200.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EJ-30.jpg",
     "cat": "physio"
   },
@@ -1081,7 +1081,7 @@ export const PRODUCTS = {
     "name": "Mono Pod Walking Stick-Black",
     "desc": "Adjustable walking stick in black",
     "mrp": "580.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-01.jpg",
     "cat": "walking-aid"
   },
@@ -1089,7 +1089,7 @@ export const PRODUCTS = {
     "name": "Mono Pod Walking Stick-Green",
     "desc": "Adjustable walking stick in green",
     "mrp": "695.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-02.jpg",
     "cat": "walking-aid"
   },
@@ -1097,7 +1097,7 @@ export const PRODUCTS = {
     "name": "Tripod Stick",
     "desc": "Three-point tripod walking stick",
     "mrp": "975.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-03.jpg",
     "cat": "walking-aid"
   },
@@ -1105,7 +1105,7 @@ export const PRODUCTS = {
     "name": "Quadripod Stick",
     "desc": "Four-point quadripod walking stick",
     "mrp": "975.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-04.jpg",
     "cat": "walking-aid"
   },
@@ -1113,7 +1113,7 @@ export const PRODUCTS = {
     "name": "Elbow Crutches",
     "desc": "Forearm elbow crutch",
     "mrp": "1,075.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-05.jpg",
     "cat": "walking-aid"
   },
@@ -1121,7 +1121,7 @@ export const PRODUCTS = {
     "name": "Auxiliary Crutches",
     "desc": "Axillary underarm crutches",
     "mrp": "1,650.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-06.jpg",
     "cat": "walking-aid"
   },
@@ -1129,7 +1129,7 @@ export const PRODUCTS = {
     "name": "Walker With Wheel",
     "desc": "Walking frame with wheels",
     "mrp": "2,250.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-07.jpg",
     "cat": "walking-aid"
   },
@@ -1137,7 +1137,7 @@ export const PRODUCTS = {
     "name": "Walker Without Wheel",
     "desc": "Standard walking frame",
     "mrp": "2,000.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-08.jpg",
     "cat": "walking-aid"
   },
@@ -1145,7 +1145,7 @@ export const PRODUCTS = {
     "name": "Reciprocal Walker Without Wheel",
     "desc": "Reciprocal gait walker",
     "mrp": "3,100.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-09.jpg",
     "cat": "walking-aid"
   },
@@ -1153,7 +1153,7 @@ export const PRODUCTS = {
     "name": "Walking Fram CRC With Wheel",
     "desc": "CRC walking frame with wheels",
     "mrp": "2,550.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-10.jpg",
     "cat": "walking-aid"
   },
@@ -1161,7 +1161,7 @@ export const PRODUCTS = {
     "name": "Walking Fram CRC Without Wheel",
     "desc": "CRC walking frame without wheels",
     "mrp": "2,240.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-11.jpg",
     "cat": "walking-aid"
   },
@@ -1169,7 +1169,7 @@ export const PRODUCTS = {
     "name": "Commode Chair",
     "desc": "Portable commode chair",
     "mrp": "2,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-12.jpg",
     "cat": "walking-aid"
   },
@@ -1177,7 +1177,7 @@ export const PRODUCTS = {
     "name": "Commode Stool With Pot",
     "desc": "Commode stool with removable pot",
     "mrp": "1,650.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-13.jpg",
     "cat": "walking-aid"
   },
@@ -1185,7 +1185,7 @@ export const PRODUCTS = {
     "name": "Commode Stool",
     "desc": "Standard commode stool",
     "mrp": "1,650.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-14.jpg",
     "cat": "walking-aid"
   },
@@ -1193,7 +1193,7 @@ export const PRODUCTS = {
     "name": "Commode Chair Height Adjustable With Wheel",
     "desc": "Height adjustable commode with wheels",
     "mrp": "5,800.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-15.jpg",
     "cat": "walking-aid"
   },
@@ -1201,7 +1201,7 @@ export const PRODUCTS = {
     "name": "Commode Chair Height Adjustable Without Wheel",
     "desc": "Height adjustable commode",
     "mrp": "5,400.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-16.jpg",
     "cat": "walking-aid"
   },
@@ -1209,7 +1209,7 @@ export const PRODUCTS = {
     "name": "Bed Back Rest",
     "desc": "Adjustable bed back rest",
     "mrp": "2,000.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-17.jpg",
     "cat": "walking-aid"
   },
@@ -1217,7 +1217,7 @@ export const PRODUCTS = {
     "name": "Bed Back Rest With Handle",
     "desc": "Bed back rest with side handles",
     "mrp": "2,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-18.jpg",
     "cat": "walking-aid"
   },
@@ -1225,7 +1225,7 @@ export const PRODUCTS = {
     "name": "Wheel Chair",
     "desc": "Standard wheelchair",
     "mrp": "12,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-19.jpg",
     "cat": "walking-aid"
   },
@@ -1233,7 +1233,7 @@ export const PRODUCTS = {
     "name": "Wheel Chair Special",
     "desc": "Special configuration wheelchair",
     "mrp": "10,000.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EK-20.jpg",
     "cat": "walking-aid"
   },
@@ -1241,7 +1241,7 @@ export const PRODUCTS = {
     "name": "Portable Soft Stretcher",
     "desc": "Portable soft stretcher for patient transport",
     "mrp": "3,000.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-01.jpg",
     "cat": "allied"
   },
@@ -1249,7 +1249,7 @@ export const PRODUCTS = {
     "name": "Trolley Cover",
     "desc": "Hospital trolley cover",
     "mrp": "2,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-02.jpg",
     "cat": "allied"
   },
@@ -1257,7 +1257,7 @@ export const PRODUCTS = {
     "name": "Donut Cushion",
     "desc": "Donut ring cushion for coccyx relief",
     "mrp": "1,450.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-03.jpg",
     "cat": "allied"
   },
@@ -1265,7 +1265,7 @@ export const PRODUCTS = {
     "name": "Coccyx Cushion",
     "desc": "Coccyx memory foam cushion",
     "mrp": "1,450.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-04.jpg",
     "cat": "allied"
   },
@@ -1273,7 +1273,7 @@ export const PRODUCTS = {
     "name": "Heating Pad With Controller",
     "desc": "Electric heating pad with temperature controller",
     "mrp": "1,395.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-05.jpg",
     "cat": "allied"
   },
@@ -1281,7 +1281,7 @@ export const PRODUCTS = {
     "name": "Heating Pad With Regulator",
     "desc": "Heating pad with regulator",
     "mrp": "975.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-06.jpg",
     "cat": "allied"
   },
@@ -1289,7 +1289,7 @@ export const PRODUCTS = {
     "name": "Heating Pad With Switch",
     "desc": "Simple switch-operated heating pad",
     "mrp": "499.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-07.jpg",
     "cat": "allied"
   },
@@ -1297,7 +1297,7 @@ export const PRODUCTS = {
     "name": "Vaporizer",
     "desc": "Steam inhalation pot/vaporizer",
     "mrp": "655.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-08.jpg",
     "cat": "allied"
   },
@@ -1305,7 +1305,7 @@ export const PRODUCTS = {
     "name": "Vaporizer With Switch",
     "desc": "Vaporizer with switch control",
     "mrp": "755.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-09.jpg",
     "cat": "allied"
   },
@@ -1313,7 +1313,7 @@ export const PRODUCTS = {
     "name": "Bed Pan Special",
     "desc": "Special design hospital bed pan",
     "mrp": "499.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-10.jpg",
     "cat": "allied"
   },
@@ -1321,7 +1321,7 @@ export const PRODUCTS = {
     "name": "Bed Pan",
     "desc": "Standard hospital bed pan",
     "mrp": "230.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-11.jpg",
     "cat": "allied"
   },
@@ -1329,7 +1329,7 @@ export const PRODUCTS = {
     "name": "Urine Pot-Male",
     "desc": "Male urinal pot",
     "mrp": "160.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-12.jpg",
     "cat": "allied"
   },
@@ -1337,7 +1337,7 @@ export const PRODUCTS = {
     "name": "Urine Pot-Female",
     "desc": "Female urinal pot",
     "mrp": "160.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-13.jpg",
     "cat": "allied"
   },
@@ -1345,7 +1345,7 @@ export const PRODUCTS = {
     "name": "Urine Pot-Unisex",
     "desc": "Unisex urinal pot",
     "mrp": "190.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-14.jpg",
     "cat": "allied"
   },
@@ -1353,7 +1353,7 @@ export const PRODUCTS = {
     "name": "Sputum Pot",
     "desc": "Sputum collection pot",
     "mrp": "110.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-15.jpg",
     "cat": "allied"
   },
@@ -1361,7 +1361,7 @@ export const PRODUCTS = {
     "name": "Ounce Measuring Glass",
     "desc": "Ounce measuring glass for medicine",
     "mrp": "50.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-16.jpg",
     "cat": "allied"
   },
@@ -1369,7 +1369,7 @@ export const PRODUCTS = {
     "name": "Pint Measuring Glass",
     "desc": "Pint measuring glass",
     "mrp": "250.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-17.jpg",
     "cat": "allied"
   },
@@ -1385,7 +1385,7 @@ export const PRODUCTS = {
     "name": "Calcalium Shoe",
     "desc": "Premium quality Calcalium Shoe designed for optimal support and comfort.",
     "mrp": "3,000.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-19.jpg",
     "cat": "allied"
   },
@@ -1393,7 +1393,7 @@ export const PRODUCTS = {
     "name": "Spirometer",
     "desc": "Incentive spirometer for lung exercise",
     "mrp": "499.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-20.jpg",
     "cat": "allied"
   },
@@ -1401,7 +1401,7 @@ export const PRODUCTS = {
     "name": "Digital Thermometer",
     "desc": "Digital body temperature thermometer",
     "mrp": "222.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-21.jpg",
     "cat": "allied"
   },
@@ -1409,7 +1409,7 @@ export const PRODUCTS = {
     "name": "Oval Thermometer",
     "desc": "Oval digital thermometer",
     "mrp": "499.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-22.jpg",
     "cat": "allied"
   },
@@ -1417,15 +1417,15 @@ export const PRODUCTS = {
     "name": "Digital Weight Machine",
     "desc": "Digital weighing scale",
     "mrp": "222.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-23.jpg",
     "cat": "allied"
   },
   "EL-24": {
     "name": "Hot Water Bag",
     "desc": "Rubber hot water bottle",
-    "mrp": "59,155.00",
-    "sizes": "S,M,L,XL,XXL",
+    "mrp": "155.00",
+    "sizes": "UNI",
     "img": "/images/products/EL-24.jpg",
     "cat": "allied"
   },
@@ -1433,7 +1433,7 @@ export const PRODUCTS = {
     "name": "BP Machine Digital",
     "desc": "Automatic digital blood pressure monitor",
     "mrp": "2,150.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-25.jpg",
     "cat": "allied"
   },
@@ -1441,7 +1441,7 @@ export const PRODUCTS = {
     "name": "BP Machine Manual",
     "desc": "Manual sphygmomanometer BP machine",
     "mrp": "199.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-26.jpg",
     "cat": "allied"
   },
@@ -1449,7 +1449,7 @@ export const PRODUCTS = {
     "name": "Electric Hot Pack",
     "desc": "Electric hot pack for therapy",
     "mrp": "325.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-27.jpg",
     "cat": "allied"
   },
@@ -1457,7 +1457,7 @@ export const PRODUCTS = {
     "name": "Stethoscope",
     "desc": "Professional stethoscope",
     "mrp": "375.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-28.jpg",
     "cat": "allied"
   },
@@ -1465,7 +1465,7 @@ export const PRODUCTS = {
     "name": "Nebulizer",
     "desc": "Premium quality Nebulizer designed for optimal support and comfort.",
     "mrp": "599.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-29.jpg",
     "cat": "allied"
   },
@@ -1473,7 +1473,7 @@ export const PRODUCTS = {
     "name": "Pulse Oximeter",
     "desc": "Finger pulse oximeter for SpO2 monitoring",
     "mrp": "N/A",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-30.jpg",
     "cat": "allied"
   },
@@ -1481,7 +1481,7 @@ export const PRODUCTS = {
     "name": "Breast Pump Machine",
     "desc": "Electric breast pump machine",
     "mrp": "N/A",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-31.jpg",
     "cat": "allied"
   },
@@ -1489,7 +1489,7 @@ export const PRODUCTS = {
     "name": "Rubber Sheet",
     "desc": "Protective rubber sheet for beds",
     "mrp": "N/A",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-32.jpg",
     "cat": "allied"
   },
@@ -1497,7 +1497,7 @@ export const PRODUCTS = {
     "name": "Dead Body Cover",
     "desc": "Mortuary body cover",
     "mrp": "N/A",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-33.jpg",
     "cat": "allied"
   },
@@ -1505,7 +1505,7 @@ export const PRODUCTS = {
     "name": "Oxygen Cylinder Cover",
     "desc": "Protective oxygen cylinder cover",
     "mrp": "250.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-34.jpg",
     "cat": "allied"
   },
@@ -1513,7 +1513,7 @@ export const PRODUCTS = {
     "name": "Foam Air Cushion",
     "desc": "Anti-bedsore foam air cushion",
     "mrp": "300.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-35.jpg",
     "cat": "allied"
   },
@@ -1521,7 +1521,7 @@ export const PRODUCTS = {
     "name": "Gym Ball",
     "desc": "Exercise gym ball",
     "mrp": "850.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-36.jpg",
     "cat": "allied"
   },
@@ -1529,7 +1529,7 @@ export const PRODUCTS = {
     "name": "Hot & Cold Ice Bag",
     "desc": "Flexible hot & cold ice bag",
     "mrp": "500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-37.jpg",
     "cat": "allied"
   },
@@ -1537,7 +1537,7 @@ export const PRODUCTS = {
     "name": "Anesthetic Face Mask",
     "desc": "Anaesthetic face mask",
     "mrp": "3,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-38.jpg",
     "cat": "allied"
   },
@@ -1545,7 +1545,7 @@ export const PRODUCTS = {
     "name": "Air Mattress",
     "desc": "Anti-decubitus air mattress",
     "mrp": "299.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-39.jpg",
     "cat": "allied"
   },
@@ -1553,7 +1553,7 @@ export const PRODUCTS = {
     "name": "Patients Welcome Kit",
     "desc": "Premium quality Patients Welcome Kit designed for optimal support and comfort.",
     "mrp": "250.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EL-40.jpg",
     "cat": "allied"
   },
