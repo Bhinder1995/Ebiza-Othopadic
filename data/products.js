@@ -10,7 +10,7 @@ export const PRODUCTS = {
   "EA-02": {
     "name": "Lumbosacral Support",
     "desc": "Standard lumbar support for lower back pain relief",
-    "mrp": "935.00",
+    "mrp": "760.00",
     "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-02.jpg",
     "cat": "body-belts"
@@ -18,8 +18,11 @@ export const PRODUCTS = {
   "EA-03": {
     "name": "Lumbosacral Support (Eco)",
     "desc": "Economical lumbosacral brace with effective support",
-    "mrp": "760.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": {
+      "ECO 850": "850.00",
+      "ECO 1700": "1,700.00"
+    },
+    "sizes": "ECO 850, ECO 1700",
     "img": "/images/products/EA-03.jpg",
     "cat": "body-belts"
   },
@@ -27,14 +30,14 @@ export const PRODUCTS = {
     "name": "Taylor's Brace (Long/Short)",
     "desc": "Thoracolumbar support brace for spinal fracture management",
     "mrp": "2,275.00",
-    "sizes": "LONG/SHORT -- S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EA-04.jpg",
     "cat": "body-belts"
   },
   "EA-05": {
     "name": "Posture Corrector",
     "desc": "Corrects rounded shoulders and improves posture",
-    "mrp": "850.00",
+    "mrp": "1,000.00",
     "sizes": "S, M, L, XL, XXL, UNI",
     "img": "/images/products/EA-05.jpg",
     "cat": "body-belts"
@@ -42,15 +45,18 @@ export const PRODUCTS = {
   "EA-06": {
     "name": "Ash Brace Hyper Extension (Long/Short)",
     "desc": "Hyperextension brace for thoracolumbar fractures",
-    "mrp": "1,700.00",
-    "sizes": "LONG/SHORT -- UNI",
+    "mrp": {
+      "SHORT": "735.00",
+      "LONG": "1,025.00"
+    },
+    "sizes": "SHORT, LONG",
     "img": "/images/products/EA-06.jpg",
     "cat": "body-belts"
   },
   "EA-07": {
     "name": "Rib Belt",
     "desc": "Elastic rib belt for rib fracture support and pain relief",
-    "mrp": "665.00",
+    "mrp": "300.00",
     "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-07.jpg",
     "cat": "body-belts"
@@ -58,15 +64,19 @@ export const PRODUCTS = {
   "EA-08": {
     "name": "Abdominal Support",
     "desc": "Post-surgical abdominal support and compression",
-    "mrp": "705.00",
-    "sizes": "S, M, L, XL, XXL, XXXL",
+    "mrp": {
+      "Type 1": "360.00",
+      "Type 2": "440.00",
+      "Type 3": "1,700.00"
+    },
+    "sizes": "Type 1, Type 2, Type 3",
     "img": "/images/products/EA-08.jpg",
     "cat": "body-belts"
   },
   "EA-09": {
     "name": "Colostomy Abdominal Binder",
     "desc": "Designed for post-operative support and abdominal wall stability",
-    "mrp": "1,000.00",
+    "mrp": "375.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EA-09.jpg",
     "cat": "body-belts"
@@ -74,47 +84,62 @@ export const PRODUCTS = {
   "EA-10": {
     "name": "Chest Binder",
     "desc": "Chest compression support for thoracic injuries",
-    "mrp": "1,025.00",
-    "sizes": "S, M, L, XL, XXL, XXXL",
+    "mrp": {
+      "Standard": "1,040.00",
+      "Deluxe": "1,275.00"
+    },
+    "sizes": "Standard, Deluxe",
     "img": "/images/products/EA-10.jpg",
     "cat": "body-belts"
   },
   "EA-11": {
     "name": "Pelvic Binder",
     "desc": "Emergency pelvic fracture stabilization binder",
-    "mrp": "735.00",
-    "sizes": "S, M, L, XL, XXL, XXXL",
+    "mrp": {
+      "Standard": "1,550.00",
+      "Deluxe": "2,425.00"
+    },
+    "sizes": "Standard, Deluxe",
     "img": "/images/products/EA-11.jpg",
     "cat": "body-belts"
   },
   "EA-12": {
     "name": "Hernia Support",
     "desc": "Supportive truss for inguinal hernia management",
-    "mrp": "610.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": {
+      "Standard": "360.00",
+      "Deluxe": "390.00"
+    },
+    "sizes": "Standard, Deluxe",
     "img": "/images/products/EA-12.jpg",
     "cat": "body-belts"
   },
   "EA-13": {
     "name": "Hernia Bike",
     "desc": "Bicycle-style hernia support for active patients",
-    "mrp": "745.00",
-    "sizes": "S, M, L, XL",
+    "mrp": {
+      "Standard": "425.00",
+      "Deluxe": "680.00"
+    },
+    "sizes": "Standard, Deluxe",
     "img": "/images/products/EA-13.jpg",
     "cat": "body-belts"
   },
   "EA-14": {
     "name": "Orthopaedic Backrest",
     "desc": "Ergonomic back support for chairs and car seats",
-    "mrp": "1,700.00",
-    "sizes": "GREY/BLUE -- UNI",
+    "mrp": {
+      "Standard": "1,050.00",
+      "Deluxe": "1,250.00"
+    },
+    "sizes": "Standard, Deluxe",
     "img": "/images/products/EA-14.jpg",
     "cat": "body-belts"
   },
   "EB-01": {
     "name": "Cervical Collar Soft",
     "desc": "Soft foam cervical collar for neck support and stabilization",
-    "mrp": "300.00",
+    "mrp": "175.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EB-01.jpg",
     "cat": "cervical"
@@ -122,48 +147,66 @@ export const PRODUCTS = {
   "EB-02": {
     "name": "Adjustable Hard Cervical Collar",
     "desc": "Rigid height-adjustable collar for strict immobilization",
-    "mrp": "360.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": {
+      "Standard": "135.00",
+      "Deluxe": "1,650.00"
+    },
+    "sizes": "Standard, Deluxe",
     "img": "/images/products/EB-02.jpg",
     "cat": "cervical"
   },
   "EB-03": {
     "name": "Cervical Collar Boneless",
     "desc": "Anatomically designed collar without rigid internal support",
-    "mrp": "175.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": {
+      "S-XL": "100.00",
+      "S-XXL": "125.00"
+    },
+    "sizes": "S-XL, S-XXL",
     "img": "/images/products/EB-03.jpg",
     "cat": "cervical"
   },
   "EB-04": {
     "name": "Philadelphia Collar",
     "desc": "Tracheostomy opening collar for severe cervical injuries",
-    "mrp": "1,650.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": {
+      "Standard": "220.00",
+      "Deluxe": "325.00"
+    },
+    "sizes": "Standard, Deluxe",
     "img": "/images/products/EB-04.jpg",
     "cat": "cervical"
   },
   "EB-05": {
     "name": "Cervical Pillow Regular",
     "desc": "Corrects neck posture during sleep to relieve pain",
-    "mrp": "1,275.00",
-    "sizes": "GREY/BLUE -- UNI",
+    "mrp": {
+      "Standard": "1,100.00",
+      "Deluxe": "1,240.00"
+    },
+    "sizes": "Standard, Deluxe",
     "img": "/images/products/EB-05.jpg",
     "cat": "cervical"
   },
   "EB-06": {
     "name": "Memory Foam Pillow",
     "desc": "Visco-elastic foam pillow for superior neck contouring",
-    "mrp": "1,100.00",
-    "sizes": "UNI",
+    "mrp": {
+      "Standard": "340.00",
+      "Deluxe": "1,375.00"
+    },
+    "sizes": "Standard, Deluxe",
     "img": "/images/products/EB-06.jpg",
     "cat": "cervical"
   },
   "EB-07": {
     "name": "U Pillow",
     "desc": "Travel neck support for upright sitting comfort",
-    "mrp": "1,240.00",
-    "sizes": "UNI",
+    "mrp": {
+      "Standard": "300.00",
+      "Deluxe": "770.00"
+    },
+    "sizes": "Standard, Deluxe",
     "img": "/images/products/EB-07.jpg",
     "cat": "cervical"
   },
@@ -291,7 +334,7 @@ export const PRODUCTS = {
     "name": "Foot Drop Splint",
     "desc": "Supports foot in dorsiflexion for foot drop conditions",
     "mrp": "1,050.00",
-    "sizes": "LEFT/RIGHT -- S, M, L, XL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EE-03.jpg",
     "cat": "foot-ankle"
   },
@@ -299,7 +342,7 @@ export const PRODUCTS = {
     "name": "Foot Drop Splint With Padding",
     "desc": "Padded AFO splint for enhanced comfort during use",
     "mrp": "1,250.00",
-    "sizes": "LEFT/RIGHT -- S, M, L, XL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EE-04.jpg",
     "cat": "foot-ankle"
   },
@@ -347,7 +390,7 @@ export const PRODUCTS = {
     "name": "De-Rotation Shoe",
     "desc": "Prevents hip rotation for bedridden patients",
     "mrp": "400.00",
-    "sizes": "LEFT/RIGHT -- UNI",
+    "sizes": "UNI",
     "img": "/images/products/EE-10.jpg",
     "cat": "foot-ankle"
   },
@@ -355,7 +398,7 @@ export const PRODUCTS = {
     "name": "AFO Night Splint",
     "desc": "Ankle Foot Orthosis for night-time dorsiflexion support",
     "mrp": "4,000.00",
-    "sizes": "LEFT/RIGHT -- UNI",
+    "sizes": "UNI",
     "img": "/images/products/EE-11.jpg",
     "cat": "foot-ankle"
   },
@@ -419,7 +462,7 @@ export const PRODUCTS = {
     "name": "Neoprene Knee Support With Hinges",
     "desc": "Hinged neoprene knee brace for mediolateral stability",
     "mrp": "1,575.00",
-    "sizes": "UNI, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EF-04.jpg",
     "cat": "knee"
   },
@@ -451,7 +494,7 @@ export const PRODUCTS = {
     "name": "Knee Immobilizer Long",
     "desc": "Long length knee immobilizer for full leg stabilization",
     "mrp": "1,150.00",
-    "sizes": "S, M, L, XL, XXL, XXXL",
+    "sizes": "UNI",
     "img": "/images/products/EF-08.jpg",
     "cat": "knee"
   },
@@ -837,11 +880,11 @@ export const PRODUCTS = {
     "name": "Weight Cuff",
     "desc": "Wearable weight cuffs for progressive resistance training",
     "mrp": {
-      "500GM": "500.00",
-      "1KG": "780.00",
-      "2KG": "1,225.00"
+      "500 GM": "500.00",
+      "1 KG": "780.00",
+      "2 KG": "1,225.00"
     },
-    "sizes": "500GM, 1KG, 2KG",
+    "sizes": "500 GM, 1 KG, 2 KG",
     "img": "/images/products/EJ-01.jpg",
     "cat": "physio"
   },
@@ -857,15 +900,14 @@ export const PRODUCTS = {
     "name": "Theraband",
     "desc": "Latex resistance bands for physiotherapy exercises",
     "mrp": {
-      "Green": "935.00",
-      "Red": "815.00",
-      "Yellow": "720.00",
-      "Blue": "1,055.00",
-      "Black": "1,140.00",
-      "Silver": "1,380.00",
-      "Gold": "1,700.00"
+      "Yellow": "815.00",
+      "Red": "720.00",
+      "Green": "1,055.00",
+      "Blue": "1,140.00",
+      "Black": "1,380.00",
+      "Silver": "1,700.00"
     },
-    "sizes": "Green, Red, Yellow, Blue, Black, Silver, Gold",
+    "sizes": "Yellow, Red, Green, Blue, Black, Silver",
     "img": "/images/products/EJ-03.jpg",
     "cat": "physio"
   },
@@ -873,13 +915,13 @@ export const PRODUCTS = {
     "name": "Theraputty",
     "desc": "Color-coded hand exercise putty for variable resistance",
     "mrp": {
-      "Green": "999.00",
-      "Black": "999.00",
-      "Blue": "999.00",
       "Red": "999.00",
-      "Yellow": "999.00"
+      "Yellow": "999.00",
+      "Blue": "999.00",
+      "Green": "999.00",
+      "Black": "999.00"
     },
-    "sizes": "Green, Black, Blue, Red, Yellow",
+    "sizes": "Red, Yellow, Blue, Green, Black",
     "img": "/images/products/EJ-04.jpg",
     "cat": "physio"
   },
@@ -956,7 +998,7 @@ export const PRODUCTS = {
     "name": "Hand Xtrainer",
     "desc": "Versatile hand exerciser for fingers, hand and wrist",
     "mrp": "3,200.00",
-    "sizes": "RED, BLUE, GREEN, BLACK",
+    "sizes": "Red, Blue, Green, Black",
     "img": "/images/products/EJ-13.jpg",
     "cat": "physio"
   },
@@ -964,7 +1006,7 @@ export const PRODUCTS = {
     "name": "Kinesiology Tape Cotton",
     "desc": "Elastic therapeutic tape for muscle and joint support",
     "mrp": "995.00",
-    "sizes": "PINK, YELLOW, BLUE, GREEN",
+    "sizes": "Pink, Yellow, Blue, Green",
     "img": "/images/products/EJ-14.jpg",
     "cat": "physio"
   },
@@ -1058,7 +1100,7 @@ export const PRODUCTS = {
       "Medium Red": "4,500.00",
       "Firm Green": "4,500.00"
     },
-    "sizes": "Soft Yellow, Medium Red, Firm Green",
+    "sizes": "Yellow, Red, Green",
     "img": "/images/products/EJ-23.jpg",
     "cat": "physio"
   },
@@ -1070,7 +1112,7 @@ export const PRODUCTS = {
       "Medium Blue": "550.00",
       "Hard Green": "550.00"
     },
-    "sizes": "Soft Yellow, Medium Blue, Hard Green",
+    "sizes": "Yellow, Blue, Green",
     "img": "/images/products/EJ-24.jpg",
     "cat": "physio"
   },
@@ -1113,12 +1155,12 @@ export const PRODUCTS = {
     "name": "Theraband Loop",
     "desc": "Continuous loop resistance bands for lower body training",
     "mrp": {
-      "Blue": "1,502.00",
-      "Green": "1,331.00",
+      "Yellow": "1,047.00",
       "Red": "1,226.00",
-      "Yellow": "1,047.00"
+      "Green": "1,331.00",
+      "Blue": "1,502.00"
     },
-    "sizes": "Blue, Green, Red, Yellow",
+    "sizes": "Yellow, Red, Green, Blue",
     "img": "/images/products/EJ-29.jpg",
     "cat": "physio"
   },
