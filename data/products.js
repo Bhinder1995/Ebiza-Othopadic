@@ -3,7 +3,7 @@ export const PRODUCTS = {
     "name": "Contoured Lumbosacral Support",
     "desc": "Anatomically contoured rigid back support for lumbar stability",
     "mrp": "1,200.00",
-    "sizes": "S,M,L,XL,XXL,XXXL",
+    "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-01.jpg",
     "cat": "body-belts"
   },
@@ -11,7 +11,7 @@ export const PRODUCTS = {
     "name": "Lumbosacral Support",
     "desc": "Standard lumbar support for lower back pain relief",
     "mrp": "935.00",
-    "sizes": "S,M,L,XL,XXL,XXXL",
+    "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-02.jpg",
     "cat": "body-belts"
   },
@@ -19,7 +19,7 @@ export const PRODUCTS = {
     "name": "Lumbosacral Support (Eco)",
     "desc": "Economical lumbosacral brace with effective support",
     "mrp": "760.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EA-03.jpg",
     "cat": "body-belts"
   },
@@ -27,7 +27,7 @@ export const PRODUCTS = {
     "name": "Taylor's Brace (Long/Short)",
     "desc": "Thoracolumbar support brace for spinal fracture management",
     "mrp": "2,275.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "LONG/SHORT -- S, M, L, XL, XXL",
     "img": "/images/products/EA-04.jpg",
     "cat": "body-belts"
   },
@@ -35,7 +35,7 @@ export const PRODUCTS = {
     "name": "Posture Corrector",
     "desc": "Corrects rounded shoulders and improves posture",
     "mrp": "850.00",
-    "sizes": "S,M,L,XL,XXL,UNI",
+    "sizes": "S, M, L, XL, XXL, UNI",
     "img": "/images/products/EA-05.jpg",
     "cat": "body-belts"
   },
@@ -43,7 +43,7 @@ export const PRODUCTS = {
     "name": "Ash Brace Hyper Extension (Long/Short)",
     "desc": "Hyperextension brace for thoracolumbar fractures",
     "mrp": "1,700.00",
-    "sizes": "UNI",
+    "sizes": "LONG/SHORT -- UNI",
     "img": "/images/products/EA-06.jpg",
     "cat": "body-belts"
   },
@@ -51,7 +51,7 @@ export const PRODUCTS = {
     "name": "Rib Belt",
     "desc": "Elastic rib belt for rib fracture support and pain relief",
     "mrp": "665.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-07.jpg",
     "cat": "body-belts"
   },
@@ -59,15 +59,15 @@ export const PRODUCTS = {
     "name": "Abdominal Support",
     "desc": "Post-surgical abdominal support and compression",
     "mrp": "705.00",
-    "sizes": "S,M,L,XL,XXL,XXXL",
+    "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-08.jpg",
     "cat": "body-belts"
   },
   "EA-09": {
     "name": "Colostomy Abdominal Binder",
-    "desc": "Premium quality Colostomy Abdominal Binder designed for optimal support and comfort.",
+    "desc": "Designed for post-operative support and abdominal wall stability",
     "mrp": "1,000.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EA-09.jpg",
     "cat": "body-belts"
   },
@@ -75,7 +75,7 @@ export const PRODUCTS = {
     "name": "Chest Binder",
     "desc": "Chest compression support for thoracic injuries",
     "mrp": "1,025.00",
-    "sizes": "S,M,L,XL,XXL,XXXL",
+    "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-10.jpg",
     "cat": "body-belts"
   },
@@ -83,7 +83,7 @@ export const PRODUCTS = {
     "name": "Pelvic Binder",
     "desc": "Emergency pelvic fracture stabilization binder",
     "mrp": "735.00",
-    "sizes": "S,M,L,XL,XXL,XXXL",
+    "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-11.jpg",
     "cat": "body-belts"
   },
@@ -91,287 +91,287 @@ export const PRODUCTS = {
     "name": "Hernia Support",
     "desc": "Supportive truss for inguinal hernia management",
     "mrp": "610.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EA-12.jpg",
     "cat": "body-belts"
   },
   "EA-13": {
     "name": "Hernia Bike",
     "desc": "Bicycle-style hernia support for active patients",
-    "mrp": "300.00",
-    "sizes": "S,M,L,XL,XXL",
+    "mrp": "745.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EA-13.jpg",
     "cat": "body-belts"
   },
   "EA-14": {
     "name": "Orthopaedic Backrest",
-    "desc": "Ergonomic backrest cushion for lumbar support",
+    "desc": "Ergonomic back support for chairs and car seats",
     "mrp": "1,700.00",
-    "sizes": "UNI",
+    "sizes": "GREY/BLUE -- UNI",
     "img": "/images/products/EA-14.jpg",
     "cat": "body-belts"
   },
   "EB-01": {
-    "name": "Cervical Soft Collar",
-    "desc": "Soft foam cervical collar for mild neck support",
-    "mrp": "360.00",
-    "sizes": "S,M,L,XL,XXL",
+    "name": "Cervical Collar Soft",
+    "desc": "Soft foam cervical collar for neck support and stabilization",
+    "mrp": "300.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EB-01.jpg",
     "cat": "cervical"
   },
   "EB-02": {
-    "name": "Adjustable Hard Collar",
-    "desc": "Rigid adjustable collar for cervical immobilization",
-    "mrp": "440.00",
-    "sizes": "S,M,L,XL,XXL",
+    "name": "Adjustable Hard Cervical Collar",
+    "desc": "Rigid height-adjustable collar for strict immobilization",
+    "mrp": "360.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EB-02.jpg",
     "cat": "cervical"
   },
   "EB-03": {
     "name": "Cervical Collar Boneless",
-    "desc": "Comfortable boneless design for extended wear",
-    "mrp": "375.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Anatomically designed collar without rigid internal support",
+    "mrp": "175.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EB-03.jpg",
     "cat": "cervical"
   },
   "EB-04": {
     "name": "Philadelphia Collar",
-    "desc": "Two-piece rigid Philadelphia collar for cervical injuries",
-    "mrp": "1,040.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Tracheostomy opening collar for severe cervical injuries",
+    "mrp": "1,650.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EB-04.jpg",
     "cat": "cervical"
   },
   "EB-05": {
-    "name": "Cervical Regular Pillow",
-    "desc": "Contoured cervical pillow for neck pain relief",
+    "name": "Cervical Pillow Regular",
+    "desc": "Corrects neck posture during sleep to relieve pain",
     "mrp": "1,275.00",
-    "sizes": "UNI",
+    "sizes": "GREY/BLUE -- UNI",
     "img": "/images/products/EB-05.jpg",
     "cat": "cervical"
   },
   "EB-06": {
     "name": "Memory Foam Pillow",
-    "desc": "Premium memory foam cervical pillow",
-    "mrp": "2,425.00",
+    "desc": "Visco-elastic foam pillow for superior neck contouring",
+    "mrp": "1,100.00",
     "sizes": "UNI",
     "img": "/images/products/EB-06.jpg",
     "cat": "cervical"
   },
   "EB-07": {
-    "name": "U-Pillow",
-    "desc": "Travel U-shaped neck support pillow",
-    "mrp": "1,550.00",
+    "name": "U Pillow",
+    "desc": "Travel neck support for upright sitting comfort",
+    "mrp": "1,240.00",
     "sizes": "UNI",
     "img": "/images/products/EB-07.jpg",
     "cat": "cervical"
   },
   "EC-01": {
-    "name": "Pouch Arm Sling",
-    "desc": "Comfortable pouch-style arm sling for forearm support",
-    "mrp": "390.00",
-    "sizes": "S,M,L,XL,XXL",
+    "name": "Pouch Arm Sling Baggy",
+    "desc": "Baggy style pouch to support injured arm and shoulder",
+    "mrp": "340.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EC-01.jpg",
     "cat": "fracture"
   },
   "EC-02": {
     "name": "Arm Sling Tropical",
-    "desc": "Breathable tropical fabric arm sling",
-    "mrp": "360.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Lightweight breathable arm sling for tropical climates",
+    "mrp": "300.00",
+    "sizes": "S, M, L",
     "img": "/images/products/EC-02.jpg",
     "cat": "fracture"
   },
   "EC-03": {
     "name": "Cast Shoe",
-    "desc": "Protective post-operative cast shoe",
-    "mrp": "745.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Protective rocker bottom shoe for patients with leg casts",
+    "mrp": "770.00",
+    "sizes": "S, M, L",
     "img": "/images/products/EC-03.jpg",
     "cat": "fracture"
   },
   "EC-04": {
     "name": "Clavicle Brace",
-    "desc": "Figure-8 clavicle brace for collar bone fractures",
-    "mrp": "425.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Figure-of-eight brace for clavicle fracture management",
+    "mrp": "300.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EC-04.jpg",
     "cat": "fracture"
   },
   "EC-05": {
     "name": "Shoulder Immobilizer",
-    "desc": "Full shoulder immobilization system",
-    "mrp": "680.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Secures arm against the body for shoulder stabilization",
+    "mrp": "300.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EC-05.jpg",
     "cat": "fracture"
   },
   "EC-06": {
     "name": "Bobath Cuff",
-    "desc": "Bobath-style shoulder subluxation support",
-    "mrp": "1,050.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Specialized cuff for hemiplegic shoulder support",
+    "mrp": "400.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EC-06.jpg",
     "cat": "fracture"
   },
   "EC-07": {
-    "name": "Shoulder Support",
-    "desc": "Elastic compression shoulder support",
-    "mrp": "1,250.00",
-    "sizes": "S,M,L,XL,XXL",
+    "name": "Shoulder Support Elastic",
+    "desc": "Provides compression and support to the shoulder joint",
+    "mrp": "400.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EC-07.jpg",
     "cat": "fracture"
   },
   "EC-08": {
     "name": "Sling Strap",
-    "desc": "Universal adjustable sling strap",
-    "mrp": "175.00",
+    "desc": "Simple adjustable strap for basic arm support",
+    "mrp": "150.00",
     "sizes": "UNI",
     "img": "/images/products/EC-08.jpg",
     "cat": "fracture"
   },
   "EC-09": {
     "name": "Thigh Brace With Pelvic Support",
-    "desc": "Combined thigh and pelvic stabilization brace",
-    "mrp": "1,650.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Comprehensive support for hip and thigh injuries",
+    "mrp": "800.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EC-09.jpg",
     "cat": "fracture"
   },
   "ED-01": {
     "name": "Finger Cot Splint",
-    "desc": "Protective cot-style finger splint",
-    "mrp": "135.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Protects fingertip and nail bed injuries",
+    "mrp": "50.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/ED-01.jpg",
     "cat": "finger-splints"
   },
   "ED-02": {
     "name": "Mallet Finger Splint",
-    "desc": "Rigid mallet finger extension splint",
-    "mrp": "100.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Supports DIP joint in extension for mallet finger",
+    "mrp": "50.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/ED-02.jpg",
     "cat": "finger-splints"
   },
   "ED-03": {
     "name": "Frog Splint",
-    "desc": "Frog-design splint for finger fractures",
-    "mrp": "125.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Maintains interphalangeal joints in position",
+    "mrp": "50.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/ED-03.jpg",
     "cat": "finger-splints"
   },
   "ED-04": {
     "name": "Finger Extension Splint",
-    "desc": "Dynamic extension splint for finger contractures",
-    "mrp": "225.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Promotes finger extension for contractures",
+    "mrp": "75.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/ED-04.jpg",
     "cat": "finger-splints"
   },
   "EE-01": {
     "name": "Ankle Binder",
-    "desc": "Elastic ankle binder for sprains and swelling",
-    "mrp": "220.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Elastic ankle wrap for compression and stability",
+    "mrp": "425.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-01.jpg",
     "cat": "foot-ankle"
   },
   "EE-02": {
     "name": "Anklet With Binder Support",
-    "desc": "Reinforced anklet with additional binder support",
-    "mrp": "325.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Ankle support with additional elastic binder for extra stability",
+    "mrp": "680.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-02.jpg",
     "cat": "foot-ankle"
   },
   "EE-03": {
-    "name": "Foot Drop Splint (Left/Right)",
-    "desc": "AFO-style foot drop correction splint",
-    "mrp": "1,100.00",
-    "sizes": "S,M,L,XL",
+    "name": "Foot Drop Splint",
+    "desc": "Supports foot in dorsiflexion for foot drop conditions",
+    "mrp": "1,050.00",
+    "sizes": "LEFT/RIGHT -- S, M, L, XL",
     "img": "/images/products/EE-03.jpg",
     "cat": "foot-ankle"
   },
   "EE-04": {
-    "name": "Foot Drop Splint Padding (Left/Right)",
-    "desc": "Padded foot drop splint for comfort",
-    "mrp": "1,240.00",
-    "sizes": "S,M,L,XL",
+    "name": "Foot Drop Splint With Padding",
+    "desc": "Padded AFO splint for enhanced comfort during use",
+    "mrp": "1,250.00",
+    "sizes": "LEFT/RIGHT -- S, M, L, XL",
     "img": "/images/products/EE-04.jpg",
     "cat": "foot-ankle"
   },
   "EE-05": {
-    "name": "Anklet Comfort",
-    "desc": "Premium comfort anklet pair",
+    "name": "Anklet Comfort Pair",
+    "desc": "Compression anklets for mild sprains and swelling",
     "mrp": "340.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-05.jpg",
     "cat": "foot-ankle"
   },
   "EE-06": {
     "name": "PF Night Splint De-Rotation",
-    "desc": "Plantar fasciitis night splint with de-rotation",
+    "desc": "Stretches plantar fascia during sleep to relieve heel pain",
     "mrp": "1,375.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-06.jpg",
     "cat": "foot-ankle"
   },
   "EE-07": {
     "name": "Ankle Brace Lace Up",
-    "desc": "Lace-up ankle brace for lateral stability",
+    "desc": "Rigid lace-up brace for advanced ankle stabilization",
     "mrp": "770.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-07.jpg",
     "cat": "foot-ankle"
   },
   "EE-08": {
-    "name": "Anklet",
-    "desc": "Standard compression anklet pair",
+    "name": "Anklet Pair",
+    "desc": "Basic elastic anklets for everyday support",
     "mrp": "300.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-08.jpg",
     "cat": "foot-ankle"
   },
   "EE-09": {
     "name": "Leg Restrainer",
-    "desc": "Leg positioning restrainer",
+    "desc": "Immobilizes the leg for post-surgical safety",
     "mrp": "300.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-09.jpg",
     "cat": "foot-ankle"
   },
   "EE-10": {
-    "name": "De-Rotation Shoe (Left/Right)",
-    "desc": "Rotational correction shoe",
+    "name": "De-Rotation Shoe",
+    "desc": "Prevents hip rotation for bedridden patients",
     "mrp": "400.00",
-    "sizes": "UNI",
+    "sizes": "LEFT/RIGHT -- UNI",
     "img": "/images/products/EE-10.jpg",
     "cat": "foot-ankle"
   },
   "EE-11": {
-    "name": "AFO Night Splint (Left/Right)",
-    "desc": "Rigid AFO night splint for foot drop and plantar fasciitis",
+    "name": "AFO Night Splint",
+    "desc": "Ankle Foot Orthosis for night-time dorsiflexion support",
     "mrp": "4,000.00",
-    "sizes": "UNI",
+    "sizes": "LEFT/RIGHT -- UNI",
     "img": "/images/products/EE-11.jpg",
     "cat": "foot-ankle"
   },
   "EE-12": {
     "name": "Compression Stockings Above Knee",
-    "desc": "Above-knee graduated compression stockings",
+    "desc": "Medical grade compression for varicose veins and edema",
     "mrp": "2,550.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-12.jpg",
     "cat": "foot-ankle"
   },
   "EE-13": {
     "name": "Compression Stockings Below Knee",
-    "desc": "Below-knee compression stockings",
+    "desc": "Below-knee medical grade compression therapy",
     "mrp": "1,690.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-13.jpg",
     "cat": "foot-ankle"
   },
@@ -379,7 +379,7 @@ export const PRODUCTS = {
     "name": "DVT Stockings Above Knee",
     "desc": "Anti-DVT stockings above knee (White)",
     "mrp": "1,900.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-14.jpg",
     "cat": "foot-ankle"
   },
@@ -387,7 +387,7 @@ export const PRODUCTS = {
     "name": "DVT Stockings Below Knee",
     "desc": "Anti-DVT stockings below knee",
     "mrp": "1,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-15.jpg",
     "cat": "foot-ankle"
   },
@@ -395,29 +395,29 @@ export const PRODUCTS = {
     "name": "Tubular Knee Support Patella Open",
     "desc": "Open patella tubular knee support",
     "mrp": "440.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-01.jpg",
     "cat": "knee"
   },
   "EF-02": {
     "name": "Knee Cap Skin Colour",
-    "desc": "Neoprene knee cap pair",
+    "desc": "Standard elastic knee cap for joint support",
     "mrp": "300.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-02.jpg",
     "cat": "knee"
   },
   "EF-03": {
     "name": "Neoprene Knee Support",
-    "desc": "Neoprene wrap-around knee support",
+    "desc": "Therapeutic warmth and compression for the knee joint",
     "mrp": "1,220.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-03.jpg",
     "cat": "knee"
   },
   "EF-04": {
     "name": "Neoprene Knee Support With Hinges",
-    "desc": "Hinged neoprene knee brace",
+    "desc": "Hinged neoprene knee brace for mediolateral stability",
     "mrp": "1,575.00",
     "sizes": "UNI",
     "img": "/images/products/EF-04.jpg",
@@ -425,399 +425,429 @@ export const PRODUCTS = {
   },
   "EF-05": {
     "name": "Drytex Knee Support",
-    "desc": "Breathable drytex knee support",
+    "desc": "Breathable drytex knee support for all-day comfort",
     "mrp": "595.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EF-05.jpg",
     "cat": "knee"
   },
   "EF-06": {
     "name": "Drytex Knee Hinge Support",
-    "desc": "Hinged drytex knee brace",
+    "desc": "Hinged drytex knee brace for lightweight stabilization",
     "mrp": "750.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EF-06.jpg",
     "cat": "knee"
   },
   "EF-07": {
-    "name": "Knee Support 3D",
-    "desc": "3D knit knee support pair",
+    "name": "Knee Cap 3D",
+    "desc": "Advanced 3D knitted knee support for optimal fit",
     "mrp": "480.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-07.jpg",
     "cat": "knee"
   },
   "EF-08": {
     "name": "Knee Immobilizer Long",
-    "desc": "Long knee immobilizer for post-operative care",
+    "desc": "Long length knee immobilizer for full leg stabilization",
     "mrp": "1,150.00",
-    "sizes": "UNI",
+    "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EF-08.jpg",
     "cat": "knee"
   },
   "EF-09": {
     "name": "Knee Immobilizer Short",
-    "desc": "Short knee immobilizer",
+    "desc": "Short length knee immobilizer for post-injury protection",
     "mrp": "925.00",
-    "sizes": "S,M,L,XL,XXL,XXXL",
+    "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EF-09.jpg",
     "cat": "knee"
   },
   "EF-10": {
     "name": "ROM Knee Brace",
-    "desc": "Range of motion adjustable knee brace",
+    "desc": "Range of Motion brace for controlled knee flexion/extension",
     "mrp": "2,750.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EF-10.jpg",
     "cat": "knee"
   },
   "EF-11": {
     "name": "Abduction Pillow",
-    "desc": "Hip abduction pillow post hip surgery",
+    "desc": "Post-surgical hip abduction pillow for safe positioning",
     "mrp": "3,050.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-11.jpg",
     "cat": "knee"
   },
   "EF-12": {
     "name": "Elastic Knee Support",
-    "desc": "Elastic compression knee support",
+    "desc": "Flexible elastic support for daily knee joint protection",
     "mrp": "700.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-12.jpg",
     "cat": "knee"
   },
   "EF-13": {
     "name": "Functional Knee Support",
-    "desc": "Functional knee brace for active use",
+    "desc": "Advanced functional support for active knee stabilization",
     "mrp": "1,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-13.jpg",
     "cat": "knee"
   },
   "EF-14": {
-    "name": "OA Knee Support (Left/Right)",
-    "desc": "Osteoarthritis offloading knee brace",
+    "name": "OA Knee Support",
+    "desc": "Osteoarthritis knee brace for offloading joint pressure",
     "mrp": "1,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "LEFT/RIGHT -- S, M, L, XL, XXL",
     "img": "/images/products/EF-14.jpg",
     "cat": "knee"
   },
   "EG-01": {
     "name": "Wrist & Forearm Brace Short",
-    "desc": "Short wrist and forearm support brace",
+    "desc": "Supports wrist and forearm while allowing finger movement",
     "mrp": "640.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EG-01.jpg",
     "cat": "wrist-forearm"
   },
   "EG-02": {
     "name": "Wrist & Forearm Brace Long",
-    "desc": "Long forearm and wrist immobilization brace",
+    "desc": "Extended forearm support for stable fracture management",
     "mrp": "740.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EG-02.jpg",
     "cat": "wrist-forearm"
   },
   "EG-03": {
     "name": "Wrist Support",
-    "desc": "Standard wrist support brace",
+    "desc": "Basic compression support for wrist sprains and strains",
     "mrp": "225.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EG-03.jpg",
     "cat": "wrist-forearm"
   },
   "EG-04": {
-    "name": "Wrist Brace With Thumb",
-    "desc": "Wrist brace with thumb spica support",
+    "name": "Wrist Brace With Thumb Support",
+    "desc": "Supports both wrist and CMC/MCP joints of the thumb",
     "mrp": "230.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EG-04.jpg",
     "cat": "wrist-forearm"
   },
   "EG-05": {
     "name": "Elbow Support With Strap",
-    "desc": "Tennis elbow strap with comfort padding",
+    "desc": "Compression sleeve with adjustable strap for elbow stability",
     "mrp": "230.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EG-05.jpg",
     "cat": "wrist-forearm"
   },
   "EG-06": {
-    "name": "Tennis Elbow Support Silicone Pad",
-    "desc": "Silicone pad tennis elbow support",
+    "name": "Tennis Elbow Support",
+    "desc": "Targeted pressure for lateral epicondylitis relief",
     "mrp": "250.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EG-06.jpg",
     "cat": "wrist-forearm"
   },
   "EG-07": {
     "name": "Carpal Tunnel Splint",
-    "desc": "Carpal tunnel syndrome wrist splint",
+    "desc": "Maintains neutral wrist position for carpal tunnel relief",
     "mrp": "300.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EG-07.jpg",
     "cat": "wrist-forearm"
   },
   "EG-08": {
     "name": "Hand Restrainer",
-    "desc": "Hand restrainer for hospital use",
+    "desc": "Soft restraint for patient safety and positioning",
     "mrp": "300.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-08.jpg",
     "cat": "wrist-forearm"
   },
   "EG-09": {
     "name": "Thumb Spica Splint",
-    "desc": "De Quervain's thumb spica splint",
+    "desc": "Immobilizes the thumb while allowing wrist movement",
     "mrp": "260.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EG-09.jpg",
     "cat": "wrist-forearm"
   },
   "EG-10": {
     "name": "Wrist Splint Ambidextrous",
-    "desc": "Universal fit ambidextrous wrist splint",
+    "desc": "Fits either hand for versatile wrist stabilization",
     "mrp": "600.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-10.jpg",
     "cat": "wrist-forearm"
   },
   "EG-11": {
     "name": "Arm Immobilizer",
-    "desc": "Adjustable arm immobilization system",
+    "desc": "Complete arm and shoulder immobilization system",
     "mrp": "975.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EG-11.jpg",
     "cat": "wrist-forearm"
   },
   "EG-12": {
-    "name": "Static Cockup Splint (Left/Right)",
-    "desc": "Static cock-up wrist splint",
+    "name": "Static Cockup Splint",
+    "desc": "Holds wrist in functional cock-up position",
     "mrp": "950.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "LEFT/RIGHT -- S, M, L",
     "img": "/images/products/EG-12.jpg",
     "cat": "wrist-forearm"
   },
   "EG-13": {
-    "name": "Dynamic Splint (Left/Right)",
-    "desc": "Dynamic extension wrist splint",
+    "name": "Dynamic Splint",
+    "desc": "Provides tension to promote joint range of motion",
     "mrp": "1,050.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "LEFT/RIGHT -- S, M, L, XL",
     "img": "/images/products/EG-13.jpg",
     "cat": "wrist-forearm"
   },
   "EG-14": {
     "name": "Fistula Belt",
-    "desc": "Medical tourniquet for emergency use",
+    "desc": "Protective compression belt for dialysis fistula sites",
     "mrp": "50.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-14.jpg",
     "cat": "wrist-forearm"
   },
   "EG-15": {
     "name": "Elbow Restrainer",
-    "desc": "Elbow restrainer for post-surgical care",
+    "desc": "Prevents elbow flexion for post-surgical protection",
     "mrp": "350.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EG-15.jpg",
     "cat": "wrist-forearm"
   },
   "EH-01": {
-    "name": "Foot/Skin Traction Support-UNI",
-    "desc": "Skin traction support for lower limb",
+    "name": "Skin Traction Kit",
+    "desc": "Head halter for cervical traction therapy",
     "mrp": "400.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-01.jpg",
     "cat": "traction"
   },
   "EH-02": {
     "name": "Leg Traction Brace",
-    "desc": "Leg traction brace for fracture management",
+    "desc": "Provides traction to the pelvic area for spinal decompression",
     "mrp": "600.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-02.jpg",
     "cat": "traction"
   },
   "EH-03": {
     "name": "Pelvic Traction Belt",
-    "desc": "Pelvic traction belt for lumbar disc herniation",
+    "desc": "Kit for non-invasive skin traction on the leg",
     "mrp": "890.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-03.jpg",
     "cat": "traction"
   },
   "EH-04": {
-    "name": "Cervical Traction Kit",
-    "desc": "Complete foot traction kit",
-    "mrp": "2,000.00",
-    "sizes": "S,M,L,XL,XXL",
+    "name": "Foot Traction Kit",
+    "desc": "Overdoor traction system for home cervical decompression",
+    "mrp": "1,550.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-04.jpg",
     "cat": "traction"
   },
   "EH-05": {
-    "name": "Foot Traction Kit",
-    "desc": "Cervical traction kit for neck pain",
-    "mrp": "1,550.00",
-    "sizes": "S,M,L,XL,XXL",
+    "name": "Cervical Traction Kit",
+    "desc": "Sitting traction system for cervical spine relief",
+    "mrp": "2,000.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-05.jpg",
     "cat": "traction"
   },
   "EH-06": {
     "name": "Pelvic Traction Kit",
-    "desc": "Complete pelvic traction kit",
+    "desc": "Complete kit for pelvic traction therapy",
     "mrp": "2,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-06.jpg",
     "cat": "traction"
   },
   "EH-07": {
     "name": "Traction Weight Bag",
-    "desc": "Traction weight bag with handle",
+    "desc": "Belt for providing traction through the ankle joint",
     "mrp": "375.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EH-07.jpg",
     "cat": "traction"
   },
   "EH-08": {
-    "name": "Traction Weight",
-    "desc": "Rubber traction weight",
-    "mrp": { "2.5 lb": "250.00", "5 lb": "500.00" },
-    "sizes": "2.5 lb, 5 lb",
+    "name": "Traction Weight Rubber",
+    "desc": "Sand-filled weight bags for precise traction force",
+    "mrp": {
+      "2.5 LB": "250.00",
+      "5 LB": "500.00"
+    },
+    "sizes": "2.5 LB, 5 LB",
     "img": "/images/products/EH-08.jpg",
     "cat": "traction"
   },
   "EH-09": {
     "name": "Thomas Splint",
-    "desc": "Thomas ring splint for femur fractures",
+    "desc": "Optimized thoracolumbar support for postural correction",
     "mrp": "850.00",
-    "sizes": "CH,S,M,L,XL,XXL",
+    "sizes": "CH, S, M, L, XL, XXL",
     "img": "/images/products/EH-09.jpg",
     "cat": "traction"
   },
   "EH-10": {
-    "name": "Bholer Braun Splint",
-    "desc": "Bohler-Braun frame for lower limb traction",
+    "name": "Bohler Braun Splint",
+    "desc": "Durable bracket for guiding traction cords and weights",
     "mrp": "2,050.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EH-10.jpg",
     "cat": "traction"
   },
   "EH-11": {
-    "name": "Shoulder Pully",
-    "desc": "Shoulder pulley exercise system",
+    "name": "Shoulder Pulley",
+    "desc": "Spreader bar for even distribution of cervical traction force",
     "mrp": "500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EH-11.jpg",
     "cat": "traction"
   },
   "EI-01": {
     "name": "Silicone Heel Cups",
-    "desc": "Silicone heel cups for plantar fasciitis relief",
+    "desc": "Shock absorbing heel cups for calcaneal pain relief",
     "mrp": "760.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EI-01.jpg",
     "cat": "silicone-foot"
   },
   "EI-02": {
     "name": "Silicone Full Insole",
-    "desc": "Full length silicone insole",
+    "desc": "Full length silicone insoles for uniform foot cushioning",
     "mrp": "1,625.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EI-02.jpg",
     "cat": "silicone-foot"
   },
   "EI-03": {
-    "name": "Gel Ball",
-    "desc": "Silicone gel exercise ball",
-    "mrp": "400.00",
-    "sizes": "Red,Yellow",
+    "name": "Silicone Gel Ball",
+    "desc": "Targeted support for flat feet and arch stabilization",
+    "mrp": {
+      "RED": "425.00",
+      "YELLOW": "400.00"
+    },
+    "sizes": "RED, YELLOW",
     "img": "/images/products/EI-03.jpg",
     "cat": "silicone-foot"
   },
   "EI-04": {
     "name": "Silicone Arch Support",
-    "desc": "Arch support for flat feet",
-    "mrp": "390.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Aligns overlapping toes and relieves bunion pressure",
+    "mrp": "400.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EI-04.jpg",
     "cat": "silicone-foot"
   },
   "EI-05": {
     "name": "Bunion Splint",
-    "desc": "Bunion alignment splint for hallux valgus",
-    "mrp": "525.00",
-    "sizes": "S,M,L,XL,XXL",
+    "desc": "Soft gel cushions for localized heel comfort",
+    "mrp": "390.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EI-05.jpg",
     "cat": "silicone-foot"
   },
   "EI-06": {
-    "name": "Toe Separator With Silicone",
-    "desc": "Silicone toe separators for toe alignment",
-    "mrp": "120.00",
-    "sizes": "S,M,L,XL,XXL",
+    "name": "Toe Separator with Silicone",
+    "desc": "Relieves pressure on the ball of the foot",
+    "mrp": "525.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EI-06.jpg",
     "cat": "silicone-foot"
   },
   "EI-07": {
-    "name": "Silicone Insole With Medical Arch",
-    "desc": "Medial arch silicone full insole",
+    "name": "Silicone Full Insole with Medial Arch",
+    "desc": "Soft silicone spreader for hammer toe correction",
     "mrp": "1,550.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EI-07.jpg",
     "cat": "silicone-foot"
   },
   "EI-08": {
     "name": "Hot & Cold Gel Pack",
-    "desc": "Reusable hot and cold therapy gel pack",
+    "desc": "Contoured insoles for longitudinal arch support",
     "mrp": "525.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "UNI",
     "img": "/images/products/EI-08.jpg",
     "cat": "silicone-foot"
   },
   "EI-09": {
-    "name": "Round Head Rest Support-Open",
-    "desc": "Open round head rest support",
-    "mrp": { "S": "2,000.00", "M": "2,550.00", "L": "6,100.00", "XL": "7,000.00" },
-    "sizes": "S,M,L,XL",
+    "name": "Round Head Rest Support Open",
+    "desc": "Premium head rest support for therapeutic positioning",
+    "mrp": {
+      "S": "2,000.00",
+      "M": "2,550.00",
+      "L": "6,100.00",
+      "XL": "7,000.00"
+    },
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-09.jpg",
     "cat": "silicone-foot"
   },
   "EI-10": {
-    "name": "Round Head Rest Support-Close",
-    "desc": "Closed round head rest support",
-    "mrp": { "S": "2,000.00", "M": "2,550.00", "L": "6,100.00", "XL": "7,000.00" },
-    "sizes": "S,M,L,XL",
+    "name": "Round Head Rest Support Close",
+    "desc": "Reinforced head rest support with enhanced stability",
+    "mrp": {
+      "S": "2,200.00",
+      "M": "2,650.00",
+      "L": "6,500.00",
+      "XL": "7,800.00"
+    },
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-10.jpg",
     "cat": "silicone-foot"
   },
   "EI-11": {
-    "name": "Horse Shoe Head Support-Open",
-    "desc": "Open horseshoe head support",
-    "mrp": { "S": "2,000.00", "M": "2,550.00", "L": "6,100.00", "XL": "7,000.00" },
-    "sizes": "S,M,L,XL",
+    "name": "Horse Shoe Head Support Open",
+    "desc": "Soft foam head rest for comfort during recovery",
+    "mrp": {
+      "S": "2,000.00",
+      "M": "2,700.00",
+      "L": "5,700.00",
+      "XL": "6,900.00"
+    },
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-11.jpg",
     "cat": "silicone-foot"
   },
   "EI-12": {
-    "name": "Horse Shoe Head Support-Close",
-    "desc": "Closed horseshoe head support",
-    "mrp": { "S": "2,000.00", "M": "2,550.00", "L": "6,100.00", "XL": "7,000.00" },
-    "sizes": "S,M,L,XL",
+    "name": "Horse Shoe Head Support Close",
+    "desc": "High-density deluxe head rest for maximum support",
+    "mrp": {
+      "S": "2,100.00",
+      "M": "2,800.00",
+      "L": "5,800.00",
+      "XL": "7,000.00"
+    },
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-12.jpg",
     "cat": "silicone-foot"
   },
   "EJ-01": {
     "name": "Weight Cuff",
-    "desc": "Adjustable weight cuff for exercise",
-    "mrp": { "500gm": "500.00", "1kg": "780.00", "2kg": "1,225.00" },
-    "sizes": "500gm,1kg,2kg",
+    "desc": "Wearable weight cuffs for progressive resistance training",
+    "mrp": {
+      "500GM": "500.00",
+      "1KG": "780.00",
+      "2KG": "1,225.00"
+    },
+    "sizes": "500GM, 1KG, 2KG",
     "img": "/images/products/EJ-01.jpg",
     "cat": "physio"
   },
   "EJ-02": {
-    "name": "Exercising Ball (Sponj)",
-    "desc": "Sponge exercise ball for hand therapy",
+    "name": "Exercising Ball (Sponge)",
+    "desc": "Soft silicone ball for hand and finger strengthening",
     "mrp": "75.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-02.jpg",
@@ -825,37 +855,37 @@ export const PRODUCTS = {
   },
   "EJ-03": {
     "name": "Theraband",
-    "desc": "Resistance theraband for physiotherapy",
+    "desc": "Latex resistance bands for physiotherapy exercises",
     "mrp": {
-      "Yellow": "720.00",
-      "Red": "815.00",
       "Green": "935.00",
+      "Red": "815.00",
+      "Yellow": "720.00",
       "Blue": "1,055.00",
       "Black": "1,140.00",
       "Silver": "1,380.00",
       "Gold": "1,700.00"
     },
-    "sizes": "Yellow,Red,Green,Blue,Black,Silver,Gold",
+    "sizes": "Green, Red, Yellow, Blue, Black, Silver, Gold",
     "img": "/images/products/EJ-03.jpg",
     "cat": "physio"
   },
   "EJ-04": {
     "name": "Theraputty",
-    "desc": "Therapeutic putty for hand strengthening",
+    "desc": "Color-coded hand exercise putty for variable resistance",
     "mrp": {
-      "Yellow": "999.00",
-      "Red": "999.00",
       "Green": "999.00",
+      "Black": "999.00",
       "Blue": "999.00",
-      "Black": "999.00"
+      "Red": "999.00",
+      "Yellow": "999.00"
     },
-    "sizes": "Yellow,Red,Green,Blue,Black",
+    "sizes": "Green, Black, Blue, Red, Yellow",
     "img": "/images/products/EJ-04.jpg",
     "cat": "physio"
   },
   "EJ-05": {
     "name": "Hand Exerciser Spike Ball",
-    "desc": "Spike ball for sensory and hand exercise",
+    "desc": "Durable anti-burst gym ball for core and balance training",
     "mrp": "570.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-05.jpg",
@@ -863,23 +893,23 @@ export const PRODUCTS = {
   },
   "EJ-06": {
     "name": "Finger Exerciser",
-    "desc": "Individual finger exerciser",
+    "desc": "Spring-loaded exerciser for individual finger strength",
     "mrp": "325.00",
-    "sizes": "Blue-Soft,Green-Medium,Orange-Hard",
+    "sizes": "LIGHT, MEDIUM, HARD",
     "img": "/images/products/EJ-06.jpg",
     "cat": "physio"
   },
   "EJ-07": {
     "name": "Balance Pad Square",
-    "desc": "Balance pad for proprioception training",
+    "desc": "Adjustable hand gripper for forearm and grip strength",
     "mrp": "3,700.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-07.jpg",
     "cat": "physio"
   },
   "EJ-08": {
-    "name": "Gel Oval Ball-Set",
-    "desc": "Oval gel ball for hand therapy",
+    "name": "Gel Ball Oval",
+    "desc": "High resistance gripper for advanced hand strengthening",
     "mrp": "1,100.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-08.jpg",
@@ -887,36 +917,36 @@ export const PRODUCTS = {
   },
   "EJ-09": {
     "name": "Flex Bar",
-    "desc": "Flex bar for elbow rehab",
+    "desc": "Soft foam balls for stress relief and light hand therapy",
     "mrp": {
-      "Yellow": "4,150.00",
       "Red": "5,500.00",
+      "Yellow": "4,150.00",
       "Green": "5,600.00",
       "Blue": "6,750.00"
     },
-    "sizes": "Yellow,Red,Green,Blue",
+    "sizes": "Red, Yellow, Green, Blue",
     "img": "/images/products/EJ-09.jpg",
     "cat": "physio"
   },
   "EJ-10": {
     "name": "Hand Exerciser",
-    "desc": "Spring-loaded hand exerciser",
+    "desc": "Door-mounted pulley system for shoulder range of motion",
     "mrp": "300.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-10.jpg",
     "cat": "physio"
   },
   "EJ-11": {
-    "name": "Adjustable Hand Grip",
-    "desc": "Adjustable resistance hand gripper",
+    "name": "Adjustable Hand Gripper",
+    "desc": "Elastic spring exerciser for core and abdominal muscles",
     "mrp": "500.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-11.jpg",
     "cat": "physio"
   },
   "EJ-12": {
-    "name": "Stability Trainer-Theraband",
-    "desc": "Stability disc trainer",
+    "name": "Stability Trainer Theraband",
+    "desc": "Weighted medicine balls for power and core training",
     "mrp": "12,000.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-12.jpg",
@@ -924,23 +954,23 @@ export const PRODUCTS = {
   },
   "EJ-13": {
     "name": "Hand Xtrainer",
-    "desc": "Hand exercise trainer",
+    "desc": "Versatile hand exerciser for fingers, hand and wrist",
     "mrp": "3,200.00",
-    "sizes": "Red,Blue,Green,Black",
+    "sizes": "RED, BLUE, GREEN, BLACK",
     "img": "/images/products/EJ-13.jpg",
     "cat": "physio"
   },
   "EJ-14": {
     "name": "Kinesiology Tape Cotton",
-    "desc": "Athletic kinesiology tape",
+    "desc": "Elastic therapeutic tape for muscle and joint support",
     "mrp": "995.00",
-    "sizes": "Pink,Yellow,Blue,Green",
+    "sizes": "PINK, YELLOW, BLUE, GREEN",
     "img": "/images/products/EJ-14.jpg",
     "cat": "physio"
   },
   "EJ-15": {
-    "name": "Moist Head Pad",
-    "desc": "Moist heat pad set for therapy",
+    "name": "Moist Head Pad Set",
+    "desc": "Heat therapy pads for neck and head pain relief",
     "mrp": "2,100.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-15.jpg",
@@ -948,7 +978,7 @@ export const PRODUCTS = {
   },
   "EJ-16": {
     "name": "V-Shape Hand Grip",
-    "desc": "V-shape hand grip exerciser",
+    "desc": "Simple V-shape gripper for basic hand strengthening",
     "mrp": "150.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-16.jpg",
@@ -956,15 +986,15 @@ export const PRODUCTS = {
   },
   "EJ-17": {
     "name": "Feeding Bottle",
-    "desc": "Patient feeding bottle",
+    "desc": "Medical grade feeding bottle for patient care",
     "mrp": "100.00",
-    "sizes": "UNI",
+    "sizes": "125 ML",
     "img": "/images/products/EJ-17.jpg",
     "cat": "physio"
   },
   "EJ-18": {
-    "name": "Eye Mask",
-    "desc": "Neonatal eye mask",
+    "name": "Eye Mask Neonatal",
+    "desc": "Protective eye mask for neonatal phototherapy",
     "mrp": "350.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-18.jpg",
@@ -972,122 +1002,145 @@ export const PRODUCTS = {
   },
   "EJ-19": {
     "name": "Acupuncture Needle",
-    "desc": "Premium quality Acupuncture Needle for medical use.",
-    "mrp": "500.00",
-    "sizes": "0.25*13 MM,0.25*25 MM,0.25*50 MM",
+    "desc": "Sterile disposable needles for acupuncture therapy",
+    "mrp": {
+      "0.25*13 MM": "500.00",
+      "0.25*25 MM": "525.00",
+      "0.25*50 MM": "550.00"
+    },
+    "sizes": "0.25*13 MM, 0.25*25 MM, 0.25*50 MM",
     "img": "/images/products/EJ-19.jpg",
     "cat": "physio"
   },
   "EJ-20": {
     "name": "Pocket Exerciser",
-    "desc": "Premium quality Pocket Exerciser for medical use.",
-    "mrp": "550.00",
-    "sizes": "UNI",
+    "desc": "Compact hand and finger exerciser for portability",
+    "mrp": {
+      "S": "75.00",
+      "M": "125.00"
+    },
+    "sizes": "S, M",
     "img": "/images/products/EJ-20.jpg",
     "cat": "physio"
   },
   "EJ-21": {
-    "name": "Tubbing W/Handle",
-    "desc": "Premium quality Resistence Tubbing With Handle for medical use.",
+    "name": "Resistance Tubing with Handle",
+    "desc": "Durable resistance tubing with ergonomic handles",
     "mrp": {
       "Yellow": "480.00",
       "Red": "540.00",
       "Green": "600.00",
       "Blue": "660.00",
-      "Silver": "900.00"
+      "Silver": "900.00",
+      "Gold": "1,300.00"
     },
-    "sizes": "Yellow,Red,Green,Blue,Silver",
+    "sizes": "Yellow, Red, Green, Blue, Silver, Gold",
     "img": "/images/products/EJ-21.jpg",
     "cat": "physio"
   },
   "EJ-22": {
-    "name": "Resistance Tubing Sleeve",
-    "desc": "Premium quality Resistence Tubing Sleeve for medical use.",
-    "mrp": "1,000.00",
-    "sizes": "UNI",
+    "name": "Tubing Sleeve",
+    "desc": "Protective sleeve for resistance tubing therapy",
+    "mrp": {
+      "Blue": "1,000.00",
+      "Red": "1,300.00",
+      "Yellow": "1,000.00"
+    },
+    "sizes": "Blue, Red, Yellow",
     "img": "/images/products/EJ-22.jpg",
     "cat": "physio"
   },
   "EJ-23": {
-    "name": "Web Exerciser",
-    "desc": "Premium quality Power Web Exerciser for medical use.",
-    "mrp": "4,500.00",
-    "sizes": "Yellow,Red,Green",
+    "name": "Power Web (Web Exerciser)",
+    "desc": "Circular web exerciser for comprehensive hand therapy",
+    "mrp": {
+      "Soft Yellow": "4,500.00",
+      "Medium Red": "4,500.00",
+      "Firm Green": "4,500.00"
+    },
+    "sizes": "Soft Yellow, Medium Red, Firm Green",
     "img": "/images/products/EJ-23.jpg",
     "cat": "physio"
   },
   "EJ-24": {
     "name": "Palm Exerciser",
-    "desc": "Premium quality Palm Exerciser for medical use.",
-    "mrp": "550.00",
-    "sizes": "Yellow,Blue,Green",
+    "desc": "Contoured palm exerciser for post-stroke rehabilitation",
+    "mrp": {
+      "Soft Yellow": "550.00",
+      "Medium Blue": "550.00",
+      "Hard Green": "550.00"
+    },
+    "sizes": "Soft Yellow, Medium Blue, Hard Green",
     "img": "/images/products/EJ-24.jpg",
     "cat": "physio"
   },
   "EJ-25": {
-    "name": "Foam Roller",
-    "desc": "Foam roller for myofascial release",
+    "name": "Foam Roller -- 45 cm",
+    "desc": "High density foam roller for muscle release and recovery",
     "mrp": "2,500.00",
-    "sizes": "UNI",
+    "sizes": "45 CM",
     "img": "/images/products/EJ-25.jpg",
     "cat": "physio"
   },
   "EJ-26": {
-    "name": "US Gel-250 ML",
-    "desc": "Ultrasound transmission gel 250mL",
+    "name": "US Gel -- 250 ml",
+    "desc": "Premium ultrasound transmission gel for diagnostic imaging",
     "mrp": "125.00",
-    "sizes": "UNI",
+    "sizes": "250 ML",
     "img": "/images/products/EJ-26.jpg",
     "cat": "physio"
   },
   "EJ-27": {
-    "name": "US Gel-5 LTR",
-    "desc": "Ultrasound transmission gel 5kg",
+    "name": "US Gel -- 5 kg",
+    "desc": "Bulk pack ultrasound gel for clinical use",
     "mrp": "1,300.00",
-    "sizes": "UNI",
+    "sizes": "5 KG",
     "img": "/images/products/EJ-27.jpg",
     "cat": "physio"
   },
   "EJ-28": {
-    "name": "Thera Wax (250gm)",
-    "desc": "Paraffin therapy wax",
-    "mrp": "250.00",
-    "sizes": "250gm",
+    "name": "Thera Wax",
+    "desc": "Paraffin wax for therapeutic heat treatments",
+    "mrp": {
+      "250 GM": "250.00",
+      "500 GM": "500.00"
+    },
+    "sizes": "250 GM, 500 GM",
     "img": "/images/products/EJ-28.jpg",
     "cat": "physio"
   },
   "EJ-29": {
     "name": "Theraband Loop",
-    "desc": "Resistance loop theraband",
+    "desc": "Continuous loop resistance bands for lower body training",
     "mrp": {
-      "Yellow": "1,047.00",
-      "Red": "1,226.00",
+      "Blue": "1,502.00",
       "Green": "1,331.00",
-      "Blue": "1,502.00"
+      "Red": "1,226.00",
+      "Yellow": "1,047.00"
     },
-    "sizes": "Yellow,Red,Green,Blue",
+    "sizes": "Blue, Green, Red, Yellow",
     "img": "/images/products/EJ-29.jpg",
     "cat": "physio"
   },
   "EJ-30": {
-    "name": "Adjustable Weight Cuff-2 KG",
-    "desc": "Adjustable weighted cuff for rehab",
+    "name": "Adjustable Weight Cuff -- 2 kg",
+    "desc": "2 kg weighted cuff for advanced resistance exercises",
     "mrp": "1,200.00",
-    "sizes": "UNI",
+    "sizes": "2 KG",
     "img": "/images/products/EJ-30.jpg",
     "cat": "physio"
   },
   "EK-01": {
-    "name": "Mono Pod Walking Stick-Black",
-    "desc": "Adjustable walking stick in black",
+    "name": "Single Stick Black (Mono Pod)",
+    "desc": "Adjustable height aluminum walking stick with comfortable grip",
     "mrp": "580.00",
     "sizes": "UNI",
     "img": "/images/products/EK-01.jpg",
     "cat": "walking-aid"
   },
   "EK-02": {
-    "name": "Mono Pod Walking Stick-Green",
-    "desc": "Adjustable walking stick in green",
+    "name": "Single Stick Green (Mono Pod)",
+    "desc": "Stylish green walking stick with durable non-slip tip",
     "mrp": "695.00",
     "sizes": "UNI",
     "img": "/images/products/EK-02.jpg",
@@ -1095,7 +1148,7 @@ export const PRODUCTS = {
   },
   "EK-03": {
     "name": "Tripod Stick",
-    "desc": "Three-point tripod walking stick",
+    "desc": "Three-legged walking stick for enhanced stability and balance",
     "mrp": "975.00",
     "sizes": "UNI",
     "img": "/images/products/EK-03.jpg",
@@ -1103,7 +1156,7 @@ export const PRODUCTS = {
   },
   "EK-04": {
     "name": "Quadripod Stick",
-    "desc": "Four-point quadripod walking stick",
+    "desc": "Four-legged stick providing maximum support and broad base",
     "mrp": "975.00",
     "sizes": "UNI",
     "img": "/images/products/EK-04.jpg",
@@ -1111,7 +1164,7 @@ export const PRODUCTS = {
   },
   "EK-05": {
     "name": "Elbow Crutches",
-    "desc": "Forearm elbow crutch",
+    "desc": "Height-adjustable elbow crutches for safe mobility",
     "mrp": "1,075.00",
     "sizes": "UNI",
     "img": "/images/products/EK-05.jpg",
@@ -1119,7 +1172,7 @@ export const PRODUCTS = {
   },
   "EK-06": {
     "name": "Auxiliary Crutches",
-    "desc": "Axillary underarm crutches",
+    "desc": "Standard underarm crutches with comfortable padding",
     "mrp": "1,650.00",
     "sizes": "UNI",
     "img": "/images/products/EK-06.jpg",
@@ -1127,39 +1180,39 @@ export const PRODUCTS = {
   },
   "EK-07": {
     "name": "Walker With Wheel",
-    "desc": "Walking frame with wheels",
+    "desc": "Folding walker with front wheels for smooth movement",
     "mrp": "2,250.00",
     "sizes": "UNI",
     "img": "/images/products/EK-07.jpg",
     "cat": "walking-aid"
   },
   "EK-08": {
-    "name": "Walker Without Wheel",
-    "desc": "Standard walking frame",
+    "name": "Walker Without Wheels",
+    "desc": "Traditional folding walker for stable patient support",
     "mrp": "2,000.00",
     "sizes": "UNI",
     "img": "/images/products/EK-08.jpg",
     "cat": "walking-aid"
   },
   "EK-09": {
-    "name": "Reciprocal Walker Without Wheel",
-    "desc": "Reciprocal gait walker",
+    "name": "Reciprocal Walker",
+    "desc": "Walker that mimics natural walking motion for rehabilitation",
     "mrp": "3,100.00",
     "sizes": "UNI",
     "img": "/images/products/EK-09.jpg",
     "cat": "walking-aid"
   },
   "EK-10": {
-    "name": "Walking Fram CRC With Wheel",
-    "desc": "CRC walking frame with wheels",
+    "name": "Walking Frame CRC With Wheel",
+    "desc": "Heavy-duty walking frame with wheels for long-term use",
     "mrp": "2,550.00",
     "sizes": "UNI",
     "img": "/images/products/EK-10.jpg",
     "cat": "walking-aid"
   },
   "EK-11": {
-    "name": "Walking Fram CRC Without Wheel",
-    "desc": "CRC walking frame without wheels",
+    "name": "Walking Frame CRC Without Wheel",
+    "desc": "Fixed walking frame for maximum weight-bearing support",
     "mrp": "2,240.00",
     "sizes": "UNI",
     "img": "/images/products/EK-11.jpg",
@@ -1167,7 +1220,7 @@ export const PRODUCTS = {
   },
   "EK-12": {
     "name": "Commode Chair",
-    "desc": "Portable commode chair",
+    "desc": "Folding commode chair for home patient care",
     "mrp": "2,500.00",
     "sizes": "UNI",
     "img": "/images/products/EK-12.jpg",
@@ -1175,7 +1228,7 @@ export const PRODUCTS = {
   },
   "EK-13": {
     "name": "Commode Stool With Pot",
-    "desc": "Commode stool with removable pot",
+    "desc": "Simple commode stool with removable waste pot",
     "mrp": "1,650.00",
     "sizes": "UNI",
     "img": "/images/products/EK-13.jpg",
@@ -1183,23 +1236,23 @@ export const PRODUCTS = {
   },
   "EK-14": {
     "name": "Commode Stool",
-    "desc": "Standard commode stool",
+    "desc": "Basic patient commode stool without backrest",
     "mrp": "1,650.00",
     "sizes": "UNI",
     "img": "/images/products/EK-14.jpg",
     "cat": "walking-aid"
   },
   "EK-15": {
-    "name": "Commode Chair Height Adjustable With Wheel",
-    "desc": "Height adjustable commode with wheels",
+    "name": "Commode Chair Height Adj. With Wheel",
+    "desc": "Height-adjustable commode chair with mobility wheels",
     "mrp": "5,800.00",
     "sizes": "UNI",
     "img": "/images/products/EK-15.jpg",
     "cat": "walking-aid"
   },
   "EK-16": {
-    "name": "Commode Chair Height Adjustable Without Wheel",
-    "desc": "Height adjustable commode",
+    "name": "Commode Chair Height Adj. Without Wheel",
+    "desc": "Stable height-adjustable commode chair for bathroom use",
     "mrp": "5,400.00",
     "sizes": "UNI",
     "img": "/images/products/EK-16.jpg",
@@ -1207,7 +1260,7 @@ export const PRODUCTS = {
   },
   "EK-17": {
     "name": "Bed Back Rest",
-    "desc": "Adjustable bed back rest",
+    "desc": "Adjustable back rest for comfortable sitting in bed",
     "mrp": "2,000.00",
     "sizes": "UNI",
     "img": "/images/products/EK-17.jpg",
@@ -1215,7 +1268,7 @@ export const PRODUCTS = {
   },
   "EK-18": {
     "name": "Bed Back Rest With Handle",
-    "desc": "Bed back rest with side handles",
+    "desc": "Premium bed back rest with supportive side handles",
     "mrp": "2,500.00",
     "sizes": "UNI",
     "img": "/images/products/EK-18.jpg",
@@ -1223,23 +1276,23 @@ export const PRODUCTS = {
   },
   "EK-19": {
     "name": "Wheel Chair",
-    "desc": "Standard wheelchair",
-    "mrp": "12,500.00",
+    "desc": "Standard manual wheelchair for patient mobility",
+    "mrp": "10,000.00",
     "sizes": "UNI",
     "img": "/images/products/EK-19.jpg",
     "cat": "walking-aid"
   },
   "EK-20": {
-    "name": "Wheel Chair Special",
-    "desc": "Special configuration wheelchair",
-    "mrp": "10,000.00",
+    "name": "Special Wheel Chair",
+    "desc": "Advanced wheelchair with multi-functional features",
+    "mrp": "12,500.00",
     "sizes": "UNI",
     "img": "/images/products/EK-20.jpg",
     "cat": "walking-aid"
   },
   "EL-01": {
     "name": "Portable Soft Stretcher",
-    "desc": "Portable soft stretcher for patient transport",
+    "desc": "Foldable soft stretcher for emergency patient transport",
     "mrp": "3,000.00",
     "sizes": "UNI",
     "img": "/images/products/EL-01.jpg",
@@ -1247,7 +1300,7 @@ export const PRODUCTS = {
   },
   "EL-02": {
     "name": "Trolley Cover",
-    "desc": "Hospital trolley cover",
+    "desc": "Durable protective cover for hospital trolleys",
     "mrp": "2,500.00",
     "sizes": "UNI",
     "img": "/images/products/EL-02.jpg",
@@ -1255,7 +1308,7 @@ export const PRODUCTS = {
   },
   "EL-03": {
     "name": "Donut Cushion",
-    "desc": "Donut ring cushion for coccyx relief",
+    "desc": "Circular cushion for pressure relief while sitting",
     "mrp": "1,450.00",
     "sizes": "UNI",
     "img": "/images/products/EL-03.jpg",
@@ -1263,7 +1316,7 @@ export const PRODUCTS = {
   },
   "EL-04": {
     "name": "Coccyx Cushion",
-    "desc": "Coccyx memory foam cushion",
+    "desc": "Anatomically designed cushion for tailbone pain relief",
     "mrp": "1,450.00",
     "sizes": "UNI",
     "img": "/images/products/EL-04.jpg",
@@ -1271,7 +1324,7 @@ export const PRODUCTS = {
   },
   "EL-05": {
     "name": "Heating Pad With Controller",
-    "desc": "Electric heating pad with temperature controller",
+    "desc": "Electric heating pad with adjustable heat settings",
     "mrp": "1,395.00",
     "sizes": "UNI",
     "img": "/images/products/EL-05.jpg",
@@ -1279,7 +1332,7 @@ export const PRODUCTS = {
   },
   "EL-06": {
     "name": "Heating Pad With Regulator",
-    "desc": "Heating pad with regulator",
+    "desc": "Advanced heating pad for therapeutic heat therapy",
     "mrp": "975.00",
     "sizes": "UNI",
     "img": "/images/products/EL-06.jpg",
@@ -1287,23 +1340,23 @@ export const PRODUCTS = {
   },
   "EL-07": {
     "name": "Heating Pad With Switch",
-    "desc": "Simple switch-operated heating pad",
+    "desc": "Simple on/off electric heating pad for pain relief",
     "mrp": "499.00",
     "sizes": "UNI",
     "img": "/images/products/EL-07.jpg",
     "cat": "allied"
   },
   "EL-08": {
-    "name": "Vaporizer",
-    "desc": "Steam inhalation pot/vaporizer",
+    "name": "Steam Inhalation Pot (Vaporizer)",
+    "desc": "Effective vaporizer for steam inhalation therapy",
     "mrp": "655.00",
     "sizes": "UNI",
     "img": "/images/products/EL-08.jpg",
     "cat": "allied"
   },
   "EL-09": {
-    "name": "Vaporizer With Switch",
-    "desc": "Vaporizer with switch control",
+    "name": "Steam Inhalation Pot With Switch",
+    "desc": "Vaporizer with convenient power switch for safety",
     "mrp": "755.00",
     "sizes": "UNI",
     "img": "/images/products/EL-09.jpg",
@@ -1311,39 +1364,39 @@ export const PRODUCTS = {
   },
   "EL-10": {
     "name": "Bed Pan Special",
-    "desc": "Special design hospital bed pan",
+    "desc": "Specially designed bed pan for bedridden patients",
     "mrp": "499.00",
     "sizes": "UNI",
     "img": "/images/products/EL-10.jpg",
     "cat": "allied"
   },
   "EL-11": {
-    "name": "Bed Pan",
-    "desc": "Standard hospital bed pan",
+    "name": "Bed Pan Normal",
+    "desc": "Standard medical grade bed pan for easy cleaning",
     "mrp": "230.00",
     "sizes": "UNI",
     "img": "/images/products/EL-11.jpg",
     "cat": "allied"
   },
   "EL-12": {
-    "name": "Urine Pot-Male",
-    "desc": "Male urinal pot",
+    "name": "Urine Pot Male",
+    "desc": "Ergonomic urine collection pot for male patients",
     "mrp": "160.00",
     "sizes": "UNI",
     "img": "/images/products/EL-12.jpg",
     "cat": "allied"
   },
   "EL-13": {
-    "name": "Urine Pot-Female",
-    "desc": "Female urinal pot",
+    "name": "Urine Pot Female",
+    "desc": "Anatomically designed urine pot for female patients",
     "mrp": "160.00",
     "sizes": "UNI",
     "img": "/images/products/EL-13.jpg",
     "cat": "allied"
   },
   "EL-14": {
-    "name": "Urine Pot-Unisex",
-    "desc": "Unisex urinal pot",
+    "name": "Urine Pot Unisex",
+    "desc": "Versatile urine collection pot for all patients",
     "mrp": "190.00",
     "sizes": "UNI",
     "img": "/images/products/EL-14.jpg",
@@ -1351,7 +1404,7 @@ export const PRODUCTS = {
   },
   "EL-15": {
     "name": "Sputum Pot",
-    "desc": "Sputum collection pot",
+    "desc": "Hygienic pot for sputum collection and disposal",
     "mrp": "110.00",
     "sizes": "UNI",
     "img": "/images/products/EL-15.jpg",
@@ -1359,39 +1412,39 @@ export const PRODUCTS = {
   },
   "EL-16": {
     "name": "Ounce Measuring Glass",
-    "desc": "Ounce measuring glass for medicine",
+    "desc": "Accurate measuring glass for medical dosages (120 ml)",
     "mrp": "50.00",
-    "sizes": "UNI",
+    "sizes": "120 ML",
     "img": "/images/products/EL-16.jpg",
     "cat": "allied"
   },
   "EL-17": {
     "name": "Pint Measuring Glass",
-    "desc": "Pint measuring glass",
+    "desc": "Bulk measuring glass for medical liquids (1000 ml)",
     "mrp": "250.00",
-    "sizes": "UNI",
+    "sizes": "1000 ML",
     "img": "/images/products/EL-17.jpg",
     "cat": "allied"
   },
   "EL-18": {
-    "name": "Medial Arch Shoe",
-    "desc": "Premium quality Medial Arch Shoe designed for optimal support and comfort.",
+    "name": "Medical Arch Shoe",
+    "desc": "Orthopaedic shoe for longitudinal arch correction",
     "mrp": "2,500.00",
-    "sizes": "S,M,L,XL,XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EL-18.jpg",
     "cat": "allied"
   },
   "EL-19": {
     "name": "Calcalium Shoe",
-    "desc": "Premium quality Calcalium Shoe designed for optimal support and comfort.",
+    "desc": "Specialized shoe for calcaneal spur relief",
     "mrp": "3,000.00",
-    "sizes": "UNI",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EL-19.jpg",
     "cat": "allied"
   },
   "EL-20": {
     "name": "Spirometer",
-    "desc": "Incentive spirometer for lung exercise",
+    "desc": "Lung exerciser for respiratory rehabilitation",
     "mrp": "499.00",
     "sizes": "UNI",
     "img": "/images/products/EL-20.jpg",
@@ -1399,7 +1452,7 @@ export const PRODUCTS = {
   },
   "EL-21": {
     "name": "Digital Thermometer",
-    "desc": "Digital body temperature thermometer",
+    "desc": "Instant digital thermometer for body temperature",
     "mrp": "222.00",
     "sizes": "UNI",
     "img": "/images/products/EL-21.jpg",
@@ -1407,64 +1460,68 @@ export const PRODUCTS = {
   },
   "EL-22": {
     "name": "Oval Thermometer",
-    "desc": "Oval digital thermometer",
-    "mrp": "499.00",
+    "desc": "Traditional oval glass thermometer for clinical use",
+    "mrp": "N/A",
     "sizes": "UNI",
     "img": "/images/products/EL-22.jpg",
     "cat": "allied"
   },
   "EL-23": {
     "name": "Digital Weight Machine",
-    "desc": "Digital weighing scale",
-    "mrp": "222.00",
+    "desc": "High precision digital scale for body weight",
+    "mrp": "2,150.00",
     "sizes": "UNI",
     "img": "/images/products/EL-23.jpg",
     "cat": "allied"
   },
   "EL-24": {
     "name": "Hot Water Bag",
-    "desc": "Rubber hot water bottle",
-    "mrp": "155.00",
-    "sizes": "UNI",
+    "desc": "Classic rubber hot water bag for heat therapy",
+    "mrp": {
+      "500 ml": "199.00",
+      "2 Litre": "325.00",
+      "2.5 Litre": "375.00"
+    },
+    "sizes": "500 ml, 2 Litre, 2.5 Litre",
     "img": "/images/products/EL-24.jpg",
     "cat": "allied"
   },
   "EL-25": {
-    "name": "BP Machine Digital",
-    "desc": "Automatic digital blood pressure monitor",
-    "mrp": "2,150.00",
+    "name": "B.P. Machine Digital",
+    "desc": "Electronic blood pressure monitor for home use",
+    "mrp": "N/A",
     "sizes": "UNI",
     "img": "/images/products/EL-25.jpg",
     "cat": "allied"
   },
   "EL-26": {
-    "name": "BP Machine Manual",
-    "desc": "Manual sphygmomanometer BP machine",
-    "mrp": "199.00",
+    "name": "B.P. Machine Manual",
+    "desc": "Sphygmomanometer for professional blood pressure reading",
+    "mrp": "N/A",
     "sizes": "UNI",
     "img": "/images/products/EL-26.jpg",
     "cat": "allied"
   },
   "EL-27": {
     "name": "Electric Hot Pack",
-    "desc": "Electric hot pack for therapy",
-    "mrp": "325.00",
+    "desc": "Instant electric heating pack for muscle pain relief",
+    "mrp": "599.00",
     "sizes": "UNI",
     "img": "/images/products/EL-27.jpg",
     "cat": "allied"
   },
   "EL-28": {
     "name": "Stethoscope",
-    "desc": "Professional stethoscope",
-    "mrp": "375.00",
+    "desc": "Medical stethoscope for auscultation and diagnostics",
+    "mrp": "N/A",
     "sizes": "UNI",
     "img": "/images/products/EL-28.jpg",
     "cat": "allied"
   },
   "EL-29": {
     "name": "Nebulizer",
-    "desc": "Premium quality Nebulizer designed for optimal support and comfort.",
-    "mrp": "599.00",
+    "desc": "Compact nebulizer for efficient respiratory medication",
+    "mrp": "N/A",
     "sizes": "UNI",
     "img": "/images/products/EL-29.jpg",
     "cat": "allied"
@@ -1479,161 +1536,97 @@ export const PRODUCTS = {
   },
   "EL-31": {
     "name": "Breast Pump Machine",
-    "desc": "Electric breast pump machine",
+    "desc": "Electric breast pump machine for maternal care",
     "mrp": "N/A",
     "sizes": "UNI",
     "img": "/images/products/EL-31.jpg",
     "cat": "allied"
   },
   "EL-32": {
-    "name": "Rubber Sheet",
-    "desc": "Protective rubber sheet for beds",
-    "mrp": "N/A",
-    "sizes": "UNI",
+    "name": "Rubber Sheet (Ordinary 1 Mtr)",
+    "desc": "Protective rubber sheet for beds and clinical use",
+    "mrp": "250.00",
+    "sizes": "1 MTR",
     "img": "/images/products/EL-32.jpg",
     "cat": "allied"
   },
-  "EL-33": {
-    "name": "Dead Body Cover",
-    "desc": "Mortuary body cover",
-    "mrp": "N/A",
-    "sizes": "UNI",
-    "img": "/images/products/EL-33.jpg",
-    "cat": "allied"
-  },
-  "EL-34": {
-    "name": "Oxygen Cylinder Cover",
-    "desc": "Protective oxygen cylinder cover",
-    "mrp": "250.00",
-    "sizes": "UNI",
-    "img": "/images/products/EL-34.jpg",
-    "cat": "allied"
-  },
-  "EL-35": {
-    "name": "Foam Air Cushion",
-    "desc": "Anti-bedsore foam air cushion",
-    "mrp": "300.00",
-    "sizes": "UNI",
-    "img": "/images/products/EL-35.jpg",
-    "cat": "allied"
-  },
-  "EL-36": {
-    "name": "Gym Ball",
-    "desc": "Exercise gym ball",
-    "mrp": "850.00",
-    "sizes": "UNI",
-    "img": "/images/products/EL-36.jpg",
-    "cat": "allied"
-  },
-  "EL-37": {
-    "name": "Hot & Cold Ice Bag",
-    "desc": "Flexible hot & cold ice bag",
-    "mrp": "500.00",
-    "sizes": "UNI",
-    "img": "/images/products/EL-37.jpg",
-    "cat": "allied"
-  },
-  "EL-38": {
-    "name": "Anesthetic Face Mask",
-    "desc": "Anaesthetic face mask",
-    "mrp": "3,500.00",
-    "sizes": "UNI",
-    "img": "/images/products/EL-38.jpg",
-    "cat": "allied"
-  },
-  "EL-39": {
-    "name": "Air Mattress",
-    "desc": "Anti-decubitus air mattress",
-    "mrp": "299.00",
-    "sizes": "UNI",
-    "img": "/images/products/EL-39.jpg",
-    "cat": "allied"
-  },
-  "EL-40": {
-    "name": "Patients Welcome Kit",
-    "desc": "Premium quality Patients Welcome Kit designed for optimal support and comfort.",
-    "mrp": "250.00",
-    "sizes": "UNI",
-    "img": "/images/products/EL-40.jpg",
-    "cat": "allied"
-  },
   "EM-01": {
-    "name": "Pediatric Soft Collar",
-    "desc": "Paediatric soft cervical collar",
-    "mrp": "300.00",
-    "sizes": "UNI",
+    "name": "Cervical Soft Collar -- Child",
+    "desc": "Pediatric soft cervical collar for children",
+    "mrp": "360.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-01.jpg",
     "cat": "child-care"
   },
   "EM-02": {
-    "name": "Pediatric Philadelphia Collar",
-    "desc": "Paediatric Philadelphia collar",
-    "mrp": "360.00",
-    "sizes": "UNI",
+    "name": "Philadelphia Collar -- Child",
+    "desc": "Pediatric Philadelphia collar for children",
+    "mrp": "1,000.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-02.jpg",
     "cat": "child-care"
   },
   "EM-03": {
-    "name": "Pediatric Arm Sling Tropical",
-    "desc": "Paediatric tropical arm sling",
-    "mrp": "1,000.00",
-    "sizes": "UNI",
+    "name": "Pouch Arm Sling Tropical -- Child",
+    "desc": "Pediatric tropical arm sling for children",
+    "mrp": "350.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-03.jpg",
     "cat": "child-care"
   },
   "EM-04": {
-    "name": "Pediatric Shoulder Immobilizer",
-    "desc": "Paediatric shoulder immobilizer",
-    "mrp": "350.00",
-    "sizes": "UNI",
+    "name": "Shoulder Immobilizer -- Child",
+    "desc": "Pediatric shoulder immobilizer for children",
+    "mrp": "680.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-04.jpg",
     "cat": "child-care"
   },
   "EM-05": {
-    "name": "Pediatric Clavicle Brace",
-    "desc": "Paediatric clavicle fracture brace",
-    "mrp": "680.00",
-    "sizes": "UNI",
+    "name": "Clavicle Brace -- Child",
+    "desc": "Pediatric clavicle brace for children",
+    "mrp": "425.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-05.jpg",
     "cat": "child-care"
   },
   "EM-06": {
-    "name": "Pediatric Arm Sling Baggy",
-    "desc": "Paediatric baggy arm sling",
-    "mrp": "425.00",
-    "sizes": "UNI",
+    "name": "Pouch Arm Sling Baggy -- Child",
+    "desc": "Pediatric baggy arm sling for children",
+    "mrp": "350.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-06.jpg",
     "cat": "child-care"
   },
   "EM-07": {
-    "name": "Pediatric Knee Immobilizer",
-    "desc": "Paediatric knee immobilizer",
+    "name": "Knee Immobilizer -- Child",
+    "desc": "Pediatric knee immobilizer for children",
     "mrp": "780.00",
-    "sizes": "UNI",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-07.jpg",
     "cat": "child-care"
   },
   "EM-08": {
-    "name": "Pediatric Walker With Wheel",
-    "desc": "Paediatric walker with wheels",
+    "name": "Child Walker with Wheel",
+    "desc": "Pediatric walker with front wheels",
     "mrp": "2,050.00",
-    "sizes": "L",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-08.jpg",
     "cat": "child-care"
   },
   "EM-09": {
-    "name": "Pediatric Walker Without Wheel",
-    "desc": "Paediatric walking frame",
+    "name": "Child Walker without Wheel",
+    "desc": "Pediatric folding walker for children",
     "mrp": "1,800.00",
-    "sizes": "L",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-09.jpg",
     "cat": "child-care"
   },
   "EM-10": {
-    "name": "AFO Night Splint Child",
-    "desc": "Paediatric AFO night splint for foot stabilization",
-    "mrp": "1,200.00",
-    "sizes": "UNI",
+    "name": "Foot Drop Splint (R/L) -- Child",
+    "desc": "Pediatric foot drop splint for children",
+    "mrp": "3,500.00",
+    "sizes": "LEFT/RIGHT -- S, M, L, XL, XXL",
     "img": "/images/products/EM-10.jpg",
     "cat": "child-care"
   }
