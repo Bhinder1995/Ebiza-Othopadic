@@ -315,7 +315,7 @@ export const PRODUCTS = {
     "name": "PF Night Splint De-Rotation",
     "desc": "Stretches plantar fascia during sleep to relieve heel pain",
     "mrp": "1,375.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EE-06.jpg",
     "cat": "foot-ankle"
   },
@@ -323,7 +323,7 @@ export const PRODUCTS = {
     "name": "Ankle Brace Lace Up",
     "desc": "Rigid lace-up brace for advanced ankle stabilization",
     "mrp": "770.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EE-07.jpg",
     "cat": "foot-ankle"
   },
@@ -331,7 +331,7 @@ export const PRODUCTS = {
     "name": "Anklet Pair",
     "desc": "Basic elastic anklets for everyday support",
     "mrp": "300.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EE-08.jpg",
     "cat": "foot-ankle"
   },
@@ -339,7 +339,7 @@ export const PRODUCTS = {
     "name": "Leg Restrainer",
     "desc": "Immobilizes the leg for post-surgical safety",
     "mrp": "300.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EE-09.jpg",
     "cat": "foot-ankle"
   },
@@ -411,7 +411,7 @@ export const PRODUCTS = {
     "name": "Neoprene Knee Support",
     "desc": "Therapeutic warmth and compression for the knee joint",
     "mrp": "1,220.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EF-03.jpg",
     "cat": "knee"
   },
@@ -419,7 +419,7 @@ export const PRODUCTS = {
     "name": "Neoprene Knee Support With Hinges",
     "desc": "Hinged neoprene knee brace for mediolateral stability",
     "mrp": "1,575.00",
-    "sizes": "UNI",
+    "sizes": "UNI, XXL",
     "img": "/images/products/EF-04.jpg",
     "cat": "knee"
   },
@@ -475,7 +475,7 @@ export const PRODUCTS = {
     "name": "Abduction Pillow",
     "desc": "Post-surgical hip abduction pillow for safe positioning",
     "mrp": "3,050.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EF-11.jpg",
     "cat": "knee"
   },
@@ -507,7 +507,7 @@ export const PRODUCTS = {
     "name": "Wrist & Forearm Brace Short",
     "desc": "Supports wrist and forearm while allowing finger movement",
     "mrp": "640.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-01.jpg",
     "cat": "wrist-forearm"
   },
@@ -515,7 +515,7 @@ export const PRODUCTS = {
     "name": "Wrist & Forearm Brace Long",
     "desc": "Extended forearm support for stable fracture management",
     "mrp": "740.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-02.jpg",
     "cat": "wrist-forearm"
   },
@@ -523,7 +523,7 @@ export const PRODUCTS = {
     "name": "Wrist Support",
     "desc": "Basic compression support for wrist sprains and strains",
     "mrp": "225.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-03.jpg",
     "cat": "wrist-forearm"
   },
@@ -531,7 +531,7 @@ export const PRODUCTS = {
     "name": "Wrist Brace With Thumb Support",
     "desc": "Supports both wrist and CMC/MCP joints of the thumb",
     "mrp": "230.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-04.jpg",
     "cat": "wrist-forearm"
   },
@@ -547,7 +547,7 @@ export const PRODUCTS = {
     "name": "Tennis Elbow Support",
     "desc": "Targeted pressure for lateral epicondylitis relief",
     "mrp": "250.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-06.jpg",
     "cat": "wrist-forearm"
   },
@@ -555,7 +555,7 @@ export const PRODUCTS = {
     "name": "Carpal Tunnel Splint",
     "desc": "Maintains neutral wrist position for carpal tunnel relief",
     "mrp": "300.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-07.jpg",
     "cat": "wrist-forearm"
   },
@@ -571,7 +571,7 @@ export const PRODUCTS = {
     "name": "Thumb Spica Splint",
     "desc": "Immobilizes the thumb while allowing wrist movement",
     "mrp": "260.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-09.jpg",
     "cat": "wrist-forearm"
   },
@@ -579,7 +579,7 @@ export const PRODUCTS = {
     "name": "Wrist Splint Ambidextrous",
     "desc": "Fits either hand for versatile wrist stabilization",
     "mrp": "600.00",
-    "sizes": "UNI",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EG-10.jpg",
     "cat": "wrist-forearm"
   },
@@ -587,7 +587,7 @@ export const PRODUCTS = {
     "name": "Arm Immobilizer",
     "desc": "Complete arm and shoulder immobilization system",
     "mrp": "975.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-11.jpg",
     "cat": "wrist-forearm"
   },
@@ -619,7 +619,7 @@ export const PRODUCTS = {
     "name": "Elbow Restrainer",
     "desc": "Prevents elbow flexion for post-surgical protection",
     "mrp": "350.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EG-15.jpg",
     "cat": "wrist-forearm"
   },
@@ -627,7 +627,7 @@ export const PRODUCTS = {
     "name": "Skin Traction Kit",
     "desc": "Head halter for cervical traction therapy",
     "mrp": "400.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EH-01.jpg",
     "cat": "traction"
   },
@@ -635,7 +635,7 @@ export const PRODUCTS = {
     "name": "Leg Traction Brace",
     "desc": "Provides traction to the pelvic area for spinal decompression",
     "mrp": "600.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EH-02.jpg",
     "cat": "traction"
   },
@@ -643,7 +643,7 @@ export const PRODUCTS = {
     "name": "Pelvic Traction Belt",
     "desc": "Kit for non-invasive skin traction on the leg",
     "mrp": "890.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EH-03.jpg",
     "cat": "traction"
   },
@@ -651,7 +651,7 @@ export const PRODUCTS = {
     "name": "Foot Traction Kit",
     "desc": "Overdoor traction system for home cervical decompression",
     "mrp": "1,550.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EH-04.jpg",
     "cat": "traction"
   },
@@ -659,7 +659,7 @@ export const PRODUCTS = {
     "name": "Cervical Traction Kit",
     "desc": "Sitting traction system for cervical spine relief",
     "mrp": "2,000.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EH-05.jpg",
     "cat": "traction"
   },
@@ -667,7 +667,7 @@ export const PRODUCTS = {
     "name": "Pelvic Traction Kit",
     "desc": "Complete kit for pelvic traction therapy",
     "mrp": "2,500.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EH-06.jpg",
     "cat": "traction"
   },

@@ -92,13 +92,15 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
               </div>
             )}
 
-            <div className="modal-sizes-label" style={{fontSize:'14px', fontWeight:600, marginBottom:'10px'}}>Available Sizes / Variants</div>
-            <div className="modal-sizes" style={{display:'flex', flexWrap:'wrap', gap:'8px', marginBottom:'16px'}}>
-              {sizeList.map((size: string, idx: number) => (
-                <button 
-                  key={idx} 
-                  className={`size-chip ${selectedSize === size ? 'active' : ''}`}
-                  onClick={() => setSelectedSize(size)}
+            {sizeList.length > 0 && !(sizeList.length === 1 && (sizeList[0].toUpperCase() === 'UNI' || sizeList[0].toUpperCase().includes('UNI'))) && (
+              <>
+                <div className="modal-sizes-label" style={{fontSize:'14px', fontWeight:600, marginBottom:'10px'}}>Available Sizes / Variants</div>
+                <div className="modal-sizes" style={{display:'flex', flexWrap:'wrap', gap:'8px', marginBottom:'16px'}}>
+                  {sizeList.map((size: string, idx: number) => (
+                    <button 
+                      key={idx} 
+                      className={`size-chip ${selectedSize === size ? 'active' : ''}`}
+                      onClick={() => setSelectedSize(size)}
                   style={{
                     padding:'8px 16px', 
                     background: selectedSize === size ? 'var(--primary)' : 'white', 
@@ -116,6 +118,9 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
                 </button>
               ))}
             </div>
+          </>
+        )}
+
             <div style={{
               display: 'flex',
               flexDirection: 'column',
