@@ -354,7 +354,7 @@ export const PRODUCTS = {
   "EE-11": {
     "name": "AFO Night Splint (Left / Right)",
     "desc": "Ankle Foot Orthosis for night-time dorsiflexion support",
-    "mrp": "2,550.00",
+    "mrp": "4,000.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-11.jpg",
     "cat": "foot-ankle"
@@ -362,7 +362,7 @@ export const PRODUCTS = {
   "EE-12": {
     "name": "Compression Stockings Above Knee",
     "desc": "Medical grade compression for varicose veins and edema",
-    "mrp": "1,690.00",
+    "mrp": "2,550.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-12.jpg",
     "cat": "foot-ankle"
@@ -370,7 +370,7 @@ export const PRODUCTS = {
   "EE-13": {
     "name": "Compression Stockings Below Knee",
     "desc": "Below-knee medical grade compression therapy",
-    "mrp": "1,900.00",
+    "mrp": "1,690.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-13.jpg",
     "cat": "foot-ankle"
@@ -378,7 +378,7 @@ export const PRODUCTS = {
   "EE-14": {
     "name": "DVT Stockings Above Knee",
     "desc": "Anti-DVT stockings above knee (White)",
-    "mrp": "1,500.00",
+    "mrp": "1,900.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-14.jpg",
     "cat": "foot-ankle"
@@ -386,7 +386,7 @@ export const PRODUCTS = {
   "EE-15": {
     "name": "DVT Stockings Below Knee",
     "desc": "Anti-DVT stockings below knee",
-    "mrp": "1,220.00",
+    "mrp": "1,500.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-15.jpg",
     "cat": "foot-ankle"
@@ -410,7 +410,7 @@ export const PRODUCTS = {
   "EF-03": {
     "name": "Neoprene Knee Support",
     "desc": "Therapeutic warmth and compression for the knee joint",
-    "mrp": "700.00",
+    "mrp": "1,220.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-03.jpg",
     "cat": "knee"
@@ -418,7 +418,7 @@ export const PRODUCTS = {
   "EF-04": {
     "name": "Neoprene Knee Support with Hinges",
     "desc": "Hinged neoprene knee brace for mediolateral stability",
-    "mrp": "1,500.00",
+    "mrp": "1,575.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-04.jpg",
     "cat": "knee"
@@ -426,7 +426,7 @@ export const PRODUCTS = {
   "EF-05": {
     "name": "Drytex Knee Support",
     "desc": "Breathable drytex knee support for all-day comfort",
-    "mrp": "640.00",
+    "mrp": "595.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EF-05.jpg",
     "cat": "knee"
@@ -434,7 +434,7 @@ export const PRODUCTS = {
   "EF-06": {
     "name": "Drytex Knee Hinge Support",
     "desc": "Hinged drytex knee brace for lightweight stabilization",
-    "mrp": "225.00",
+    "mrp": "750.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EF-06.jpg",
     "cat": "knee"
@@ -442,7 +442,7 @@ export const PRODUCTS = {
   "EF-07": {
     "name": "Knee Cap 3D",
     "desc": "Advanced 3D knitted knee support for optimal fit",
-    "mrp": "230.00",
+    "mrp": "480.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-07.jpg",
     "cat": "knee"
@@ -458,7 +458,7 @@ export const PRODUCTS = {
   "EF-09": {
     "name": "Knee Immobilizer Short",
     "desc": "Short length knee immobilizer for post-injury protection",
-    "mrp": "600.00",
+    "mrp": "925.00",
     "sizes": "S, M, L, XL",
     "img": "/images/products/EF-09.jpg",
     "cat": "knee"
@@ -466,7 +466,7 @@ export const PRODUCTS = {
   "EF-10": {
     "name": "R.O.M. Knee Brace",
     "desc": "Range of Motion brace for controlled knee flexion/extension",
-    "mrp": "975.00",
+    "mrp": "2,750.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EF-10.jpg",
     "cat": "knee"
@@ -474,7 +474,7 @@ export const PRODUCTS = {
   "EF-11": {
     "name": "Abduction Pillow",
     "desc": "Post-surgical hip abduction pillow for safe positioning",
-    "mrp": "350.00",
+    "mrp": "3,050.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EF-11.jpg",
     "cat": "knee"
@@ -482,7 +482,7 @@ export const PRODUCTS = {
   "EF-12": {
     "name": "Elastic Knee Support",
     "desc": "Flexible elastic support for daily knee joint protection",
-    "mrp": "400.00",
+    "mrp": "700.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-12.jpg",
     "cat": "knee"
@@ -490,7 +490,7 @@ export const PRODUCTS = {
   "EF-13": {
     "name": "Functional Knee Support",
     "desc": "Advanced functional support for active knee stabilization",
-    "mrp": "890.00",
+    "mrp": "1,500.00",
     "sizes": "S, M, L, XL",
     "img": "/images/products/EF-13.jpg",
     "cat": "knee"
@@ -498,7 +498,7 @@ export const PRODUCTS = {
   "EF-14": {
     "name": "OA Knee Support (Left / Right)",
     "desc": "Osteoarthritis knee brace for offloading joint pressure",
-    "mrp": "1,550.00",
+    "mrp": "1,500.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EF-14.jpg",
     "cat": "knee"
@@ -506,7 +506,7 @@ export const PRODUCTS = {
   "EG-01": {
     "name": "Wrist & Forearm Brace Short",
     "desc": "Supports wrist and forearm while allowing finger movement",
-    "mrp": "375.00",
+    "mrp": "640.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EG-01.jpg",
     "cat": "wrist-forearm"
@@ -717,7 +717,7 @@ export const PRODUCTS = {
   "EI-01": {
     "name": "Silicone Heel Cups",
     "desc": "Shock absorbing heel cups for calcaneal pain relief",
-    "mrp": "390.00",
+    "mrp": "760.00",
     "sizes": "XS, S, M, L",
     "img": "/images/products/EI-01.jpg",
     "cat": "silicone-foot"
@@ -725,7 +725,7 @@ export const PRODUCTS = {
   "EI-02": {
     "name": "Silicone Full Insole",
     "desc": "Full length silicone insoles for uniform foot cushioning",
-    "mrp": "1,550.00",
+    "mrp": "1,625.00",
     "sizes": "S, M, L, XL",
     "img": "/images/products/EI-02.jpg",
     "cat": "silicone-foot"
@@ -1002,12 +1002,7 @@ export const PRODUCTS = {
   "EJ-19": {
     "name": "Acupuncture Needle",
     "desc": "Sterile disposable needles for acupuncture therapy",
-    "mrp": {
-          "Red": "3,200.00",
-          "Blue": "3,200.00",
-          "Green": "3,200.00",
-          "Black": "3,200.00"
-    },
+    "mrp": "500.00",
     "sizes": "0.25*13 MM, 0.25*25 MM, 0.25*50 MM",
     "img": "/images/products/EJ-19.jpg",
     "cat": "physio"
@@ -1132,7 +1127,7 @@ export const PRODUCTS = {
   "EK-01": {
     "name": "Single Stick Black (Mono Pod)",
     "desc": "Adjustable height aluminum walking stick with comfortable grip",
-    "mrp": "975.00",
+    "mrp": "580.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-01.jpg",
     "cat": "walking-aid"
@@ -1140,7 +1135,7 @@ export const PRODUCTS = {
   "EK-02": {
     "name": "Single Stick Green (Mono Pod)",
     "desc": "Stylish green walking stick with durable non-slip tip",
-    "mrp": "975.00",
+    "mrp": "695.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-02.jpg",
     "cat": "walking-aid"
@@ -1148,7 +1143,7 @@ export const PRODUCTS = {
   "EK-03": {
     "name": "Tripod Stick",
     "desc": "Three-legged walking stick for enhanced stability and balance",
-    "mrp": "1,075.00",
+    "mrp": "975.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-03.jpg",
     "cat": "walking-aid"
@@ -1156,7 +1151,7 @@ export const PRODUCTS = {
   "EK-04": {
     "name": "Quadripod Stick",
     "desc": "Four-legged stick providing maximum support and broad base",
-    "mrp": "1,650.00",
+    "mrp": "975.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-04.jpg",
     "cat": "walking-aid"
@@ -1164,7 +1159,7 @@ export const PRODUCTS = {
   "EK-05": {
     "name": "Elbow Crutches",
     "desc": "Height-adjustable elbow crutches for safe mobility",
-    "mrp": "2,250.00",
+    "mrp": "1,075.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-05.jpg",
     "cat": "walking-aid"
@@ -1172,7 +1167,7 @@ export const PRODUCTS = {
   "EK-06": {
     "name": "Auxiliary Crutches",
     "desc": "Standard underarm crutches with comfortable padding",
-    "mrp": "2,000.00",
+    "mrp": "1,650.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-06.jpg",
     "cat": "walking-aid"
@@ -1180,7 +1175,7 @@ export const PRODUCTS = {
   "EK-07": {
     "name": "Walker With Wheel",
     "desc": "Folding walker with front wheels for smooth movement",
-    "mrp": "3,100.00",
+    "mrp": "2,250.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-07.jpg",
     "cat": "walking-aid"
@@ -1188,7 +1183,7 @@ export const PRODUCTS = {
   "EK-08": {
     "name": "Walker Without Wheels",
     "desc": "Traditional folding walker for stable patient support",
-    "mrp": "2,550.00",
+    "mrp": "2,000.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-08.jpg",
     "cat": "walking-aid"
@@ -1196,7 +1191,7 @@ export const PRODUCTS = {
   "EK-09": {
     "name": "Reciprocal Walker",
     "desc": "Walker that mimics natural walking motion for rehabilitation",
-    "mrp": "2,240.00",
+    "mrp": "3,100.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-09.jpg",
     "cat": "walking-aid"
@@ -1204,7 +1199,7 @@ export const PRODUCTS = {
   "EK-10": {
     "name": "Walking Frame CRC With Wheel",
     "desc": "Heavy-duty walking frame with wheels for long-term use",
-    "mrp": "2,500.00",
+    "mrp": "2,550.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-10.jpg",
     "cat": "walking-aid"
@@ -1212,7 +1207,7 @@ export const PRODUCTS = {
   "EK-11": {
     "name": "Walking Frame CRC Without Wheel",
     "desc": "Fixed walking frame for maximum weight-bearing support",
-    "mrp": "1,650.00",
+    "mrp": "2,240.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-11.jpg",
     "cat": "walking-aid"
@@ -1220,7 +1215,7 @@ export const PRODUCTS = {
   "EK-12": {
     "name": "Commode Chair",
     "desc": "Folding commode chair for home patient care",
-    "mrp": "1,650.00",
+    "mrp": "2,500.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-12.jpg",
     "cat": "walking-aid"
@@ -1228,7 +1223,7 @@ export const PRODUCTS = {
   "EK-13": {
     "name": "Commode Stool With Pot",
     "desc": "Simple commode stool with removable waste pot",
-    "mrp": "5,800.00",
+    "mrp": "1,650.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-13.jpg",
     "cat": "walking-aid"
@@ -1236,7 +1231,7 @@ export const PRODUCTS = {
   "EK-14": {
     "name": "Commode Stool",
     "desc": "Basic patient commode stool without backrest",
-    "mrp": "5,400.00",
+    "mrp": "1,650.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-14.jpg",
     "cat": "walking-aid"
@@ -1244,7 +1239,7 @@ export const PRODUCTS = {
   "EK-15": {
     "name": "Commode Chair Height Adj. With Wheel",
     "desc": "Height-adjustable commode chair with mobility wheels",
-    "mrp": "2,000.00",
+    "mrp": "5,800.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-15.jpg",
     "cat": "walking-aid"
@@ -1252,7 +1247,7 @@ export const PRODUCTS = {
   "EK-16": {
     "name": "Commode Chair Height Adj. Without Wheel",
     "desc": "Stable height-adjustable commode chair for bathroom use",
-    "mrp": "2,500.00",
+    "mrp": "5,400.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-16.jpg",
     "cat": "walking-aid"
@@ -1268,7 +1263,7 @@ export const PRODUCTS = {
   "EK-18": {
     "name": "Bed Back Rest With Handle",
     "desc": "Premium bed back rest with supportive side handles",
-    "mrp": "10,000.00",
+    "mrp": "2,500.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-18.jpg",
     "cat": "walking-aid"
@@ -1276,7 +1271,7 @@ export const PRODUCTS = {
   "EK-19": {
     "name": "Wheel Chair",
     "desc": "Standard manual wheelchair for patient mobility",
-    "mrp": "12,500.00",
+    "mrp": "10,000.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-19.jpg",
     "cat": "walking-aid"
@@ -1292,7 +1287,7 @@ export const PRODUCTS = {
   "EL-01": {
     "name": "Portable Soft Stretcher",
     "desc": "Foldable soft stretcher for emergency patient transport",
-    "mrp": "1,450.00",
+    "mrp": "3,000.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-01.jpg",
     "cat": "allied"
@@ -1300,7 +1295,7 @@ export const PRODUCTS = {
   "EL-02": {
     "name": "Trolley Cover",
     "desc": "Durable protective cover for hospital trolleys",
-    "mrp": "1,395.00",
+    "mrp": "2,500.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-02.jpg",
     "cat": "allied"
@@ -1308,7 +1303,7 @@ export const PRODUCTS = {
   "EL-03": {
     "name": "Donut Cushion",
     "desc": "Circular cushion for pressure relief while sitting",
-    "mrp": "975.00",
+    "mrp": "1,450.00",
     "sizes": "Grey, Blue",
     "img": "/images/products/EL-03.jpg",
     "cat": "allied"
@@ -1316,7 +1311,7 @@ export const PRODUCTS = {
   "EL-04": {
     "name": "Coccyx Cushion",
     "desc": "Anatomically designed cushion for tailbone pain relief",
-    "mrp": "499.00",
+    "mrp": "1,450.00",
     "sizes": "Grey, Blue",
     "img": "/images/products/EL-04.jpg",
     "cat": "allied"
@@ -1324,7 +1319,7 @@ export const PRODUCTS = {
   "EL-05": {
     "name": "Heating Pad with Controller",
     "desc": "Electric heating pad with adjustable heat settings",
-    "mrp": "655.00",
+    "mrp": "1,395.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-05.jpg",
     "cat": "allied"
@@ -1332,7 +1327,7 @@ export const PRODUCTS = {
   "EL-06": {
     "name": "Heating Pad with Regulator",
     "desc": "Advanced heating pad for therapeutic heat therapy",
-    "mrp": "755.00",
+    "mrp": "975.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-06.jpg",
     "cat": "allied"
@@ -1348,7 +1343,7 @@ export const PRODUCTS = {
   "EL-08": {
     "name": "Steam Inhalation Pot (Vaporizer)",
     "desc": "Effective vaporizer for steam inhalation therapy",
-    "mrp": "230.00",
+    "mrp": "655.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-08.jpg",
     "cat": "allied"
@@ -1356,7 +1351,7 @@ export const PRODUCTS = {
   "EL-09": {
     "name": "Steam Inhalation Pot With Switch",
     "desc": "Vaporizer with convenient power switch for safety",
-    "mrp": "160.00",
+    "mrp": "755.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-09.jpg",
     "cat": "allied"
