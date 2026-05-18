@@ -30,6 +30,8 @@ export const metadata: Metadata = {
   description: "Ebiza Orthopaedic provides clinical experts developed orthopaedic appliances and fracture aids. Live pain free life.",
 };
 
+import Script from "next/script";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -44,13 +46,15 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
-        <script dangerouslySetInnerHTML={{ __html: `
-          if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function() {
-              navigator.serviceWorker.register('/service-worker.js');
-            });
-          }
-        `}} />
+        <Script id="register-sw" strategy="afterInteractive">
+          {`
+            if ('serviceWorker' in navigator) {
+              window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/service-worker.js');
+              });
+            }
+          `}
+        </Script>
       </body>
     </html>
   );
