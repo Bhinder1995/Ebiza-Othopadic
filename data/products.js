@@ -27,7 +27,7 @@ export const PRODUCTS = {
     "name": "Taylor's Brace (Long / Short)",
     "desc": "Thoracolumbar support brace for spinal fracture management",
     "mrp": "2,275.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL, XXL, UNIVERSAL",
     "img": "/images/products/EA-04.jpg",
     "cat": "body-belts"
   },
@@ -43,7 +43,7 @@ export const PRODUCTS = {
     "name": "Ash Brace (Hyper Extension Brace)",
     "desc": "Hyperextension brace for thoracolumbar fractures",
     "mrp": "1,700.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EA-06.jpg",
     "cat": "body-belts"
   },
@@ -203,7 +203,7 @@ export const PRODUCTS = {
     "name": "Shoulder Immobilizer",
     "desc": "Secures arm against the body for shoulder stabilization",
     "mrp": "680.00",
-    "sizes": "S, M, L, XL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EC-05.jpg",
     "cat": "fracture"
   },
@@ -315,7 +315,7 @@ export const PRODUCTS = {
     "name": "PF Night Splint De-Rotation",
     "desc": "Stretches plantar fascia during sleep to relieve heel pain",
     "mrp": "1,375.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EE-06.jpg",
     "cat": "foot-ankle"
   },
@@ -339,7 +339,7 @@ export const PRODUCTS = {
     "name": "Leg Restrainer",
     "desc": "Immobilizes the leg for post-surgical safety",
     "mrp": "300.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EE-09.jpg",
     "cat": "foot-ankle"
   },
@@ -411,7 +411,7 @@ export const PRODUCTS = {
     "name": "Neoprene Knee Support",
     "desc": "Therapeutic warmth and compression for the knee joint",
     "mrp": "1,220.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EF-03.jpg",
     "cat": "knee"
   },
@@ -419,7 +419,7 @@ export const PRODUCTS = {
     "name": "Neoprene Knee Support with Hinges",
     "desc": "Hinged neoprene knee brace for mediolateral stability",
     "mrp": "1,575.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL, XXL",
     "img": "/images/products/EF-04.jpg",
     "cat": "knee"
   },
@@ -515,7 +515,7 @@ export const PRODUCTS = {
     "name": "Wrist & Forearm Brace Long",
     "desc": "Extended forearm support for stable fracture management",
     "mrp": "740.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-02.jpg",
     "cat": "wrist-forearm"
   },
@@ -523,7 +523,7 @@ export const PRODUCTS = {
     "name": "Wrist Support",
     "desc": "Basic compression support for wrist sprains and strains",
     "mrp": "225.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-03.jpg",
     "cat": "wrist-forearm"
   },
@@ -531,7 +531,7 @@ export const PRODUCTS = {
     "name": "Wrist Brace with Thumb Support",
     "desc": "Supports both wrist and CMC/MCP joints of the thumb",
     "mrp": "230.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-04.jpg",
     "cat": "wrist-forearm"
   },
@@ -745,7 +745,7 @@ export const PRODUCTS = {
     "name": "Silicone Arch Support",
     "desc": "Aligns overlapping toes and relieves bunion pressure",
     "mrp": "390.00",
-    "sizes": "S, M, L, XL",
+    "sizes": "XS, S, M, L",
     "img": "/images/products/EI-04.jpg",
     "cat": "silicone-foot"
   },
@@ -918,11 +918,7 @@ export const PRODUCTS = {
   "EJ-09": {
     "name": "Flex Bar",
     "desc": "Soft foam balls for stress relief and light hand therapy",
-    "mrp": {
-          "Blue Soft": "325.00",
-          "Green Medium": "325.00",
-          "Orange Hard": "325.00"
-    },
+    "mrp": "4,150.00",
     "sizes": "Red, Yellow, Green, Blue",
     "img": "/images/products/EJ-09.jpg",
     "cat": "physio"
@@ -1047,11 +1043,7 @@ export const PRODUCTS = {
   "EJ-23": {
     "name": "Power Web (Web Exerciser)",
     "desc": "Circular web exerciser for comprehensive hand therapy",
-    "mrp": {
-      "Yellow": "900.00",
-      "Red": "4,500.00",
-      "Green": "4,500.00"
-    },
+    "mrp": "4,500.00",
     "sizes": "Yellow, Red, Green",
     "img": "/images/products/EJ-23.jpg",
     "cat": "physio"
