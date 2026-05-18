@@ -1295,7 +1295,7 @@ export const PRODUCTS = {
   "EL-03": {
     "name": "Donut Cushion",
     "desc": "Circular cushion for pressure relief while sitting",
-    "mrp": "1,450.00",
+    "mrp": "",
     "sizes": "Grey, Blue",
     "img": "/images/products/EL-03.jpg",
     "cat": "allied"
@@ -1303,13 +1303,13 @@ export const PRODUCTS = {
   "EL-04": {
     "name": "Coccyx Cushion",
     "desc": "Anatomically designed cushion for tailbone pain relief",
-    "mrp": "1,450.00",
+    "mrp": "",
     "sizes": "Grey, Blue",
     "img": "/images/products/EL-04.jpg",
     "cat": "allied"
   },
   "EL-05": {
-    "name": "Heating Pad with Controller",
+    "name": "Heating Pad with Regulator",
     "desc": "Electric heating pad with adjustable heat settings",
     "mrp": "1,395.00",
     "sizes": "UNIVERSAL",
@@ -1542,7 +1542,7 @@ export const PRODUCTS = {
   "EM-01": {
     "name": "Cervical Soft Collar -- Child",
     "desc": "Pediatric soft cervical collar for children",
-    "mrp": "360.00",
+    "mrp": "300.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-01.jpg",
     "cat": "child-care"
@@ -1682,12 +1682,4 @@ export const PRODUCTS = {
     "img": "/images/products/EL-40.jpg",
     "cat": "allied"
   },
-  "EM-10": {
-    "name": "AFO Night Splint -- Child",
-    "desc": "Pediatric ankle foot orthosis night splint for children",
-    "mrp": "3,500.00",
-    "sizes": "UNIVERSAL",
-    "img": "/images/products/EM-10.jpg",
-    "cat": "child-care"
-  }
 };
