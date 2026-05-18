@@ -625,7 +625,7 @@ export const PRODUCTS = {
   },
   "EH-01": {
     "name": "Skin / Leg Traction Support",
-    "desc": "Head halter for cervical traction therapy",
+    "desc": "Skin traction support applied to the leg to reduce fractures and maintain alignment",
     "mrp": "400.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-01.jpg",
@@ -633,7 +633,7 @@ export const PRODUCTS = {
   },
   "EH-02": {
     "name": "Leg Traction Brace",
-    "desc": "Provides traction to the pelvic area for spinal decompression",
+    "desc": "Rigid brace applied to the leg to maintain traction and support during recovery",
     "mrp": "600.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-02.jpg",
@@ -641,7 +641,7 @@ export const PRODUCTS = {
   },
   "EH-03": {
     "name": "Pelvic Traction Belt",
-    "desc": "Kit for non-invasive skin traction on the leg",
+    "desc": "Belt designed to apply traction to the pelvic region for lumbar decompression",
     "mrp": "890.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-03.jpg",
@@ -649,7 +649,7 @@ export const PRODUCTS = {
   },
   "EH-04": {
     "name": "Foot Traction Kit",
-    "desc": "Overdoor traction system for home cervical decompression",
+    "desc": "Complete foot traction kit for non-invasive skin traction therapy",
     "mrp": "1,550.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-04.jpg",
@@ -657,7 +657,7 @@ export const PRODUCTS = {
   },
   "EH-05": {
     "name": "Cervical Traction Kit",
-    "desc": "Sitting traction system for cervical spine relief",
+    "desc": "Cervical traction kit with head halter for home-based neck decompression therapy",
     "mrp": "2,000.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-05.jpg",
@@ -665,7 +665,7 @@ export const PRODUCTS = {
   },
   "EH-06": {
     "name": "Pelvic Traction Kit",
-    "desc": "Complete kit for pelvic traction therapy",
+    "desc": "Pelvic traction kit with belt and weight system for lumbar spine decompression",
     "mrp": "2,500.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EH-06.jpg",
@@ -1132,7 +1132,7 @@ export const PRODUCTS = {
   "EK-01": {
     "name": "Single Stick Black (Mono Pod)",
     "desc": "Adjustable height aluminum walking stick with comfortable grip",
-    "mrp": "5,800.00",
+    "mrp": "975.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-01.jpg",
     "cat": "walking-aid"
@@ -1140,7 +1140,7 @@ export const PRODUCTS = {
   "EK-02": {
     "name": "Single Stick Green (Mono Pod)",
     "desc": "Stylish green walking stick with durable non-slip tip",
-    "mrp": "2,000.00",
+    "mrp": "975.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-02.jpg",
     "cat": "walking-aid"
@@ -1148,7 +1148,7 @@ export const PRODUCTS = {
   "EK-03": {
     "name": "Tripod Stick",
     "desc": "Three-legged walking stick for enhanced stability and balance",
-    "mrp": "10,000.00",
+    "mrp": "1,075.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-03.jpg",
     "cat": "walking-aid"
@@ -1156,7 +1156,7 @@ export const PRODUCTS = {
   "EK-04": {
     "name": "Quadripod Stick",
     "desc": "Four-legged stick providing maximum support and broad base",
-    "mrp": "3,000.00",
+    "mrp": "1,650.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-04.jpg",
     "cat": "walking-aid"
@@ -1164,7 +1164,7 @@ export const PRODUCTS = {
   "EK-05": {
     "name": "Elbow Crutches",
     "desc": "Height-adjustable elbow crutches for safe mobility",
-    "mrp": "1,450.00",
+    "mrp": "2,250.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-05.jpg",
     "cat": "walking-aid"
@@ -1172,7 +1172,7 @@ export const PRODUCTS = {
   "EK-06": {
     "name": "Auxiliary Crutches",
     "desc": "Standard underarm crutches with comfortable padding",
-    "mrp": "1,395.00",
+    "mrp": "2,000.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-06.jpg",
     "cat": "walking-aid"
@@ -1180,7 +1180,7 @@ export const PRODUCTS = {
   "EK-07": {
     "name": "Walker With Wheel",
     "desc": "Folding walker with front wheels for smooth movement",
-    "mrp": "499.00",
+    "mrp": "3,100.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-07.jpg",
     "cat": "walking-aid"
@@ -1188,7 +1188,7 @@ export const PRODUCTS = {
   "EK-08": {
     "name": "Walker Without Wheels",
     "desc": "Traditional folding walker for stable patient support",
-    "mrp": "755.00",
+    "mrp": "2,550.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-08.jpg",
     "cat": "walking-aid"
@@ -1196,7 +1196,7 @@ export const PRODUCTS = {
   "EK-09": {
     "name": "Reciprocal Walker",
     "desc": "Walker that mimics natural walking motion for rehabilitation",
-    "mrp": "3,100.00",
+    "mrp": "2,240.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-09.jpg",
     "cat": "walking-aid"
@@ -1204,7 +1204,7 @@ export const PRODUCTS = {
   "EK-10": {
     "name": "Walking Frame CRC With Wheel",
     "desc": "Heavy-duty walking frame with wheels for long-term use",
-    "mrp": "2,550.00",
+    "mrp": "2,500.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-10.jpg",
     "cat": "walking-aid"
@@ -1212,7 +1212,7 @@ export const PRODUCTS = {
   "EK-11": {
     "name": "Walking Frame CRC Without Wheel",
     "desc": "Fixed walking frame for maximum weight-bearing support",
-    "mrp": "2,240.00",
+    "mrp": "1,650.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-11.jpg",
     "cat": "walking-aid"
@@ -1220,7 +1220,7 @@ export const PRODUCTS = {
   "EK-12": {
     "name": "Commode Chair",
     "desc": "Folding commode chair for home patient care",
-    "mrp": "2,500.00",
+    "mrp": "1,650.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-12.jpg",
     "cat": "walking-aid"
@@ -1228,7 +1228,7 @@ export const PRODUCTS = {
   "EK-13": {
     "name": "Commode Stool With Pot",
     "desc": "Simple commode stool with removable waste pot",
-    "mrp": "1,650.00",
+    "mrp": "5,800.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-13.jpg",
     "cat": "walking-aid"
@@ -1236,7 +1236,7 @@ export const PRODUCTS = {
   "EK-14": {
     "name": "Commode Stool",
     "desc": "Basic patient commode stool without backrest",
-    "mrp": "1,650.00",
+    "mrp": "5,400.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-14.jpg",
     "cat": "walking-aid"
@@ -1244,7 +1244,7 @@ export const PRODUCTS = {
   "EK-15": {
     "name": "Commode Chair Height Adj. With Wheel",
     "desc": "Height-adjustable commode chair with mobility wheels",
-    "mrp": "5,800.00",
+    "mrp": "2,000.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-15.jpg",
     "cat": "walking-aid"
@@ -1252,7 +1252,7 @@ export const PRODUCTS = {
   "EK-16": {
     "name": "Commode Chair Height Adj. Without Wheel",
     "desc": "Stable height-adjustable commode chair for bathroom use",
-    "mrp": "5,400.00",
+    "mrp": "2,500.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-16.jpg",
     "cat": "walking-aid"
@@ -1268,7 +1268,7 @@ export const PRODUCTS = {
   "EK-18": {
     "name": "Bed Back Rest With Handle",
     "desc": "Premium bed back rest with supportive side handles",
-    "mrp": "2,500.00",
+    "mrp": "10,000.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-18.jpg",
     "cat": "walking-aid"
@@ -1276,7 +1276,7 @@ export const PRODUCTS = {
   "EK-19": {
     "name": "Wheel Chair",
     "desc": "Standard manual wheelchair for patient mobility",
-    "mrp": "10,000.00",
+    "mrp": "12,500.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-19.jpg",
     "cat": "walking-aid"
