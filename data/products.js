@@ -24,7 +24,7 @@ export const PRODUCTS = {
     "cat": "body-belts"
   },
   "EA-04": {
-    "name": "Taylor's Brace (Long/Short)",
+    "name": "Taylor's Brace (Long / Short)",
     "desc": "Thoracolumbar support brace for spinal fracture management",
     "mrp": "2,275.00",
     "sizes": "S, M, L, XL, XXL",
@@ -43,7 +43,7 @@ export const PRODUCTS = {
     "name": "Ash Brace (Hyper Extension Brace)",
     "desc": "Hyperextension brace for thoracolumbar fractures",
     "mrp": "1,700.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EA-06.jpg",
     "cat": "body-belts"
   },
@@ -99,7 +99,7 @@ export const PRODUCTS = {
     "name": "Hernia Bike",
     "desc": "Bicycle-style hernia support for active patients",
     "mrp": "300.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EA-13.jpg",
     "cat": "body-belts"
   },
@@ -107,7 +107,7 @@ export const PRODUCTS = {
     "name": "Orthopaedic Backrest",
     "desc": "Ergonomic back support for chairs and car seats",
     "mrp": "1,700.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "Grey, Blue",
     "img": "/images/products/EA-14.jpg",
     "cat": "body-belts"
   },
@@ -123,7 +123,7 @@ export const PRODUCTS = {
     "name": "Adjustable Hard Cervical Collar",
     "desc": "Rigid height-adjustable collar for strict immobilization",
     "mrp": "440.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EB-02.jpg",
     "cat": "cervical"
   },
@@ -131,7 +131,7 @@ export const PRODUCTS = {
     "name": "Cervical Collar Boneless",
     "desc": "Anatomically designed collar without rigid internal support",
     "mrp": "375.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EB-03.jpg",
     "cat": "cervical"
   },
@@ -139,7 +139,7 @@ export const PRODUCTS = {
     "name": "Philadelphia Collar",
     "desc": "Tracheostomy opening collar for severe cervical injuries",
     "mrp": "1,040.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EB-04.jpg",
     "cat": "cervical"
   },
@@ -147,7 +147,7 @@ export const PRODUCTS = {
     "name": "Cervical Pillow (Regular)",
     "desc": "Corrects neck posture during sleep to relieve pain",
     "mrp": "1,275.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "Grey, Blue",
     "img": "/images/products/EB-05.jpg",
     "cat": "cervical"
   },
@@ -163,7 +163,7 @@ export const PRODUCTS = {
     "name": "U-Pillow",
     "desc": "Travel neck support for upright sitting comfort",
     "mrp": "1,550.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EB-07.jpg",
     "cat": "cervical"
   },
@@ -187,7 +187,7 @@ export const PRODUCTS = {
     "name": "Cast Shoe",
     "desc": "Protective rocker bottom shoe for patients with leg casts",
     "mrp": "745.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EC-03.jpg",
     "cat": "fracture"
   },
@@ -195,7 +195,7 @@ export const PRODUCTS = {
     "name": "Clavicle Brace",
     "desc": "Figure-of-eight brace for clavicle fracture management",
     "mrp": "425.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EC-04.jpg",
     "cat": "fracture"
   },
@@ -203,7 +203,7 @@ export const PRODUCTS = {
     "name": "Shoulder Immobilizer",
     "desc": "Secures arm against the body for shoulder stabilization",
     "mrp": "680.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EC-05.jpg",
     "cat": "fracture"
   },
@@ -211,7 +211,7 @@ export const PRODUCTS = {
     "name": "Shoulder Support (Bobath Cuff)",
     "desc": "Specialized cuff for hemiplegic shoulder support",
     "mrp": "1,050.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EC-06.jpg",
     "cat": "fracture"
   },
@@ -288,7 +288,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-03": {
-    "name": "Foot Drop Splint",
+    "name": "Foot Drop Splint (Left / Right)",
     "desc": "Supports foot in dorsiflexion for foot drop conditions",
     "mrp": "1,100.00",
     "sizes": "S, M, L, XL",
@@ -296,7 +296,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-04": {
-    "name": "Foot Drop Splint with Padding",
+    "name": "Foot Drop Splint with Padding (Left / Right)",
     "desc": "Padded AFO splint for enhanced comfort during use",
     "mrp": "1,240.00",
     "sizes": "S, M, L, XL",
@@ -344,7 +344,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-10": {
-    "name": "De-Rotation Shoe",
+    "name": "De-Rotation Shoe (Left / Right)",
     "desc": "Prevents hip rotation for bedridden patients",
     "mrp": "400.00",
     "sizes": "UNIVERSAL",
@@ -352,17 +352,17 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-11": {
-    "name": "AFO Night Splint",
+    "name": "AFO Night Splint (Left / Right)",
     "desc": "Ankle Foot Orthosis for night-time dorsiflexion support",
-    "mrp": "4,000.00",
-    "sizes": "UNIVERSAL",
+    "mrp": "2,550.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-11.jpg",
     "cat": "foot-ankle"
   },
   "EE-12": {
     "name": "Compression Stockings Above Knee",
     "desc": "Medical grade compression for varicose veins and edema",
-    "mrp": "2,550.00",
+    "mrp": "1,690.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-12.jpg",
     "cat": "foot-ankle"
@@ -370,7 +370,7 @@ export const PRODUCTS = {
   "EE-13": {
     "name": "Compression Stockings Below Knee",
     "desc": "Below-knee medical grade compression therapy",
-    "mrp": "1,690.00",
+    "mrp": "1,900.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-13.jpg",
     "cat": "foot-ankle"
@@ -378,7 +378,7 @@ export const PRODUCTS = {
   "EE-14": {
     "name": "DVT Stockings Above Knee",
     "desc": "Anti-DVT stockings above knee (White)",
-    "mrp": "1,900.00",
+    "mrp": "1,500.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-14.jpg",
     "cat": "foot-ankle"
@@ -386,7 +386,7 @@ export const PRODUCTS = {
   "EE-15": {
     "name": "DVT Stockings Below Knee",
     "desc": "Anti-DVT stockings below knee",
-    "mrp": "1,500.00",
+    "mrp": "1,220.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-15.jpg",
     "cat": "foot-ankle"
@@ -410,7 +410,7 @@ export const PRODUCTS = {
   "EF-03": {
     "name": "Neoprene Knee Support",
     "desc": "Therapeutic warmth and compression for the knee joint",
-    "mrp": "1,220.00",
+    "mrp": "700.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-03.jpg",
     "cat": "knee"
@@ -418,15 +418,15 @@ export const PRODUCTS = {
   "EF-04": {
     "name": "Neoprene Knee Support with Hinges",
     "desc": "Hinged neoprene knee brace for mediolateral stability",
-    "mrp": "1,575.00",
-    "sizes": "UNIVERSAL",
+    "mrp": "1,500.00",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-04.jpg",
     "cat": "knee"
   },
   "EF-05": {
     "name": "Drytex Knee Support",
     "desc": "Breathable drytex knee support for all-day comfort",
-    "mrp": "595.00",
+    "mrp": "640.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EF-05.jpg",
     "cat": "knee"
@@ -434,15 +434,15 @@ export const PRODUCTS = {
   "EF-06": {
     "name": "Drytex Knee Hinge Support",
     "desc": "Hinged drytex knee brace for lightweight stabilization",
-    "mrp": "750.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "225.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EF-06.jpg",
     "cat": "knee"
   },
   "EF-07": {
     "name": "Knee Cap 3D",
     "desc": "Advanced 3D knitted knee support for optimal fit",
-    "mrp": "480.00",
+    "mrp": "230.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-07.jpg",
     "cat": "knee"
@@ -458,15 +458,15 @@ export const PRODUCTS = {
   "EF-09": {
     "name": "Knee Immobilizer Short",
     "desc": "Short length knee immobilizer for post-injury protection",
-    "mrp": "925.00",
-    "sizes": "S, M, L, XL, XXL, XXXL",
+    "mrp": "600.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EF-09.jpg",
     "cat": "knee"
   },
   "EF-10": {
     "name": "R.O.M. Knee Brace",
     "desc": "Range of Motion brace for controlled knee flexion/extension",
-    "mrp": "2,750.00",
+    "mrp": "975.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EF-10.jpg",
     "cat": "knee"
@@ -474,15 +474,15 @@ export const PRODUCTS = {
   "EF-11": {
     "name": "Abduction Pillow",
     "desc": "Post-surgical hip abduction pillow for safe positioning",
-    "mrp": "3,050.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "350.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EF-11.jpg",
     "cat": "knee"
   },
   "EF-12": {
     "name": "Elastic Knee Support",
     "desc": "Flexible elastic support for daily knee joint protection",
-    "mrp": "700.00",
+    "mrp": "400.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-12.jpg",
     "cat": "knee"
@@ -490,24 +490,24 @@ export const PRODUCTS = {
   "EF-13": {
     "name": "Functional Knee Support",
     "desc": "Advanced functional support for active knee stabilization",
-    "mrp": "1,500.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "890.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EF-13.jpg",
     "cat": "knee"
   },
   "EF-14": {
-    "name": "OA Knee Support",
+    "name": "OA Knee Support (Left / Right)",
     "desc": "Osteoarthritis knee brace for offloading joint pressure",
-    "mrp": "1,500.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "1,550.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EF-14.jpg",
     "cat": "knee"
   },
   "EG-01": {
     "name": "Wrist & Forearm Brace Short",
     "desc": "Supports wrist and forearm while allowing finger movement",
-    "mrp": "640.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "375.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-01.jpg",
     "cat": "wrist-forearm"
   },
@@ -608,7 +608,7 @@ export const PRODUCTS = {
     "cat": "wrist-forearm"
   },
   "EG-14": {
-    "name": "Tourniquet",
+    "name": "Fistula Belt",
     "desc": "Protective compression belt for dialysis fistula sites",
     "mrp": "50.00",
     "sizes": "S, M, L, XL, XXL",
@@ -717,16 +717,16 @@ export const PRODUCTS = {
   "EI-01": {
     "name": "Silicone Heel Cups",
     "desc": "Shock absorbing heel cups for calcaneal pain relief",
-    "mrp": "760.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "390.00",
+    "sizes": "XS, S, M, L",
     "img": "/images/products/EI-01.jpg",
     "cat": "silicone-foot"
   },
   "EI-02": {
     "name": "Silicone Full Insole",
     "desc": "Full length silicone insoles for uniform foot cushioning",
-    "mrp": "1,625.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "1,550.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-02.jpg",
     "cat": "silicone-foot"
   },
@@ -734,50 +734,50 @@ export const PRODUCTS = {
     "name": "Silicone Gel Ball",
     "desc": "Targeted support for flat feet and arch stabilization",
     "mrp": {
-      "RED": "425.00",
-      "YELLOW": "400.00"
+          "Red": "425.00",
+          "Yellow": "400.00"
     },
-    "sizes": "RED, YELLOW",
+    "sizes": "Red, Yellow",
     "img": "/images/products/EI-03.jpg",
     "cat": "silicone-foot"
   },
   "EI-04": {
     "name": "Silicone Arch Support",
     "desc": "Aligns overlapping toes and relieves bunion pressure",
-    "mrp": "400.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "390.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-04.jpg",
     "cat": "silicone-foot"
   },
   "EI-05": {
     "name": "Bunion Splint",
-    "desc": "Soft gel cushions for localized heel comfort",
-    "mrp": "390.00",
-    "sizes": "S, M, L, XL, XXL",
+    "desc": "Corrects hallux valgus and relieves bunion pressure",
+    "mrp": "525.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-05.jpg",
     "cat": "silicone-foot"
   },
   "EI-06": {
     "name": "Toe Separator with Silicone",
-    "desc": "Relieves pressure on the ball of the foot",
-    "mrp": "525.00",
-    "sizes": "S, M, L, XL, XXL",
+    "desc": "Soft silicone separator to align and space toes",
+    "mrp": "120.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-06.jpg",
     "cat": "silicone-foot"
   },
   "EI-07": {
     "name": "Silicone Full Insole with Medial Arch",
-    "desc": "Soft silicone spreader for hammer toe correction",
+    "desc": "Full-length insoles with medial arch for pronation support",
     "mrp": "1,550.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-07.jpg",
     "cat": "silicone-foot"
   },
   "EI-08": {
     "name": "Hot & Cold Gel Pack",
-    "desc": "Contoured insoles for longitudinal arch support",
+    "desc": "Reusable gel pack for hot and cold therapy",
     "mrp": "525.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EI-08.jpg",
     "cat": "silicone-foot"
   },
@@ -919,10 +919,9 @@ export const PRODUCTS = {
     "name": "Flex Bar",
     "desc": "Soft foam balls for stress relief and light hand therapy",
     "mrp": {
-      "Red": "5,500.00",
-      "Yellow": "4,150.00",
-      "Green": "5,600.00",
-      "Blue": "6,750.00"
+          "Blue Soft": "325.00",
+          "Green Medium": "325.00",
+          "Orange Hard": "325.00"
     },
     "sizes": "Red, Yellow, Green, Blue",
     "img": "/images/products/EJ-09.jpg",
@@ -1004,9 +1003,10 @@ export const PRODUCTS = {
     "name": "Acupuncture Needle",
     "desc": "Sterile disposable needles for acupuncture therapy",
     "mrp": {
-      "0.25*13 MM": "500.00",
-      "0.25*25 MM": "525.00",
-      "0.25*50 MM": "550.00"
+          "Red": "3,200.00",
+          "Blue": "3,200.00",
+          "Green": "3,200.00",
+          "Black": "3,200.00"
     },
     "sizes": "0.25*13 MM, 0.25*25 MM, 0.25*50 MM",
     "img": "/images/products/EJ-19.jpg",
@@ -1132,7 +1132,7 @@ export const PRODUCTS = {
   "EK-01": {
     "name": "Single Stick Black (Mono Pod)",
     "desc": "Adjustable height aluminum walking stick with comfortable grip",
-    "mrp": "580.00",
+    "mrp": "5,800.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-01.jpg",
     "cat": "walking-aid"
@@ -1140,7 +1140,7 @@ export const PRODUCTS = {
   "EK-02": {
     "name": "Single Stick Green (Mono Pod)",
     "desc": "Stylish green walking stick with durable non-slip tip",
-    "mrp": "695.00",
+    "mrp": "2,000.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-02.jpg",
     "cat": "walking-aid"
@@ -1148,7 +1148,7 @@ export const PRODUCTS = {
   "EK-03": {
     "name": "Tripod Stick",
     "desc": "Three-legged walking stick for enhanced stability and balance",
-    "mrp": "975.00",
+    "mrp": "10,000.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-03.jpg",
     "cat": "walking-aid"
@@ -1156,7 +1156,7 @@ export const PRODUCTS = {
   "EK-04": {
     "name": "Quadripod Stick",
     "desc": "Four-legged stick providing maximum support and broad base",
-    "mrp": "975.00",
+    "mrp": "3,000.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-04.jpg",
     "cat": "walking-aid"
@@ -1164,7 +1164,7 @@ export const PRODUCTS = {
   "EK-05": {
     "name": "Elbow Crutches",
     "desc": "Height-adjustable elbow crutches for safe mobility",
-    "mrp": "1,075.00",
+    "mrp": "1,450.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-05.jpg",
     "cat": "walking-aid"
@@ -1172,7 +1172,7 @@ export const PRODUCTS = {
   "EK-06": {
     "name": "Auxiliary Crutches",
     "desc": "Standard underarm crutches with comfortable padding",
-    "mrp": "1,650.00",
+    "mrp": "1,395.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-06.jpg",
     "cat": "walking-aid"
@@ -1180,7 +1180,7 @@ export const PRODUCTS = {
   "EK-07": {
     "name": "Walker With Wheel",
     "desc": "Folding walker with front wheels for smooth movement",
-    "mrp": "2,250.00",
+    "mrp": "499.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-07.jpg",
     "cat": "walking-aid"
@@ -1188,7 +1188,7 @@ export const PRODUCTS = {
   "EK-08": {
     "name": "Walker Without Wheels",
     "desc": "Traditional folding walker for stable patient support",
-    "mrp": "2,000.00",
+    "mrp": "755.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EK-08.jpg",
     "cat": "walking-aid"
@@ -1292,7 +1292,7 @@ export const PRODUCTS = {
   "EL-01": {
     "name": "Portable Soft Stretcher",
     "desc": "Foldable soft stretcher for emergency patient transport",
-    "mrp": "3,000.00",
+    "mrp": "1,450.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-01.jpg",
     "cat": "allied"
@@ -1300,7 +1300,7 @@ export const PRODUCTS = {
   "EL-02": {
     "name": "Trolley Cover",
     "desc": "Durable protective cover for hospital trolleys",
-    "mrp": "2,500.00",
+    "mrp": "1,395.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-02.jpg",
     "cat": "allied"
@@ -1308,7 +1308,7 @@ export const PRODUCTS = {
   "EL-03": {
     "name": "Donut Cushion",
     "desc": "Circular cushion for pressure relief while sitting",
-    "mrp": "1,450.00",
+    "mrp": "975.00",
     "sizes": "Grey, Blue",
     "img": "/images/products/EL-03.jpg",
     "cat": "allied"
@@ -1316,15 +1316,15 @@ export const PRODUCTS = {
   "EL-04": {
     "name": "Coccyx Cushion",
     "desc": "Anatomically designed cushion for tailbone pain relief",
-    "mrp": "1,450.00",
+    "mrp": "499.00",
     "sizes": "Grey, Blue",
     "img": "/images/products/EL-04.jpg",
     "cat": "allied"
   },
   "EL-05": {
-    "name": "Heating Pad with Regulator",
+    "name": "Heating Pad with Controller",
     "desc": "Electric heating pad with adjustable heat settings",
-    "mrp": "1,395.00",
+    "mrp": "655.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-05.jpg",
     "cat": "allied"
@@ -1332,7 +1332,7 @@ export const PRODUCTS = {
   "EL-06": {
     "name": "Heating Pad with Regulator",
     "desc": "Advanced heating pad for therapeutic heat therapy",
-    "mrp": "975.00",
+    "mrp": "755.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-06.jpg",
     "cat": "allied"
@@ -1348,7 +1348,7 @@ export const PRODUCTS = {
   "EL-08": {
     "name": "Steam Inhalation Pot (Vaporizer)",
     "desc": "Effective vaporizer for steam inhalation therapy",
-    "mrp": "655.00",
+    "mrp": "230.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-08.jpg",
     "cat": "allied"
@@ -1356,7 +1356,7 @@ export const PRODUCTS = {
   "EL-09": {
     "name": "Steam Inhalation Pot With Switch",
     "desc": "Vaporizer with convenient power switch for safety",
-    "mrp": "755.00",
+    "mrp": "160.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EL-09.jpg",
     "cat": "allied"
@@ -1413,7 +1413,7 @@ export const PRODUCTS = {
     "name": "Ounce Measuring Glass",
     "desc": "Accurate measuring glass for medical dosages (120 ml)",
     "mrp": "50.00",
-    "sizes": "120 ML",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EL-16.jpg",
     "cat": "allied"
   },
@@ -1421,7 +1421,7 @@ export const PRODUCTS = {
     "name": "Pint Measuring Glass",
     "desc": "Bulk measuring glass for medical liquids (1000 ml)",
     "mrp": "250.00",
-    "sizes": "1000 ML",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EL-17.jpg",
     "cat": "allied"
   },
@@ -1429,7 +1429,7 @@ export const PRODUCTS = {
     "name": "Medical Arch Shoe",
     "desc": "Orthopaedic shoe for longitudinal arch correction",
     "mrp": "2,500.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EL-18.jpg",
     "cat": "allied"
   },
@@ -1437,7 +1437,7 @@ export const PRODUCTS = {
     "name": "Calcalium Shoe",
     "desc": "Specialized shoe for calcaneal spur relief",
     "mrp": "3,000.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EL-19.jpg",
     "cat": "allied"
   },
@@ -1555,7 +1555,7 @@ export const PRODUCTS = {
   "EM-01": {
     "name": "Cervical Soft Collar -- Child",
     "desc": "Pediatric soft cervical collar for children",
-    "mrp": "300.00",
+    "mrp": "360.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-01.jpg",
     "cat": "child-care"
@@ -1612,7 +1612,7 @@ export const PRODUCTS = {
     "name": "Child Walker with Wheel",
     "desc": "Pediatric walker with front wheels",
     "mrp": "2,050.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EM-08.jpg",
     "cat": "child-care"
   },
@@ -1620,7 +1620,7 @@ export const PRODUCTS = {
     "name": "Child Walker without Wheel",
     "desc": "Pediatric folding walker for children",
     "mrp": "1,800.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EM-09.jpg",
     "cat": "child-care"
   },
