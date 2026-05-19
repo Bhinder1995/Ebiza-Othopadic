@@ -355,7 +355,7 @@ export const PRODUCTS = {
     "name": "AFO Night Splint (Left / Right)",
     "desc": "Ankle Foot Orthosis for night-time dorsiflexion support",
     "mrp": "4,000.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNI",
     "img": "/images/products/EE-11.jpg",
     "cat": "foot-ankle"
   },
@@ -857,9 +857,9 @@ export const PRODUCTS = {
     "name": "Theraband",
     "desc": "Latex resistance bands for physiotherapy exercises",
     "mrp": {
-      "GREEN": "720.00",
+      "GREEN": "935.00",
       "RED": "815.00",
-      "YELLOW": "935.00",
+      "YELLOW": "720.00",
       "BLUE": "1,055.00",
       "BLACK": "1,140.00",
       "SILVER": "1,380.00",
@@ -885,7 +885,7 @@ export const PRODUCTS = {
   },
   "EJ-05": {
     "name": "Hand Exerciser Spike Ball",
-    "desc": "Durable anti-burst gym ball for core and balance training",
+    "desc": "Spiked massage ball designed for hand therapy, sensory stimulation, and improving grip strength",
     "mrp": "570.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-05.jpg",
@@ -901,7 +901,7 @@ export const PRODUCTS = {
   },
   "EJ-07": {
     "name": "Balance Pad Square",
-    "desc": "Adjustable hand gripper for forearm and grip strength",
+    "desc": "Non-slip foam balance pad designed for proprioception, rehabilitation, and stability training",
     "mrp": "3,700.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-07.jpg",
@@ -909,7 +909,7 @@ export const PRODUCTS = {
   },
   "EJ-08": {
     "name": "Gel Ball Oval",
-    "desc": "High resistance gripper for advanced hand strengthening",
+    "desc": "Gel oval ball set for hand therapy, strengthening fingers, hands, and forearms",
     "mrp": "1,100.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-08.jpg",
@@ -917,7 +917,7 @@ export const PRODUCTS = {
   },
   "EJ-09": {
     "name": "Flex Bar",
-    "desc": "Soft foam balls for stress relief and light hand therapy",
+    "desc": "Flexible resistance bar designed for tennis elbow therapy, grip strength improvement, and forearm rehabilitation",
     "mrp": {
       "RED": "5,500.00",
       "YELLOW": "4,150.00",
@@ -930,7 +930,7 @@ export const PRODUCTS = {
   },
   "EJ-10": {
     "name": "Hand Exerciser",
-    "desc": "Door-mounted pulley system for shoulder range of motion",
+    "desc": "Simple hand exerciser for finger, hand, and wrist rehabilitation and strengthening",
     "mrp": "300.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-10.jpg",
@@ -938,7 +938,7 @@ export const PRODUCTS = {
   },
   "EJ-11": {
     "name": "Adjustable Hand Gripper",
-    "desc": "Elastic spring exerciser for core and abdominal muscles",
+    "desc": "Adjustable resistance hand gripper to build grip strength, forearm power, and hand dexterity",
     "mrp": "500.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-11.jpg",
@@ -946,7 +946,7 @@ export const PRODUCTS = {
   },
   "EJ-12": {
     "name": "Stability Trainer Theraband",
-    "desc": "Weighted medicine balls for power and core training",
+    "desc": "Theraband stability trainer board designed for balance, core stabilization, and ankle/foot rehabilitation",
     "mrp": "12,000.00",
     "sizes": "UNI",
     "img": "/images/products/EJ-12.jpg",
@@ -1041,9 +1041,9 @@ export const PRODUCTS = {
     "name": "Tubing Sleeve",
     "desc": "Protective sleeve for resistance tubing therapy",
     "mrp": {
-      "BLUE": "900.00",
-      "RED": "1,300.00",
-      "YELLOW": "1,000.00"
+      "BLUE": "1,300.00",
+      "RED": "1,000.00",
+      "YELLOW": "900.00"
     },
     "sizes": "BLUE, RED, YELLOW",
     "img": "/images/products/EJ-22.jpg",
@@ -1053,7 +1053,7 @@ export const PRODUCTS = {
     "name": "Power Web (Web Exerciser)",
     "desc": "Circular web exerciser for comprehensive hand therapy",
     "mrp": {
-      "SOFT-YELLOW": "900.00",
+      "SOFT-YELLOW": "4,500.00",
       "MEDIUM-RED": "4,500.00",
       "FIRM-GREEN": "4,500.00"
     },
@@ -1077,7 +1077,6 @@ export const PRODUCTS = {
     "name": "Foam Roller -- 45 cm",
     "desc": "High density foam roller for muscle release and recovery",
     "mrp": "2,500.00",
-    "sizes": "45CM",
     "img": "/images/products/EJ-25.jpg",
     "cat": "physio"
   },
@@ -1112,10 +1111,10 @@ export const PRODUCTS = {
     "name": "Theraband Loop",
     "desc": "Continuous loop resistance bands for lower body training",
     "mrp": {
-      "BLUE": "1,047.00",
-      "GREEN": "1,226.00",
-      "RED": "1,331.00",
-      "YELLOW": "1,502.00"
+      "BLUE": "1,502.00",
+      "GREEN": "1,331.00",
+      "RED": "1,226.00",
+      "YELLOW": "1,047.00"
     },
     "sizes": "BLUE, GREEN, RED, YELLOW",
     "img": "/images/products/EJ-29.jpg",
@@ -1309,7 +1308,6 @@ export const PRODUCTS = {
     "name": "Donut Cushion",
     "desc": "Circular cushion for pressure relief while sitting",
     "mrp": "1,450.00",
-    "sizes": "GREY/BLUE",
     "img": "/images/products/EL-03.jpg",
     "cat": "allied"
   },
@@ -1317,7 +1315,6 @@ export const PRODUCTS = {
     "name": "Coccyx Cushion",
     "desc": "Anatomically designed cushion for tailbone pain relief",
     "mrp": "1,450.00",
-    "sizes": "GREY/BLUE",
     "img": "/images/products/EL-04.jpg",
     "cat": "allied"
   },
@@ -1381,7 +1378,6 @@ export const PRODUCTS = {
     "name": "Urine Pot Male",
     "desc": "Ergonomic urine collection pot for male patients",
     "mrp": "160.00",
-    "sizes": "MALE",
     "img": "/images/products/EL-12.jpg",
     "cat": "allied"
   },
@@ -1389,7 +1385,6 @@ export const PRODUCTS = {
     "name": "Urine Pot Female",
     "desc": "Anatomically designed urine pot for female patients",
     "mrp": "160.00",
-    "sizes": "FEMALE",
     "img": "/images/products/EL-13.jpg",
     "cat": "allied"
   },
@@ -1397,7 +1392,6 @@ export const PRODUCTS = {
     "name": "Urine Pot Unisex",
     "desc": "Versatile urine collection pot for all patients",
     "mrp": "190.00",
-    "sizes": "UNISEX",
     "img": "/images/products/EL-14.jpg",
     "cat": "allied"
   },
@@ -1413,7 +1407,6 @@ export const PRODUCTS = {
     "name": "Ounce Measuring Glass",
     "desc": "Accurate measuring glass for medical dosages (120 ml)",
     "mrp": "50.00",
-    "sizes": "120ML",
     "img": "/images/products/EL-16.jpg",
     "cat": "allied"
   },
@@ -1421,7 +1414,6 @@ export const PRODUCTS = {
     "name": "Pint Measuring Glass",
     "desc": "Bulk measuring glass for medical liquids (1000 ml)",
     "mrp": "250.00",
-    "sizes": "1000ML",
     "img": "/images/products/EL-17.jpg",
     "cat": "allied"
   },
