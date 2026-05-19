@@ -139,7 +139,7 @@ export const PRODUCTS = {
     "name": "Philadelphia Collar",
     "desc": "Tracheostomy opening collar for severe cervical injuries",
     "mrp": "1,040.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EB-04.jpg",
     "cat": "cervical"
   },
@@ -155,7 +155,7 @@ export const PRODUCTS = {
     "name": "Memory Foam Pillow",
     "desc": "Visco-elastic foam pillow for superior neck contouring",
     "mrp": "2,425.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EB-06.jpg",
     "cat": "cervical"
   },
@@ -163,7 +163,7 @@ export const PRODUCTS = {
     "name": "U-Pillow",
     "desc": "Travel neck support for upright sitting comfort",
     "mrp": "1,550.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EB-07.jpg",
     "cat": "cervical"
   },
@@ -187,7 +187,7 @@ export const PRODUCTS = {
     "name": "Cast Shoe",
     "desc": "Protective rocker bottom shoe for patients with leg casts",
     "mrp": "745.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EC-03.jpg",
     "cat": "fracture"
   },
@@ -203,7 +203,7 @@ export const PRODUCTS = {
     "name": "Shoulder Immobilizer",
     "desc": "Secures arm against the body for shoulder stabilization",
     "mrp": "680.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EC-05.jpg",
     "cat": "fracture"
   },
@@ -211,7 +211,7 @@ export const PRODUCTS = {
     "name": "Shoulder Support (Bobath Cuff)",
     "desc": "Specialized cuff for hemiplegic shoulder support",
     "mrp": "1,050.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EC-06.jpg",
     "cat": "fracture"
   },
@@ -219,7 +219,7 @@ export const PRODUCTS = {
     "name": "Shoulder Support Elastic",
     "desc": "Provides compression and support to the shoulder joint",
     "mrp": "1,250.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EC-07.jpg",
     "cat": "fracture"
   },
@@ -227,7 +227,7 @@ export const PRODUCTS = {
     "name": "Sling Strap",
     "desc": "Simple adjustable strap for basic arm support",
     "mrp": "175.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EC-08.jpg",
     "cat": "fracture"
   },
@@ -243,7 +243,7 @@ export const PRODUCTS = {
     "name": "Finger Cot Splint",
     "desc": "Protects fingertip and nail bed injuries",
     "mrp": "135.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L",
     "img": "/images/products/ED-01.jpg",
     "cat": "finger-splints"
   },
@@ -251,7 +251,7 @@ export const PRODUCTS = {
     "name": "Mallet Finger Splint",
     "desc": "Supports DIP joint in extension for mallet finger",
     "mrp": "100.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/ED-02.jpg",
     "cat": "finger-splints"
   },
@@ -259,7 +259,7 @@ export const PRODUCTS = {
     "name": "Frog Splint",
     "desc": "Maintains interphalangeal joints in position",
     "mrp": "125.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L",
     "img": "/images/products/ED-03.jpg",
     "cat": "finger-splints"
   },
@@ -267,7 +267,7 @@ export const PRODUCTS = {
     "name": "Finger Extension Splint",
     "desc": "Promotes finger extension for contractures",
     "mrp": "225.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/ED-04.jpg",
     "cat": "finger-splints"
   },
@@ -283,7 +283,7 @@ export const PRODUCTS = {
     "name": "Anklet with Binder Support",
     "desc": "Ankle support with additional elastic binder for extra stability",
     "mrp": "325.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EE-02.jpg",
     "cat": "foot-ankle"
   },
@@ -315,7 +315,7 @@ export const PRODUCTS = {
     "name": "PF Night Splint De-Rotation",
     "desc": "Stretches plantar fascia during sleep to relieve heel pain",
     "mrp": "1,375.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EE-06.jpg",
     "cat": "foot-ankle"
   },
@@ -323,7 +323,7 @@ export const PRODUCTS = {
     "name": "Ankle Brace Lace Up",
     "desc": "Rigid lace-up brace for advanced ankle stabilization",
     "mrp": "770.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EE-07.jpg",
     "cat": "foot-ankle"
   },
@@ -339,7 +339,7 @@ export const PRODUCTS = {
     "name": "Leg Restrainer",
     "desc": "Immobilizes the leg for post-surgical safety",
     "mrp": "300.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EE-09.jpg",
     "cat": "foot-ankle"
   },
@@ -411,7 +411,7 @@ export const PRODUCTS = {
     "name": "Neoprene Knee Support",
     "desc": "Therapeutic warmth and compression for the knee joint",
     "mrp": "1,220.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EF-03.jpg",
     "cat": "knee"
   },
@@ -419,7 +419,7 @@ export const PRODUCTS = {
     "name": "Neoprene Knee Support with Hinges",
     "desc": "Hinged neoprene knee brace for mediolateral stability",
     "mrp": "1,575.00",
-    "sizes": "S, M, L, XL, XXL, UNIVERSAL",
+    "sizes": "UNIVERSAL, XXL",
     "img": "/images/products/EF-04.jpg",
     "cat": "knee"
   },
@@ -427,7 +427,7 @@ export const PRODUCTS = {
     "name": "Drytex Knee Support",
     "desc": "Breathable drytex knee support for all-day comfort",
     "mrp": "595.00",
-    "sizes": "S, M, L, XL, XXL, UNIVERSAL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EF-05.jpg",
     "cat": "knee"
   },
@@ -467,7 +467,7 @@ export const PRODUCTS = {
     "name": "R.O.M. Knee Brace",
     "desc": "Range of Motion brace for controlled knee flexion/extension",
     "mrp": "2,750.00",
-    "sizes": "S, M, L, XL, XXL, UNIVERSAL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EF-10.jpg",
     "cat": "knee"
   },
@@ -475,7 +475,7 @@ export const PRODUCTS = {
     "name": "Abduction Pillow",
     "desc": "Post-surgical hip abduction pillow for safe positioning",
     "mrp": "3,050.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EF-11.jpg",
     "cat": "knee"
   },
@@ -507,7 +507,7 @@ export const PRODUCTS = {
     "name": "Wrist and Forearm Brace (Short)",
     "desc": "Supports wrist and forearm while allowing finger movement",
     "mrp": "640.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-01.jpg",
     "cat": "wrist-forearm"
   },
@@ -515,7 +515,7 @@ export const PRODUCTS = {
     "name": "Wrist and Forearm Brace (Long)",
     "desc": "Extended forearm support for stable fracture management",
     "mrp": "740.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-02.jpg",
     "cat": "wrist-forearm"
   },
@@ -523,7 +523,7 @@ export const PRODUCTS = {
     "name": "Wrist Support",
     "desc": "Basic compression support for wrist sprains and strains",
     "mrp": "225.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-03.jpg",
     "cat": "wrist-forearm"
   },
@@ -531,7 +531,7 @@ export const PRODUCTS = {
     "name": "Wrist Brace with Thumb Support",
     "desc": "Supports both wrist and CMC/MCP joints of the thumb",
     "mrp": "230.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-04.jpg",
     "cat": "wrist-forearm"
   },
@@ -547,7 +547,7 @@ export const PRODUCTS = {
     "name": "Tennis Elbow Support with Silicone Pad",
     "desc": "Targeted pressure for lateral epicondylitis relief",
     "mrp": "250.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-06.jpg",
     "cat": "wrist-forearm"
   },
@@ -555,7 +555,7 @@ export const PRODUCTS = {
     "name": "Carpal Tunnel Splint",
     "desc": "Maintains neutral wrist position for carpal tunnel relief",
     "mrp": "300.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-07.jpg",
     "cat": "wrist-forearm"
   },
@@ -563,7 +563,7 @@ export const PRODUCTS = {
     "name": "Hand Restrainer",
     "desc": "Soft restraint for patient safety and positioning",
     "mrp": "300.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-08.jpg",
     "cat": "wrist-forearm"
   },
@@ -571,7 +571,7 @@ export const PRODUCTS = {
     "name": "Thumb Spica Splint",
     "desc": "Immobilizes the thumb while allowing wrist movement",
     "mrp": "260.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-09.jpg",
     "cat": "wrist-forearm"
   },
@@ -579,7 +579,7 @@ export const PRODUCTS = {
     "name": "Wrist Splint (Ambidextrous)",
     "desc": "Fits either hand for versatile wrist stabilization",
     "mrp": "600.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EG-10.jpg",
     "cat": "wrist-forearm"
   },
@@ -587,7 +587,7 @@ export const PRODUCTS = {
     "name": "Arm Immobilizer (Adjustable)",
     "desc": "Complete arm and shoulder immobilization system",
     "mrp": "975.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-11.jpg",
     "cat": "wrist-forearm"
   },
@@ -619,63 +619,63 @@ export const PRODUCTS = {
     "name": "Elbow Restrainer",
     "desc": "Prevents elbow flexion for post-surgical protection",
     "mrp": "350.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EG-15.jpg",
     "cat": "wrist-forearm"
   },
   "EH-01": {
     "name": "Skin Traction Kit (PU Foam Roller Bandage)",
     "desc": "Skin traction support applied to the leg to reduce fractures and maintain alignment",
-    "mrp": "270.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "400.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EH-01.jpg",
     "cat": "traction"
   },
   "EH-02": {
-    "name": "Skin Traction Kit (Adhesive Crepe Bandage)",
+    "name": "Leg Traction Brace",
     "desc": "Rigid brace applied to the leg to maintain traction and support during recovery",
-    "mrp": "270.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "600.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EH-02.jpg",
     "cat": "traction"
   },
   "EH-03": {
     "name": "Pelvic Traction Belt",
     "desc": "Belt designed to apply traction to the pelvic region for lumbar decompression",
-    "mrp": "620.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "890.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EH-03.jpg",
     "cat": "traction"
   },
   "EH-04": {
-    "name": "Pelvic Traction Kit",
-    "desc": "Complete foot traction kit for non-invasive skin traction therapy",
-    "mrp": "1,400.00",
-    "sizes": "S, M, L, XL, XXL",
+    "name": "Cervical Traction Kit",
+    "desc": "Cervical traction kit with head halter for home-based neck decompression therapy",
+    "mrp": "2,000.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EH-04.jpg",
     "cat": "traction"
   },
   "EH-05": {
-    "name": "Foot Traction Belt",
-    "desc": "Cervical traction kit with head halter for home-based neck decompression therapy",
-    "mrp": "260.00",
-    "sizes": "S, M, L, XL, XXL",
+    "name": "Foot Traction Kit",
+    "desc": "Complete foot traction kit for non-invasive skin traction therapy",
+    "mrp": "1,550.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EH-05.jpg",
     "cat": "traction"
   },
   "EH-06": {
-    "name": "Foot Traction Kit",
+    "name": "Pelvic Traction Kit",
     "desc": "Pelvic traction kit with belt and weight system for lumbar spine decompression",
-    "mrp": "930.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "2,500.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EH-06.jpg",
     "cat": "traction"
   },
   "EH-07": {
-    "name": "Cervical Traction Kit",
-    "desc": "Belt for providing traction through the ankle joint",
-    "mrp": "660.00",
-    "sizes": "S, M, L, XL, XXL",
+    "name": "Traction Weight Bag",
+    "desc": "Sand-filled weight bags for precise traction force application",
+    "mrp": "375.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EH-07.jpg",
     "cat": "traction"
   },
@@ -693,7 +693,7 @@ export const PRODUCTS = {
   "EH-09": {
     "name": "Thomas Splint",
     "desc": "Optimized thoracolumbar support for postural correction",
-    "mrp": "1,000.00",
+    "mrp": "850.00",
     "sizes": "CH, S, M, L, XL, XXL",
     "img": "/images/products/EH-09.jpg",
     "cat": "traction"
@@ -701,7 +701,7 @@ export const PRODUCTS = {
   "EH-10": {
     "name": "Bohler Braun Splint",
     "desc": "Durable bracket for guiding traction cords and weights",
-    "mrp": "2,700.00",
+    "mrp": "2,050.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EH-10.jpg",
     "cat": "traction"
@@ -709,7 +709,7 @@ export const PRODUCTS = {
   "EH-11": {
     "name": "Shoulder Pulley",
     "desc": "Spreader bar for even distribution of cervical traction force",
-    "mrp": "260.00",
+    "mrp": "500.00",
     "sizes": "UNIVERSAL",
     "img": "/images/products/EH-11.jpg",
     "cat": "traction"
@@ -718,7 +718,7 @@ export const PRODUCTS = {
     "name": "Silicone Heel Cups",
     "desc": "Shock absorbing heel cups for calcaneal pain relief",
     "mrp": "760.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-01.jpg",
     "cat": "silicone-foot"
   },
@@ -726,7 +726,7 @@ export const PRODUCTS = {
     "name": "Silicone Full Insole",
     "desc": "Full length silicone insoles for uniform foot cushioning",
     "mrp": "1,625.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-02.jpg",
     "cat": "silicone-foot"
   },
@@ -744,24 +744,24 @@ export const PRODUCTS = {
   "EI-04": {
     "name": "Silicone Arch Support",
     "desc": "Aligns overlapping toes and relieves bunion pressure",
-    "mrp": "400.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "390.00",
+    "sizes": "XS, S, M, L",
     "img": "/images/products/EI-04.jpg",
     "cat": "silicone-foot"
   },
   "EI-05": {
     "name": "Bunion Splint",
     "desc": "Corrects hallux valgus and relieves bunion pressure",
-    "mrp": "390.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "525.00",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EI-05.jpg",
     "cat": "silicone-foot"
   },
   "EI-06": {
     "name": "Toe Separator with Silicone",
     "desc": "Soft silicone separator to align and space toes",
-    "mrp": "525.00",
-    "sizes": "S, M, L, XL, XXL",
+    "mrp": "120.00",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-06.jpg",
     "cat": "silicone-foot"
   },
@@ -769,7 +769,7 @@ export const PRODUCTS = {
     "name": "Silicone Full Insole with Medial Arch",
     "desc": "Full-length insoles with medial arch for pronation support",
     "mrp": "1,550.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EI-07.jpg",
     "cat": "silicone-foot"
   },
@@ -777,7 +777,7 @@ export const PRODUCTS = {
     "name": "Hot & Cold Gel Pack",
     "desc": "Reusable gel pack for hot and cold therapy",
     "mrp": "525.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EI-08.jpg",
     "cat": "silicone-foot"
   },
@@ -1555,7 +1555,7 @@ export const PRODUCTS = {
   "EM-01": {
     "name": "Cervical Soft Collar -- Child",
     "desc": "Pediatric soft cervical collar for children",
-    "mrp": "300.00",
+    "mrp": "360.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EM-01.jpg",
     "cat": "child-care"
@@ -1569,10 +1569,10 @@ export const PRODUCTS = {
     "cat": "child-care"
   },
   "EM-03": {
-    "name": "Pouch Arm Sling Tropical -- Child",
+    "name": "Arm Sling Tropical -- Child",
     "desc": "Pediatric tropical arm sling for children",
     "mrp": "350.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EM-03.jpg",
     "cat": "child-care"
   },
