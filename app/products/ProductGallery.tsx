@@ -92,12 +92,7 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
               </div>
             )}
 
-            {sizeList.length > 0 && !(sizeList.length === 1 && (
-              sizeList[0].toUpperCase() === 'UNI' || 
-              sizeList[0].toUpperCase().includes('UNI') ||
-              sizeList[0].toUpperCase().includes('UNIVERS') ||
-              sizeList[0].toUpperCase().includes('UNIVERSAL')
-            )) && (
+            {sizeList.length > 0 && (
               <>
                 <div className="modal-sizes-label" style={{fontSize:'14px', fontWeight:600, marginBottom:'10px'}}>Available Sizes / Variants</div>
                 <div className="modal-sizes" style={{display:'flex', flexWrap:'wrap', gap:'8px', marginBottom:'16px'}}>
