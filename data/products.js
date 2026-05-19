@@ -288,7 +288,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-03": {
-    "name": "Foot Drop Splint",
+    "name": "Foot Drop Splint (Left / Right)",
     "desc": "Supports foot in dorsiflexion for foot drop conditions",
     "mrp": "1,100.00",
     "sizes": "S, M, L, XL",
@@ -296,7 +296,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-04": {
-    "name": "Foot Drop Splint with Padding",
+    "name": "Foot Drop Splint with Padding (Left / Right)",
     "desc": "Padded AFO splint for enhanced comfort during use",
     "mrp": "1,240.00",
     "sizes": "S, M, L, XL",
@@ -344,7 +344,7 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-10": {
-    "name": "De-Rotation Shoe",
+    "name": "De-Rotation Shoe (Left / Right)",
     "desc": "Prevents hip rotation for bedridden patients",
     "mrp": "400.00",
     "sizes": "UNI",
@@ -352,10 +352,10 @@ export const PRODUCTS = {
     "cat": "foot-ankle"
   },
   "EE-11": {
-    "name": "AFO Night Splint",
+    "name": "AFO Night Splint (Left / Right)",
     "desc": "Ankle Foot Orthosis for night-time dorsiflexion support",
     "mrp": "4,000.00",
-    "sizes": "UNI",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EE-11.jpg",
     "cat": "foot-ankle"
   },
@@ -496,7 +496,7 @@ export const PRODUCTS = {
     "cat": "knee"
   },
   "EF-14": {
-    "name": "OA Knee Support",
+    "name": "OA Knee Support (Left / Right)",
     "desc": "Osteoarthritis knee brace for offloading joint pressure",
     "mrp": "1,500.00",
     "sizes": "S, M, L, XL, XXL",
@@ -592,7 +592,7 @@ export const PRODUCTS = {
     "cat": "wrist-forearm"
   },
   "EG-12": {
-    "name": "Static Cockup Splint",
+    "name": "Static Cockup Splint (Left / Right)",
     "desc": "Holds wrist in functional cock-up position",
     "mrp": "950.00",
     "sizes": "S, M, L",
@@ -600,7 +600,7 @@ export const PRODUCTS = {
     "cat": "wrist-forearm"
   },
   "EG-13": {
-    "name": "Wrist Splint (Dynamic Splint)",
+    "name": "Dynamic Splint (Left / Right)",
     "desc": "Provides tension to promote joint range of motion",
     "mrp": "1,050.00",
     "sizes": "S, M, L, XL",
@@ -1133,7 +1133,7 @@ export const PRODUCTS = {
     "name": "Single Stick Black (Mono Pod)",
     "desc": "Adjustable height aluminum walking stick with comfortable grip",
     "mrp": "580.00",
-    "sizes": "BLACK",
+    "sizes": "UNI",
     "img": "/images/products/EK-01.jpg",
     "cat": "walking-aid"
   },
@@ -1141,7 +1141,7 @@ export const PRODUCTS = {
     "name": "Single Stick Green (Mono Pod)",
     "desc": "Stylish green walking stick with durable non-slip tip",
     "mrp": "695.00",
-    "sizes": "GREEN",
+    "sizes": "UNI",
     "img": "/images/products/EK-02.jpg",
     "cat": "walking-aid"
   },
@@ -1696,7 +1696,7 @@ export const PRODUCTS = {
     "cat": "allied"
   },
   "EM-10": {
-    "name": "AFO Night Splint -- Child",
+    "name": "AFO Night Splint -- Child (Left / Right)",
     "desc": "Pediatric specialised care and orthopedic support for children, specifically ankle foot orthosis night splint",
     "mrp": "3,500.00",
     "sizes": "UNI",
