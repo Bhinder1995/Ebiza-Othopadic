@@ -43,7 +43,7 @@ export const PRODUCTS = {
     "name": "Ash Brace (Hyper Extension Brace) (Long / Short)",
     "desc": "Hyperextension brace for thoracolumbar fractures",
     "mrp": "1,700.00",
-    "sizes": "S, M, L, XL, XXL, UNIVERSAL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EA-06.jpg",
     "cat": "body-belts"
   },
@@ -291,7 +291,7 @@ export const PRODUCTS = {
     "name": "Foot Drop Splint",
     "desc": "Supports foot in dorsiflexion for foot drop conditions",
     "mrp": "1,100.00",
-    "sizes": "Left -- S, Left -- M, Left -- L, Left -- XL, Right -- S, Right -- M, Right -- L, Right -- XL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EE-03.jpg",
     "cat": "foot-ankle"
   },
@@ -299,7 +299,7 @@ export const PRODUCTS = {
     "name": "Foot Drop Splint with Padding",
     "desc": "Padded AFO splint for enhanced comfort during use",
     "mrp": "1,240.00",
-    "sizes": "Left -- S, Left -- M, Left -- L, Left -- XL, Right -- S, Right -- M, Right -- L, Right -- XL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EE-04.jpg",
     "cat": "foot-ankle"
   },
@@ -307,7 +307,7 @@ export const PRODUCTS = {
     "name": "Anklet Comfort Pair",
     "desc": "Compression anklets for mild sprains and swelling",
     "mrp": "340.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EE-05.jpg",
     "cat": "foot-ankle"
   },
@@ -331,7 +331,7 @@ export const PRODUCTS = {
     "name": "Anklet Pair",
     "desc": "Basic elastic anklets for everyday support",
     "mrp": "300.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EE-08.jpg",
     "cat": "foot-ankle"
   },
@@ -347,7 +347,7 @@ export const PRODUCTS = {
     "name": "De-Rotation Shoe",
     "desc": "Prevents hip rotation for bedridden patients",
     "mrp": "400.00",
-    "sizes": "Left, Right",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EE-10.jpg",
     "cat": "foot-ankle"
   },
@@ -355,7 +355,7 @@ export const PRODUCTS = {
     "name": "AFO Night Splint",
     "desc": "Ankle Foot Orthosis for night-time dorsiflexion support",
     "mrp": "4,000.00",
-    "sizes": "Left, Right",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EE-11.jpg",
     "cat": "foot-ankle"
   },
@@ -435,7 +435,7 @@ export const PRODUCTS = {
     "name": "Drytex Knee Hinge Support",
     "desc": "Hinged drytex knee brace for lightweight stabilization",
     "mrp": "750.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EF-06.jpg",
     "cat": "knee"
   },
@@ -499,7 +499,7 @@ export const PRODUCTS = {
     "name": "OA Knee Support",
     "desc": "Osteoarthritis knee brace for offloading joint pressure",
     "mrp": "1,500.00",
-    "sizes": "Left -- S, Left -- M, Left -- L, Left -- XL, Left -- XXL, Right -- S, Right -- M, Right -- L, Right -- XL, Right -- XXL",
+    "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-14.jpg",
     "cat": "knee"
   },
@@ -595,7 +595,7 @@ export const PRODUCTS = {
     "name": "Static Cockup Splint",
     "desc": "Holds wrist in functional cock-up position",
     "mrp": "950.00",
-    "sizes": "Left -- S, Left -- M, Left -- L, Left -- XL, Left -- XXL, Right -- S, Right -- M, Right -- L, Right -- XL, Right -- XXL",
+    "sizes": "S, M, L",
     "img": "/images/products/EG-12.jpg",
     "cat": "wrist-forearm"
   },
@@ -603,7 +603,7 @@ export const PRODUCTS = {
     "name": "Wrist Splint (Dynamic Splint)",
     "desc": "Provides tension to promote joint range of motion",
     "mrp": "1,050.00",
-    "sizes": "Left -- S, Left -- M, Left -- L, Left -- XL, Left -- XXL, Right -- S, Right -- M, Right -- L, Right -- XL, Right -- XXL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EG-13.jpg",
     "cat": "wrist-forearm"
   },
@@ -683,10 +683,10 @@ export const PRODUCTS = {
     "name": "Traction Weight Rubber",
     "desc": "Sand-filled weight bags for precise traction force",
     "mrp": {
-      "2.5 LB": "250.00",
-      "5 LB": "500.00"
+      "2.5LB": "250.00",
+      "5LB": "500.00"
     },
-    "sizes": "2.5 LB, 5 LB",
+    "sizes": "2.5LB, 5LB",
     "img": "/images/products/EH-08.jpg",
     "cat": "traction"
   },
@@ -837,11 +837,11 @@ export const PRODUCTS = {
     "name": "Weight Cuff",
     "desc": "Wearable weight cuffs for progressive resistance training",
     "mrp": {
-      "500 GM": "500.00",
-      "1 KG": "780.00",
-      "2 KG": "1,225.00"
+      "500GM": "500.00",
+      "1KG": "780.00",
+      "2KG": "1,225.00"
     },
-    "sizes": "500 GM, 1 KG, 2 KG",
+    "sizes": "500GM, 1KG, 2KG",
     "img": "/images/products/EJ-01.jpg",
     "cat": "physio"
   },
@@ -857,15 +857,15 @@ export const PRODUCTS = {
     "name": "Theraband",
     "desc": "Latex resistance bands for physiotherapy exercises",
     "mrp": {
-      "Yellow": "720.00",
-      "Red": "815.00",
-      "Green": "935.00",
-      "Blue": "1,055.00",
-      "Black": "1,140.00",
-      "Silver": "1,380.00",
-      "Gold": "1,700.00"
+      "GREEN": "720.00",
+      "RED": "815.00",
+      "YELLOW": "935.00",
+      "BLUE": "1,055.00",
+      "BLACK": "1,140.00",
+      "SILVER": "1,380.00",
+      "GOLD": "1,700.00"
     },
-    "sizes": "Yellow, Red, Green, Blue, Black, Silver, Gold",
+    "sizes": "GREEN, RED, YELLOW, BLUE, BLACK, SILVER, GOLD",
     "img": "/images/products/EJ-03.jpg",
     "cat": "physio"
   },
@@ -873,13 +873,13 @@ export const PRODUCTS = {
     "name": "Theraputty",
     "desc": "Color-coded hand exercise putty for variable resistance",
     "mrp": {
-      "Yellow": "999.00",
-      "Red": "999.00",
-      "Green": "999.00",
-      "Blue": "999.00",
-      "Black": "999.00"
+      "GREEN": "999.00",
+      "BLACK": "999.00",
+      "BLUE": "999.00",
+      "RED": "999.00",
+      "YELLOW": "999.00"
     },
-    "sizes": "Yellow, Red, Green, Blue, Black",
+    "sizes": "GREEN, BLACK, BLUE, RED, YELLOW",
     "img": "/images/products/EJ-04.jpg",
     "cat": "physio"
   },
@@ -895,7 +895,7 @@ export const PRODUCTS = {
     "name": "Finger Exerciser",
     "desc": "Spring-loaded exerciser for individual finger strength",
     "mrp": "325.00",
-    "sizes": "Blue Soft, Green Medium, Orange Hard",
+    "sizes": "BLUE-SOFT, GREEN-MEDIUM, ORANGE-HARD",
     "img": "/images/products/EJ-06.jpg",
     "cat": "physio"
   },
@@ -919,12 +919,12 @@ export const PRODUCTS = {
     "name": "Flex Bar",
     "desc": "Soft foam balls for stress relief and light hand therapy",
     "mrp": {
-      "Red": "5,500.00",
-      "Yellow": "4,150.00",
-      "Green": "5,600.00",
-      "Blue": "6,750.00"
+      "RED": "5,500.00",
+      "YELLOW": "4,150.00",
+      "GREEN": "5,600.00",
+      "BLUE": "6,750.00"
     },
-    "sizes": "Red, Yellow, Green, Blue",
+    "sizes": "RED, YELLOW, GREEN, BLUE",
     "img": "/images/products/EJ-09.jpg",
     "cat": "physio"
   },
@@ -956,7 +956,7 @@ export const PRODUCTS = {
     "name": "Hand Xtrainer",
     "desc": "Versatile hand exerciser for fingers, hand and wrist",
     "mrp": "3,200.00",
-    "sizes": "Red, Blue, Green, Black",
+    "sizes": "RED, BLUE, GREEN, BLACK",
     "img": "/images/products/EJ-13.jpg",
     "cat": "physio"
   },
@@ -964,7 +964,7 @@ export const PRODUCTS = {
     "name": "Kinesiology Tape Cotton",
     "desc": "Elastic therapeutic tape for muscle and joint support",
     "mrp": "995.00",
-    "sizes": "Pink, Yellow, Blue, Green",
+    "sizes": "PINK, YELLOW, BLUE, GREEN",
     "img": "/images/products/EJ-14.jpg",
     "cat": "physio"
   },
@@ -988,7 +988,7 @@ export const PRODUCTS = {
     "name": "Feeding Bottle",
     "desc": "Medical grade feeding bottle for patient care",
     "mrp": "100.00",
-    "sizes": "125 ML",
+    "sizes": "125ML",
     "img": "/images/products/EJ-17.jpg",
     "cat": "physio"
   },
@@ -1004,11 +1004,11 @@ export const PRODUCTS = {
     "name": "Acupuncture Needle",
     "desc": "Sterile disposable needles for acupuncture therapy",
     "mrp": {
-      "0.25*13 MM": "500.00",
-      "0.25*25 MM": "525.00",
-      "0.25*50 MM": "550.00"
+      "0.25*13MM": "500.00",
+      "0.25*25MM": "525.00",
+      "0.25*50MM": "550.00"
     },
-    "sizes": "0.25*13 MM, 0.25*25 MM, 0.25*50 MM",
+    "sizes": "0.25*13MM, 0.25*25MM, 0.25*50MM",
     "img": "/images/products/EJ-19.jpg",
     "cat": "physio"
   },
@@ -1027,13 +1027,13 @@ export const PRODUCTS = {
     "name": "Resistance Tubing with Handle",
     "desc": "Durable resistance tubing with ergonomic handles",
     "mrp": {
-      "Yellow": "480.00",
-      "Red": "540.00",
-      "Green": "600.00",
-      "Blue": "660.00",
-      "Silver": "900.00"
+      "YELLOW": "480.00",
+      "RED": "540.00",
+      "GREEN": "600.00",
+      "BLUE": "660.00",
+      "SILVER": "900.00"
     },
-    "sizes": "Yellow, Red, Green, Blue, Silver",
+    "sizes": "YELLOW, RED, GREEN, BLUE, SILVER",
     "img": "/images/products/EJ-21.jpg",
     "cat": "physio"
   },
@@ -1041,11 +1041,11 @@ export const PRODUCTS = {
     "name": "Tubing Sleeve",
     "desc": "Protective sleeve for resistance tubing therapy",
     "mrp": {
-      "Blue": "900.00",
-      "Red": "1,300.00",
-      "Yellow": "1,000.00"
+      "BLUE": "900.00",
+      "RED": "1,300.00",
+      "YELLOW": "1,000.00"
     },
-    "sizes": "Blue, Red, Yellow",
+    "sizes": "BLUE, RED, YELLOW",
     "img": "/images/products/EJ-22.jpg",
     "cat": "physio"
   },
@@ -1053,11 +1053,11 @@ export const PRODUCTS = {
     "name": "Power Web (Web Exerciser)",
     "desc": "Circular web exerciser for comprehensive hand therapy",
     "mrp": {
-      "Yellow": "900.00",
-      "Red": "4,500.00",
-      "Green": "4,500.00"
+      "SOFT-YELLOW": "900.00",
+      "MEDIUM-RED": "4,500.00",
+      "FIRM-GREEN": "4,500.00"
     },
-    "sizes": "Yellow, Red, Green",
+    "sizes": "SOFT-YELLOW, MEDIUM-RED, FIRM-GREEN",
     "img": "/images/products/EJ-23.jpg",
     "cat": "physio"
   },
@@ -1065,11 +1065,11 @@ export const PRODUCTS = {
     "name": "Palm Exerciser",
     "desc": "Contoured palm exerciser for post-stroke rehabilitation",
     "mrp": {
-      "Yellow": "550.00",
-      "Blue": "550.00",
-      "Green": "550.00"
+      "SOFT-YELLOW": "550.00",
+      "MEDIUM-BLUE": "550.00",
+      "HARD-GREEN": "550.00"
     },
-    "sizes": "Yellow, Blue, Green",
+    "sizes": "SOFT-YELLOW, MEDIUM-BLUE, HARD-GREEN",
     "img": "/images/products/EJ-24.jpg",
     "cat": "physio"
   },
@@ -1077,7 +1077,7 @@ export const PRODUCTS = {
     "name": "Foam Roller -- 45 cm",
     "desc": "High density foam roller for muscle release and recovery",
     "mrp": "2,500.00",
-    "sizes": "45 CM",
+    "sizes": "45CM",
     "img": "/images/products/EJ-25.jpg",
     "cat": "physio"
   },
@@ -1085,7 +1085,7 @@ export const PRODUCTS = {
     "name": "US Gel -- 250 ml",
     "desc": "Premium ultrasound transmission gel for diagnostic imaging",
     "mrp": "125.00",
-    "sizes": "250 ML",
+    "sizes": "250ML",
     "img": "/images/products/EJ-26.jpg",
     "cat": "physio"
   },
@@ -1093,7 +1093,7 @@ export const PRODUCTS = {
     "name": "US Gel -- 5 kg",
     "desc": "Bulk pack ultrasound gel for clinical use",
     "mrp": "1,300.00",
-    "sizes": "5 KG",
+    "sizes": "5LTR",
     "img": "/images/products/EJ-27.jpg",
     "cat": "physio"
   },
@@ -1101,10 +1101,10 @@ export const PRODUCTS = {
     "name": "Thera Wax",
     "desc": "Paraffin wax for therapeutic heat treatments",
     "mrp": {
-      "250 GM": "250.00",
-      "500 GM": "500.00"
+      "250GM": "250.00",
+      "500GM": "500.00"
     },
-    "sizes": "250 GM, 500 GM",
+    "sizes": "250GM, 500GM",
     "img": "/images/products/EJ-28.jpg",
     "cat": "physio"
   },
@@ -1112,12 +1112,12 @@ export const PRODUCTS = {
     "name": "Theraband Loop",
     "desc": "Continuous loop resistance bands for lower body training",
     "mrp": {
-      "Yellow": "1,047.00",
-      "Red": "1,226.00",
-      "Green": "1,331.00",
-      "Blue": "1,502.00"
+      "BLUE": "1,047.00",
+      "GREEN": "1,226.00",
+      "RED": "1,331.00",
+      "YELLOW": "1,502.00"
     },
-    "sizes": "Yellow, Red, Green, Blue",
+    "sizes": "BLUE, GREEN, RED, YELLOW",
     "img": "/images/products/EJ-29.jpg",
     "cat": "physio"
   },
@@ -1125,7 +1125,7 @@ export const PRODUCTS = {
     "name": "Adjustable Weight Cuff -- 2 kg",
     "desc": "2 kg weighted cuff for advanced resistance exercises",
     "mrp": "1,200.00",
-    "sizes": "2 KG",
+    "sizes": "2KG",
     "img": "/images/products/EJ-30.jpg",
     "cat": "physio"
   },
@@ -1133,7 +1133,7 @@ export const PRODUCTS = {
     "name": "Single Stick Black (Mono Pod)",
     "desc": "Adjustable height aluminum walking stick with comfortable grip",
     "mrp": "580.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "BLACK",
     "img": "/images/products/EK-01.jpg",
     "cat": "walking-aid"
   },
@@ -1141,7 +1141,7 @@ export const PRODUCTS = {
     "name": "Single Stick Green (Mono Pod)",
     "desc": "Stylish green walking stick with durable non-slip tip",
     "mrp": "695.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "GREEN",
     "img": "/images/products/EK-02.jpg",
     "cat": "walking-aid"
   },
@@ -1173,7 +1173,7 @@ export const PRODUCTS = {
     "name": "Auxiliary Crutches",
     "desc": "Standard underarm crutches with comfortable padding",
     "mrp": "1,650.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "S, M, L, XL",
     "img": "/images/products/EK-06.jpg",
     "cat": "walking-aid"
   },
@@ -1309,7 +1309,7 @@ export const PRODUCTS = {
     "name": "Donut Cushion",
     "desc": "Circular cushion for pressure relief while sitting",
     "mrp": "1,450.00",
-    "sizes": "Grey, Blue",
+    "sizes": "GREY/BLUE",
     "img": "/images/products/EL-03.jpg",
     "cat": "allied"
   },
@@ -1317,7 +1317,7 @@ export const PRODUCTS = {
     "name": "Coccyx Cushion",
     "desc": "Anatomically designed cushion for tailbone pain relief",
     "mrp": "1,450.00",
-    "sizes": "Grey, Blue",
+    "sizes": "GREY/BLUE",
     "img": "/images/products/EL-04.jpg",
     "cat": "allied"
   },
@@ -1381,7 +1381,7 @@ export const PRODUCTS = {
     "name": "Urine Pot Male",
     "desc": "Ergonomic urine collection pot for male patients",
     "mrp": "160.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "MALE",
     "img": "/images/products/EL-12.jpg",
     "cat": "allied"
   },
@@ -1389,7 +1389,7 @@ export const PRODUCTS = {
     "name": "Urine Pot Female",
     "desc": "Anatomically designed urine pot for female patients",
     "mrp": "160.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "FEMALE",
     "img": "/images/products/EL-13.jpg",
     "cat": "allied"
   },
@@ -1397,7 +1397,7 @@ export const PRODUCTS = {
     "name": "Urine Pot Unisex",
     "desc": "Versatile urine collection pot for all patients",
     "mrp": "190.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "UNISEX",
     "img": "/images/products/EL-14.jpg",
     "cat": "allied"
   },
@@ -1413,7 +1413,7 @@ export const PRODUCTS = {
     "name": "Ounce Measuring Glass",
     "desc": "Accurate measuring glass for medical dosages (120 ml)",
     "mrp": "50.00",
-    "sizes": "120 ML",
+    "sizes": "120ML",
     "img": "/images/products/EL-16.jpg",
     "cat": "allied"
   },
@@ -1421,7 +1421,7 @@ export const PRODUCTS = {
     "name": "Pint Measuring Glass",
     "desc": "Bulk measuring glass for medical liquids (1000 ml)",
     "mrp": "250.00",
-    "sizes": "1000 ML",
+    "sizes": "1000ML",
     "img": "/images/products/EL-17.jpg",
     "cat": "allied"
   },
@@ -1429,7 +1429,7 @@ export const PRODUCTS = {
     "name": "Medial Arch Shoe",
     "desc": "Orthopaedic shoe for longitudinal arch correction",
     "mrp": "2,500.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EL-18.jpg",
     "cat": "allied"
   },
@@ -1437,7 +1437,7 @@ export const PRODUCTS = {
     "name": "Calcalium Shoe",
     "desc": "Specialized shoe for calcaneal spur relief",
     "mrp": "3,000.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EL-19.jpg",
     "cat": "allied"
   },
@@ -1477,11 +1477,11 @@ export const PRODUCTS = {
     "name": "Hot Water Bag",
     "desc": "Classic rubber hot water bag for heat therapy",
     "mrp": {
-      "500 ML": "199.00",
-      "2 Litre": "325.00",
-      "2.5 Litre": "375.00"
+      "500ML": "199.00",
+      "2LTR": "325.00",
+      "2.5LTR": "375.00"
     },
-    "sizes": "500 ML, 2 Litre, 2.5 Litre",
+    "sizes": "500ML, 2LTR, 2.5LTR",
     "img": "/images/products/EL-24.jpg",
     "cat": "allied"
   },
@@ -1545,10 +1545,10 @@ export const PRODUCTS = {
     "name": "Rubber Sheet (Ordinary 1 Mtr)",
     "desc": "Protective rubber sheet for beds and clinical use",
     "mrp": {
-      "Ordinary": "250.00",
-      "Special": "300.00"
+      "ORDINARY-1MTR": "250.00",
+      "SPECIAL-1MTR": "300.00"
     },
-    "sizes": "Ordinary, Special",
+    "sizes": "ORDINARY-1MTR, SPECIAL-1MTR",
     "img": "/images/products/EL-32.jpg",
     "cat": "allied"
   },
@@ -1556,7 +1556,7 @@ export const PRODUCTS = {
     "name": "Cervical Soft Collar -- Child",
     "desc": "Pediatric soft cervical collar for children",
     "mrp": "360.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EM-01.jpg",
     "cat": "child-care"
   },
@@ -1564,7 +1564,7 @@ export const PRODUCTS = {
     "name": "Philadelphia Collar -- Child",
     "desc": "Pediatric Philadelphia collar for children",
     "mrp": "1,000.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "CHILD",
     "img": "/images/products/EM-02.jpg",
     "cat": "child-care"
   },
@@ -1572,7 +1572,7 @@ export const PRODUCTS = {
     "name": "Arm Sling Tropical -- Child",
     "desc": "Pediatric tropical arm sling for children",
     "mrp": "350.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "CHILD",
     "img": "/images/products/EM-03.jpg",
     "cat": "child-care"
   },
@@ -1580,7 +1580,7 @@ export const PRODUCTS = {
     "name": "Shoulder Immobilizer -- Child",
     "desc": "Pediatric shoulder immobilizer for children",
     "mrp": "680.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "CHILD",
     "img": "/images/products/EM-04.jpg",
     "cat": "child-care"
   },
@@ -1588,7 +1588,7 @@ export const PRODUCTS = {
     "name": "Clavicle Brace -- Child",
     "desc": "Pediatric clavicle brace for children",
     "mrp": "425.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "CHILD",
     "img": "/images/products/EM-05.jpg",
     "cat": "child-care"
   },
@@ -1596,7 +1596,7 @@ export const PRODUCTS = {
     "name": "Pouch Arm Sling Baggy -- Child",
     "desc": "Pediatric baggy arm sling for children",
     "mrp": "350.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "CHILD",
     "img": "/images/products/EM-06.jpg",
     "cat": "child-care"
   },
@@ -1604,7 +1604,7 @@ export const PRODUCTS = {
     "name": "Knee Immobilizer -- Child",
     "desc": "Pediatric knee immobilizer for children",
     "mrp": "780.00",
-    "sizes": "S, M, L, XL, XXL",
+    "sizes": "UNIVERSAL",
     "img": "/images/products/EM-07.jpg",
     "cat": "child-care"
   },
@@ -1652,14 +1652,14 @@ export const PRODUCTS = {
     "name": "Gym Ball",
     "desc": "Anti-burst gym ball for core training",
     "mrp": {
-      "45 CM": "1,400.00",
-      "55 CM": "1,400.00",
-      "65 CM": "1,400.00",
-      "75 CM": "1,700.00",
-      "85 CM": "1,700.00",
-      "95 CM": "1,700.00"
+      "45CM": "1,400.00",
+      "55CM": "1,400.00",
+      "65CM": "1,400.00",
+      "75CM": "1,700.00",
+      "85CM": "1,700.00",
+      "95CM": "1,700.00"
     },
-    "sizes": "45 CM, 55 CM, 65 CM, 75 CM, 85 CM, 95 CM",
+    "sizes": "45CM, 55CM, 65CM, 75CM, 85CM, 95CM",
     "img": "/images/products/EL-36.jpg",
     "cat": "allied"
   },
@@ -1675,7 +1675,7 @@ export const PRODUCTS = {
     "name": "Anesthetic Face Mask",
     "desc": "Medical grade face mask",
     "mrp": "250.00",
-    "sizes": "UNIVERSAL",
+    "sizes": "00",
     "img": "/images/products/EL-38.jpg",
     "cat": "allied"
   },
