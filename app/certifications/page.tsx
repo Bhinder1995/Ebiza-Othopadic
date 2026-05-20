@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export const metadata = {
   title: 'Certifications & Trust | Ebiza Orthopaedic',
@@ -87,7 +86,7 @@ export default function CertificationsPage() {
             Certifications <span className="hl">&amp;</span> Trust
           </h1>
           <p className="hero-sub" style={{ margin: '20px auto 0', maxWidth: '700px', color: 'rgba(255,255,255,0.8)' }}>
-            At Ebiza Orthopaedic, quality is not just a promise; it's our foundation. We adhere to stringent international standards and local regulations to ensure every product we deliver supports a "Live Pain Free Life."
+            At Ebiza Orthopaedic, quality is not just a promise; it&apos;s our foundation. We adhere to stringent international standards and local regulations to ensure every product we deliver supports a &quot;Live Pain Free Life.&quot;
           </p>
         </div>
       </section>

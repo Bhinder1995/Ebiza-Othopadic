@@ -19,7 +19,7 @@ export default function AboutPage() {
         <div style={{ marginTop: '3rem', lineHeight: '1.8', fontSize: '1.1rem' }}>
           <p style={{ marginBottom: '1.5rem' }}>
             At <strong>Ebiza Orthopaedic</strong>, we believe that everyone deserves to live a <span style={{ color: 'var(--primary)', fontWeight: 'bold' }}>pain-free life</span>. 
-            Founded with a vision to revolutionize rehabilitation and mobility support, we have grown into one of India's most trusted manufacturers of premium orthopaedic appliances and fracture aids.
+            Founded with a vision to revolutionize rehabilitation and mobility support, we have grown into one of India&apos;s most trusted manufacturers of premium orthopaedic appliances and fracture aids.
           </p>
 
           <p style={{ marginBottom: '1.5rem' }}>
@@ -44,7 +44,7 @@ export default function AboutPage() {
           <h2 className="section-title" style={{ fontSize: '2rem', margin: '3rem 0 1.5rem' }}>Uncompromising Quality</h2>
           <p style={{ marginBottom: '1.5rem' }}>
             Quality is not just a buzzword for us; it is embedded in our DNA. We are proudly <strong>ISO 9001</strong> and <strong>ISO 13485</strong> certified, and our products carry the <strong>CE mark</strong> of approval. 
-            Manufactured in our state-of-the-art facility in Kolkata, our "Make in India" initiative guarantees that we maintain strict control over every stage of production—from sourcing hypoallergenic, breathable materials to the final stitch.
+            Manufactured in our state-of-the-art facility in Kolkata, our &quot;Make in India&quot; initiative guarantees that we maintain strict control over every stage of production—from sourcing hypoallergenic, breathable materials to the final stitch.
           </p>
 
           <div style={{ 

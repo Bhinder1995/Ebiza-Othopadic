@@ -2,13 +2,20 @@
 
 import { PRODUCTS } from '@/data/products';
 
+interface Product {
+  name: string;
+  img: string;
+  mrp?: string | number | Record<string, string | number>;
+  sizes?: string;
+}
+
 export default function DiagPage() {
   const products = Object.entries(PRODUCTS);
   return (
     <div style={{padding: '20px'}}>
       <h1>Image Diagnostic ({products.length} products)</h1>
       <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '10px'}}>
-        {products.map(([code, p]: [string, any]) => (
+        {products.map(([code, p]: [string, Product]) => (
           <div key={code} style={{border: '1px solid #ccc', padding: '10px'}}>
             <div style={{fontSize: '10px'}}>{code}</div>
             <img 

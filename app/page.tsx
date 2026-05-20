@@ -257,7 +257,7 @@ export default function Home() {
                   <div style={{ color: 'var(--primary)', fontSize: '20px' }}>⭐</div>
                   <div>
                     <h4 style={{ fontWeight: 700, fontSize: '16px', marginBottom: '4px' }}>Make in India</h4>
-                    <p style={{ fontSize: '14px', color: 'var(--text-mid)' }}>Proudly contributing to India's self-reliance in medical technology.</p>
+                    <p style={{ fontSize: '14px', color: 'var(--text-mid)' }}>Proudly contributing to India&apos;s self-reliance in medical technology.</p>
                   </div>
                 </div>
               </div>

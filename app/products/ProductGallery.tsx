@@ -1,8 +1,18 @@
 "use client";
 
+/* eslint-disable react-hooks/set-state-in-effect */
+
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
-import { PRODUCTS } from '../../data/products';
+
+interface Product {
+  name: string;
+  cat: string;
+  desc: string;
+  img?: string;
+  mrp?: string | number | Record<string, string | number>;
+  sizes?: string;
+}
 
 const CATEGORIES = [
   { id: 'body-belts',      name: 'Body Belts & Braces Support', icon: '🦺', desc: 'Lumbar supports, abdominal binders, posture correctors & specialty braces for spinal and torso support.' },
@@ -20,7 +30,7 @@ const CATEGORIES = [
   { id: 'child-care',      name: 'Pediatric Products',          icon: '👶', desc: 'Pediatric braces, splints and orthoses designed specifically for children.' },
 ];
 
-function ProductModal({ product, code, onClose }: { product: any; code: string; onClose: () => void }) {
+function ProductModal({ product, code, onClose }: { product: Product; code: string; onClose: () => void }) {
   // Parse sizes from comma-separated string or default to UNI
   const sizeList = product.sizes 
     ? product.sizes.split(',').map((s: string) => s.trim()).filter((s: string) => s.length > 0) 
@@ -159,10 +169,10 @@ function ProductModal({ product, code, onClose }: { product: any; code: string; 
 }
 
 
-export default function ProductGallery({ products }: { products: Record<string, any> }) {
+export default function ProductGallery({ products }: { products: Record<string, Product> }) {
   const [activeTab, setActiveTab] = useState('body-belts');
   const [searchTerm, setSearchTerm] = useState('');
-  const [modal, setModal] = useState<{ code: string; product: any } | null>(null);
+  const [modal, setModal] = useState<{ code: string; product: Product } | null>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
   const [mounted, setMounted] = useState(false);
@@ -367,7 +377,7 @@ export default function ProductGallery({ products }: { products: Record<string, 
                   <div className="section-divider"></div>
                 </div>
                 <div className="products-grid">
-                  {catProducts.map(([code, product]: [string, any]) => (
+                  {catProducts.map(([code, product]: [string, Product]) => (
                     <div key={code} className="product-card" onClick={() => setModal({ code, product })} style={{cursor:'pointer', display:'flex', flexDirection:'column'}}>
                       <div className="product-img-wrap">
                         <div className="product-code">{code}</div>
