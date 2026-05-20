@@ -102,39 +102,50 @@ function ProductModal({ product, code, onClose }: { product: Product; code: stri
               </div>
             )}
 
-            {sizeList.length > 0 && !(sizeList.length === 1 && (
-              sizeList[0].toUpperCase() === 'UNI' || 
-              sizeList[0].toUpperCase().includes('UNI') ||
-              sizeList[0].toUpperCase().includes('UNIVERS') ||
-              sizeList[0].toUpperCase().includes('UNIVERSAL')
-            )) && (
-              <>
-                <div className="modal-sizes-label" style={{fontSize:'14px', fontWeight:600, marginBottom:'10px'}}>Available Sizes / Variants</div>
-                <div className="modal-sizes" style={{display:'flex', flexWrap:'wrap', gap:'8px', marginBottom:'16px'}}>
-                  {sizeList.map((size: string, idx: number) => (
-                    <button 
-                      key={idx} 
-                      className={`size-chip ${selectedSize === size ? 'active' : ''}`}
-                      onClick={() => setSelectedSize(size)}
-                  style={{
-                    padding:'8px 16px', 
-                    background: selectedSize === size ? 'var(--primary)' : 'white', 
-                    color: selectedSize === size ? 'white' : 'var(--text)',
-                    border:'1px solid var(--border)', 
-                    borderRadius:'8px', 
-                    fontSize:'13px', 
-                    fontWeight:600, 
-                    boxShadow:'0 1px 2px rgba(0,0,0,0.05)',
-                    cursor: 'pointer',
-                    transition: 'all 0.2s'
-                  }}
-                >
-                  {size}
-                </button>
-              ))}
-            </div>
-          </>
-        )}
+            {sizeList.length > 0 && (() => {
+              const isUni = sizeList.length === 1 && (
+                sizeList[0].toUpperCase() === 'UNI' ||
+                sizeList[0].toUpperCase().includes('UNIVERS')
+              );
+              if (isUni) {
+                return (
+                  <div style={{marginBottom:'16px'}}>
+                    <div className="modal-sizes-label" style={{fontSize:'14px', fontWeight:600, marginBottom:'10px'}}>Size</div>
+                    <div style={{display:'inline-flex', alignItems:'center', gap:'6px', background:'linear-gradient(135deg,#e0f2fe,#bae6fd)', color:'#0369a1', padding:'8px 16px', borderRadius:'8px', fontWeight:700, fontSize:'13px', border:'1px solid #7dd3fc'}}>
+                      <span>✓</span> Universal / One Size Fits All
+                    </div>
+                  </div>
+                );
+              }
+              return (
+                <>
+                  <div className="modal-sizes-label" style={{fontSize:'14px', fontWeight:600, marginBottom:'10px'}}>Available Sizes / Variants</div>
+                  <div className="modal-sizes" style={{display:'flex', flexWrap:'wrap', gap:'8px', marginBottom:'16px'}}>
+                    {sizeList.map((size: string, idx: number) => (
+                      <button
+                        key={idx}
+                        className={`size-chip ${selectedSize === size ? 'active' : ''}`}
+                        onClick={() => setSelectedSize(size)}
+                        style={{
+                          padding:'8px 16px',
+                          background: selectedSize === size ? 'var(--primary)' : 'white',
+                          color: selectedSize === size ? 'white' : 'var(--text)',
+                          border:'1px solid var(--border)',
+                          borderRadius:'8px',
+                          fontSize:'13px',
+                          fontWeight:600,
+                          boxShadow:'0 1px 2px rgba(0,0,0,0.05)',
+                          cursor: 'pointer',
+                          transition: 'all 0.2s'
+                        }}
+                      >
+                        {size}
+                      </button>
+                    ))}
+                  </div>
+                </>
+              );
+            })()}
 
             <div style={{
               display: 'flex',
