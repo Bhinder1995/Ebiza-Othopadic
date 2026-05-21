@@ -648,16 +648,16 @@ export const PRODUCTS = {
     "cat": "traction"
   },
   "EH-04": {
-    "name": "Cervical Traction Kit",
-    "desc": "Cervical traction kit with head halter for home-based neck decompression therapy",
+    "name": "Foot Traction Kit",
+    "desc": "Complete foot traction kit for non-invasive skin traction therapy",
     "mrp": "2,000.00",
     "sizes": "UNI",
     "img": "/images/products/EH-04.jpg",
     "cat": "traction"
   },
   "EH-05": {
-    "name": "Foot Traction Kit",
-    "desc": "Complete foot traction kit for non-invasive skin traction therapy",
+    "name": "Cervical Traction Kit",
+    "desc": "Cervical traction kit with head halter for home-based neck decompression therapy",
     "mrp": "1,550.00",
     "sizes": "UNI",
     "img": "/images/products/EH-05.jpg",
@@ -908,7 +908,7 @@ export const PRODUCTS = {
     "cat": "physio"
   },
   "EJ-08": {
-    "name": "Gel Ball Oval",
+    "name": "Gel Oval Ball (Set)",
     "desc": "Gel oval ball set for hand therapy, strengthening fingers, hands, and forearms",
     "mrp": "1,100.00",
     "sizes": "UNI",
@@ -1193,7 +1193,7 @@ export const PRODUCTS = {
     "cat": "walking-aid"
   },
   "EK-09": {
-    "name": "Reciprocal Walker",
+    "name": "Reciprocal Walker (Without Wheel)",
     "desc": "Walker that mimics natural walking motion for rehabilitation",
     "mrp": "3,100.00",
     "sizes": "UNI",
@@ -1319,7 +1319,7 @@ export const PRODUCTS = {
     "cat": "allied"
   },
   "EL-05": {
-    "name": "Heating Pad with Controller",
+    "name": "Heating Pad with Regulator",
     "desc": "Electric heating pad with adjustable heat settings",
     "mrp": "1,395.00",
     "sizes": "UNI",
