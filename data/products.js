@@ -1308,6 +1308,7 @@ export const PRODUCTS = {
     "name": "Donut Cushion",
     "desc": "Circular cushion for pressure relief while sitting",
     "mrp": "1,450.00",
+    "sizes": "GREY, BLUE",
     "img": "/images/products/EL-03.jpg",
     "cat": "allied"
   },
@@ -1315,12 +1316,13 @@ export const PRODUCTS = {
     "name": "Coccyx Cushion",
     "desc": "Anatomically designed cushion for tailbone pain relief",
     "mrp": "1,450.00",
+    "sizes": "GREY, BLUE",
     "img": "/images/products/EL-04.jpg",
     "cat": "allied"
   },
   "EL-05": {
-    "name": "Heating Pad with Regulator",
-    "desc": "Electric heating pad with adjustable heat settings",
+    "name": "Heating Pad with Controller",
+    "desc": "Electric heating pad with adjustable heat controller",
     "mrp": "1,395.00",
     "sizes": "UNI",
     "img": "/images/products/EL-05.jpg",
@@ -1547,7 +1549,7 @@ export const PRODUCTS = {
   "EM-01": {
     "name": "Cervical Soft Collar -- Child",
     "desc": "Pediatric soft cervical collar for children",
-    "mrp": "360.00",
+    "mrp": "300.00",
     "sizes": "UNI",
     "img": "/images/products/EM-01.jpg",
     "cat": "child-care"
