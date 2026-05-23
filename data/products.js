@@ -2,7 +2,7 @@ export const PRODUCTS = {
   "EA-01": {
     "name": "Contoured Lumbosacral Support",
     "desc": "Anatomically contoured rigid back support for lumbar stability",
-    "mrp": "1,200.00",
+    "mrp": "1,250.00",
     "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-01.jpg",
     "cat": "body-belts"
@@ -10,7 +10,7 @@ export const PRODUCTS = {
   "EA-02": {
     "name": "Lumbosacral Support",
     "desc": "Standard lumbar support for lower back pain relief",
-    "mrp": "935.00",
+    "mrp": "950.00",
     "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-02.jpg",
     "cat": "body-belts"
@@ -26,7 +26,7 @@ export const PRODUCTS = {
   "EA-04": {
     "name": "Taylor's Brace (Long / Short)",
     "desc": "Thoracolumbar support brace for spinal fracture management",
-    "mrp": "2,275.00",
+    "mrp": "2,450.00",
     "sizes": "S, M, L, XL, XXL, UNI",
     "img": "/images/products/EA-04.jpg",
     "cat": "body-belts"
@@ -34,7 +34,7 @@ export const PRODUCTS = {
   "EA-05": {
     "name": "Posture Corrector",
     "desc": "Corrects rounded shoulders and improves posture",
-    "mrp": "850.00",
+    "mrp": "900.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EA-05.jpg",
     "cat": "body-belts"
@@ -58,7 +58,7 @@ export const PRODUCTS = {
   "EA-08": {
     "name": "Abdominal Support",
     "desc": "Post-surgical abdominal support and compression",
-    "mrp": "705.00",
+    "mrp": "750.00",
     "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-08.jpg",
     "cat": "body-belts"
@@ -74,7 +74,7 @@ export const PRODUCTS = {
   "EA-10": {
     "name": "Chest Binder",
     "desc": "Chest compression support for thoracic injuries",
-    "mrp": "1,025.00",
+    "mrp": "1,050.00",
     "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-10.jpg",
     "cat": "body-belts"
@@ -82,7 +82,7 @@ export const PRODUCTS = {
   "EA-11": {
     "name": "Pelvic Binder",
     "desc": "Emergency pelvic fracture stabilization binder",
-    "mrp": "735.00",
+    "mrp": "750.00",
     "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EA-11.jpg",
     "cat": "body-belts"
@@ -90,7 +90,7 @@ export const PRODUCTS = {
   "EA-12": {
     "name": "Hernia Support",
     "desc": "Supportive truss for inguinal hernia management",
-    "mrp": "610.00",
+    "mrp": "650.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EA-12.jpg",
     "cat": "body-belts"
@@ -106,7 +106,7 @@ export const PRODUCTS = {
   "EA-14": {
     "name": "Orthopaedic Backrest (Grey / Blue)",
     "desc": "Ergonomic back support for chairs and car seats",
-    "mrp": "1,700.00",
+    "mrp": "1,750.00",
     "sizes": "UNI",
     "img": "/images/products/EA-14.jpg",
     "cat": "body-belts"
@@ -138,7 +138,7 @@ export const PRODUCTS = {
   "EB-04": {
     "name": "Philadelphia Collar",
     "desc": "Tracheostomy opening collar for severe cervical injuries",
-    "mrp": "1,040.00",
+    "mrp": "1,050.00",
     "sizes": "S, M, L, XL",
     "img": "/images/products/EB-04.jpg",
     "cat": "cervical"
@@ -146,7 +146,7 @@ export const PRODUCTS = {
   "EB-05": {
     "name": "Cervical Pillow (Regular) (Grey / Blue)",
     "desc": "Corrects neck posture during sleep to relieve pain",
-    "mrp": "1,275.00",
+    "mrp": "1,300.00",
     "sizes": "UNI",
     "img": "/images/products/EB-05.jpg",
     "cat": "cervical"
@@ -154,7 +154,7 @@ export const PRODUCTS = {
   "EB-06": {
     "name": "Memory Foam Pillow",
     "desc": "Visco-elastic foam pillow for superior neck contouring",
-    "mrp": "2,425.00",
+    "mrp": "2,450.00",
     "sizes": "UNI",
     "img": "/images/products/EB-06.jpg",
     "cat": "cervical"
@@ -194,7 +194,7 @@ export const PRODUCTS = {
   "EC-04": {
     "name": "Clavicle Brace",
     "desc": "Figure-of-eight brace for clavicle fracture management",
-    "mrp": "425.00",
+    "mrp": "450.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EC-04.jpg",
     "cat": "fracture"
@@ -202,7 +202,7 @@ export const PRODUCTS = {
   "EC-05": {
     "name": "Shoulder Immobilizer",
     "desc": "Secures arm against the body for shoulder stabilization",
-    "mrp": "680.00",
+    "mrp": "700.00",
     "sizes": "UNI",
     "img": "/images/products/EC-05.jpg",
     "cat": "fracture"
@@ -314,7 +314,7 @@ export const PRODUCTS = {
   "EE-06": {
     "name": "PF Night Splint De-Rotation",
     "desc": "Stretches plantar fascia during sleep to relieve heel pain",
-    "mrp": "1,375.00",
+    "mrp": "1,400.00",
     "sizes": "UNI",
     "img": "/images/products/EE-06.jpg",
     "cat": "foot-ankle"
@@ -410,7 +410,7 @@ export const PRODUCTS = {
   "EF-03": {
     "name": "Neoprene Knee Support",
     "desc": "Therapeutic warmth and compression for the knee joint",
-    "mrp": "1,220.00",
+    "mrp": "1,240.00",
     "sizes": "UNI",
     "img": "/images/products/EF-03.jpg",
     "cat": "knee"
@@ -418,7 +418,7 @@ export const PRODUCTS = {
   "EF-04": {
     "name": "Neoprene Knee Support with Hinges",
     "desc": "Hinged neoprene knee brace for mediolateral stability",
-    "mrp": "1,575.00",
+    "mrp": "1,600.00",
     "sizes": "UNI, XXL",
     "img": "/images/products/EF-04.jpg",
     "cat": "knee"
@@ -450,7 +450,7 @@ export const PRODUCTS = {
   "EF-08": {
     "name": "Knee Immobilizer Long",
     "desc": "Long length knee immobilizer for full leg stabilization",
-    "mrp": "1,150.00",
+    "mrp": "1,200.00",
     "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EF-08.jpg",
     "cat": "knee"
@@ -458,7 +458,7 @@ export const PRODUCTS = {
   "EF-09": {
     "name": "Knee Immobilizer Short",
     "desc": "Short length knee immobilizer for post-injury protection",
-    "mrp": "925.00",
+    "mrp": "950.00",
     "sizes": "S, M, L, XL, XXL, XXXL",
     "img": "/images/products/EF-09.jpg",
     "cat": "knee"
@@ -482,7 +482,7 @@ export const PRODUCTS = {
   "EF-12": {
     "name": "Elastic Knee Support",
     "desc": "Flexible elastic support for daily knee joint protection",
-    "mrp": "700.00",
+    "mrp": "725.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-12.jpg",
     "cat": "knee"
@@ -498,7 +498,7 @@ export const PRODUCTS = {
   "EF-14": {
     "name": "OA Knee Support (Left / Right)",
     "desc": "Osteoarthritis knee brace for offloading joint pressure",
-    "mrp": "1,500.00",
+    "mrp": "1,550.00",
     "sizes": "S, M, L, XL, XXL",
     "img": "/images/products/EF-14.jpg",
     "cat": "knee"
@@ -530,7 +530,7 @@ export const PRODUCTS = {
   "EG-04": {
     "name": "Wrist Brace with Thumb Support",
     "desc": "Supports both wrist and CMC/MCP joints of the thumb",
-    "mrp": "230.00",
+    "mrp": "220.00",
     "sizes": "UNI",
     "img": "/images/products/EG-04.jpg",
     "cat": "wrist-forearm"
@@ -546,7 +546,7 @@ export const PRODUCTS = {
   "EG-06": {
     "name": "Tennis Elbow Support with Silicone Pad",
     "desc": "Targeted pressure for lateral epicondylitis relief",
-    "mrp": "250.00",
+    "mrp": "260.00",
     "sizes": "UNI",
     "img": "/images/products/EG-06.jpg",
     "cat": "wrist-forearm"
@@ -562,7 +562,7 @@ export const PRODUCTS = {
   "EG-08": {
     "name": "Hand Restrainer",
     "desc": "Soft restraint for patient safety and positioning",
-    "mrp": "300.00",
+    "mrp": "325.00",
     "sizes": "UNI",
     "img": "/images/products/EG-08.jpg",
     "cat": "wrist-forearm"
@@ -570,7 +570,7 @@ export const PRODUCTS = {
   "EG-09": {
     "name": "Thumb Spica Splint",
     "desc": "Immobilizes the thumb while allowing wrist movement",
-    "mrp": "260.00",
+    "mrp": "265.00",
     "sizes": "UNI",
     "img": "/images/products/EG-09.jpg",
     "cat": "wrist-forearm"
@@ -586,7 +586,7 @@ export const PRODUCTS = {
   "EG-11": {
     "name": "Arm Immobilizer (Adjustable)",
     "desc": "Complete arm and shoulder immobilization system",
-    "mrp": "975.00",
+    "mrp": "985.00",
     "sizes": "UNI",
     "img": "/images/products/EG-11.jpg",
     "cat": "wrist-forearm"
@@ -594,7 +594,7 @@ export const PRODUCTS = {
   "EG-12": {
     "name": "Static Cockup Splint (Left / Right)",
     "desc": "Holds wrist in functional cock-up position",
-    "mrp": "950.00",
+    "mrp": "960.00",
     "sizes": "S, M, L",
     "img": "/images/products/EG-12.jpg",
     "cat": "wrist-forearm"
@@ -610,7 +610,7 @@ export const PRODUCTS = {
   "EG-14": {
     "name": "Fistula Belt / Tourniquet Belt",
     "desc": "Protective compression belt for dialysis fistula sites",
-    "mrp": "50.00",
+    "mrp": "45.00",
     "sizes": "UNI",
     "img": "/images/products/EG-14.jpg",
     "cat": "wrist-forearm"
@@ -642,7 +642,7 @@ export const PRODUCTS = {
   "EH-03": {
     "name": "Pelvic Traction Belt",
     "desc": "Belt designed to apply traction to the pelvic region for lumbar decompression",
-    "mrp": "890.00",
+    "mrp": "900.00",
     "sizes": "S, M, L, XL",
     "img": "/images/products/EH-03.jpg",
     "cat": "traction"
@@ -666,7 +666,7 @@ export const PRODUCTS = {
   "EH-06": {
     "name": "Pelvic Traction Kit",
     "desc": "Pelvic traction kit with belt and weight system for lumbar spine decompression",
-    "mrp": "2,500.00",
+    "mrp": "2,600.00",
     "sizes": "UNI",
     "img": "/images/products/EH-06.jpg",
     "cat": "traction"
@@ -725,7 +725,7 @@ export const PRODUCTS = {
   "EI-02": {
     "name": "Silicone Full Insole",
     "desc": "Full length silicone insoles for uniform foot cushioning",
-    "mrp": "1,625.00",
+    "mrp": "1,650.00",
     "sizes": "S, M, L, XL",
     "img": "/images/products/EI-02.jpg",
     "cat": "silicone-foot"
@@ -734,8 +734,8 @@ export const PRODUCTS = {
     "name": "Silicone Gel Ball",
     "desc": "Targeted support for flat feet and arch stabilization",
     "mrp": {
-      "RED": "425.00",
-      "YELLOW": "400.00"
+      "RED": "450.00",
+      "YELLOW": "450.00"
     },
     "sizes": "RED, YELLOW",
     "img": "/images/products/EI-03.jpg",
@@ -768,7 +768,7 @@ export const PRODUCTS = {
   "EI-07": {
     "name": "Silicone Full Insole with Medial Arch",
     "desc": "Full-length insoles with medial arch for pronation support",
-    "mrp": "1,550.00",
+    "mrp": "1,600.00",
     "sizes": "S, M, L, XL",
     "img": "/images/products/EI-07.jpg",
     "cat": "silicone-foot"
@@ -776,7 +776,7 @@ export const PRODUCTS = {
   "EI-08": {
     "name": "Hot & Cold Gel Pack",
     "desc": "Reusable gel pack for hot and cold therapy",
-    "mrp": "525.00",
+    "mrp": "550.00",
     "sizes": "UNI",
     "img": "/images/products/EI-08.jpg",
     "cat": "silicone-foot"
@@ -837,9 +837,9 @@ export const PRODUCTS = {
     "name": "Weight Cuff",
     "desc": "Wearable weight cuffs for progressive resistance training",
     "mrp": {
-      "500GM": "500.00",
-      "1KG": "780.00",
-      "2KG": "1,225.00"
+      "500GM": "550.00",
+      "1KG": "820.00",
+      "2KG": "1,300.00"
     },
     "sizes": "500GM, 1KG, 2KG",
     "img": "/images/products/EJ-01.jpg",
@@ -1131,7 +1131,7 @@ export const PRODUCTS = {
   "EK-01": {
     "name": "Single Stick Black (Mono Pod)",
     "desc": "Adjustable height aluminum walking stick with comfortable grip",
-    "mrp": "580.00",
+    "mrp": "550.00",
     "sizes": "UNI",
     "img": "/images/products/EK-01.jpg",
     "cat": "walking-aid"
@@ -1171,7 +1171,7 @@ export const PRODUCTS = {
   "EK-06": {
     "name": "Auxiliary Crutches",
     "desc": "Standard underarm crutches with comfortable padding",
-    "mrp": "1,650.00",
+    "mrp": "1,700.00",
     "sizes": "S, M, L, XL",
     "img": "/images/products/EK-06.jpg",
     "cat": "walking-aid"
@@ -1307,7 +1307,7 @@ export const PRODUCTS = {
   "EL-03": {
     "name": "Donut Cushion",
     "desc": "Circular cushion for pressure relief while sitting",
-    "mrp": "1,450.00",
+    "mrp": "1,500.00",
     "sizes": "GREY, BLUE",
     "img": "/images/products/EL-03.jpg",
     "cat": "allied"
@@ -1315,7 +1315,7 @@ export const PRODUCTS = {
   "EL-04": {
     "name": "Coccyx Cushion",
     "desc": "Anatomically designed cushion for tailbone pain relief",
-    "mrp": "1,450.00",
+    "mrp": "1,500.00",
     "sizes": "GREY, BLUE",
     "img": "/images/products/EL-04.jpg",
     "cat": "allied"
