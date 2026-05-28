@@ -1696,5 +1696,13 @@ export const PRODUCTS = {
     "sizes": "UNI",
     "img": "/images/products/EM-10.jpg",
     "cat": "child-care"
+  },
+  "EM-11": {
+    "name": "Rollator Walker",
+    "desc": "Sturdy rollator walker with wheels, brake system, and comfortable grip for enhanced mobility and stability",
+    "mrp": "5,500.00",
+    "sizes": "UNI",
+    "img": "/images/products/EM-11.jpg",
+    "cat": "walking-aid"
   }
 };
