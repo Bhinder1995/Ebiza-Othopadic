@@ -1454,7 +1454,7 @@ export const PRODUCTS = {
   "EL-22": {
     "name": "Oval Thermometer",
     "desc": "Traditional oval glass thermometer for clinical use",
-    "mrp": "Contact for Price",
+    "mrp": "177.00",
     "sizes": "UNI",
     "img": "/images/products/EL-22.jpg",
     "cat": "allied"
@@ -1482,7 +1482,7 @@ export const PRODUCTS = {
   "EL-25": {
     "name": "B.P. Machine Digital",
     "desc": "Electronic blood pressure monitor for home use",
-    "mrp": "Contact for Price",
+    "mrp": "1,733.50",
     "sizes": "UNI",
     "img": "/images/products/EL-25.jpg",
     "cat": "allied"
@@ -1490,7 +1490,7 @@ export const PRODUCTS = {
   "EL-26": {
     "name": "B.P. Machine Manual",
     "desc": "Sphygmomanometer for professional blood pressure reading",
-    "mrp": "Contact for Price",
+    "mrp": "1,950.00",
     "sizes": "UNI",
     "img": "/images/products/EL-26.jpg",
     "cat": "allied"
@@ -1506,7 +1506,7 @@ export const PRODUCTS = {
   "EL-28": {
     "name": "Stethoscope",
     "desc": "Medical stethoscope for auscultation and diagnostics",
-    "mrp": "Contact for Price",
+    "mrp": "1,155.00",
     "sizes": "UNI",
     "img": "/images/products/EL-28.jpg",
     "cat": "allied"
@@ -1514,7 +1514,7 @@ export const PRODUCTS = {
   "EL-29": {
     "name": "Nebulizer",
     "desc": "Compact nebulizer for efficient respiratory medication",
-    "mrp": "Contact for Price",
+    "mrp": "1,850.00",
     "sizes": "UNI",
     "img": "/images/products/EL-29.jpg",
     "cat": "allied"
@@ -1522,7 +1522,7 @@ export const PRODUCTS = {
   "EL-30": {
     "name": "Pulse Oximeter",
     "desc": "Finger pulse oximeter for SpO2 monitoring",
-    "mrp": "Contact for Price",
+    "mrp": "1,687.50",
     "sizes": "UNI",
     "img": "/images/products/EL-30.jpg",
     "cat": "allied"
@@ -1530,7 +1530,7 @@ export const PRODUCTS = {
   "EL-31": {
     "name": "Breast Pump Machine",
     "desc": "Electric breast pump machine for maternal care",
-    "mrp": "Contact for Price",
+    "mrp": "955.00",
     "sizes": "UNI",
     "img": "/images/products/EL-31.jpg",
     "cat": "allied"
