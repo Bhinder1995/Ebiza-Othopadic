@@ -216,7 +216,7 @@ export const PRODUCTS = {
     "cat": "fracture"
   },
   "EC-07": {
-    "name": "Shoulder Support Elastic",
+    "name": "Shoulder Support Neoprene",
     "desc": "Provides compression and support to the shoulder joint",
     "mrp": "1,250.00",
     "sizes": "UNI",
@@ -735,7 +735,7 @@ export const PRODUCTS = {
     "desc": "Targeted support for flat feet and arch stabilization",
     "mrp": {
       "RED": "450.00",
-      "YELLOW": "450.00"
+      "YELLOW": "430.00"
     },
     "sizes": "RED, YELLOW",
     "img": "/images/products/EI-03.jpg",
@@ -1703,6 +1703,6 @@ export const PRODUCTS = {
     "mrp": "5,500.00",
     "sizes": "UNI",
     "img": "/images/products/EM-11.jpg",
-    "cat": "walking-aid"
+    "cat": "child-care"
   }
 };
