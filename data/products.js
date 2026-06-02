@@ -1321,7 +1321,7 @@ export const PRODUCTS = {
     "cat": "allied"
   },
   "EL-05": {
-    "name": "Heating Pad with Controller",
+    "name": "Heating Pad with Regulator",
     "desc": "Electric heating pad with adjustable heat controller",
     "mrp": "1,395.00",
     "sizes": "UNI",
