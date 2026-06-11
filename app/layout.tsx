@@ -28,6 +28,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Ebiza Orthopaedic | Live Pain Free Life",
   description: "Ebiza Orthopaedic provides clinical experts developed orthopaedic appliances and fracture aids. Live pain free life.",
+  verification: {
+    google: "ihUrw-Rvy6z_YyWQ6tT7PAxNORa79XxgxPaXoyj40eQ",
+  },
 };
 
 import Script from "next/script";
