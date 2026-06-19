@@ -35,13 +35,6 @@ const CERTIFICATES = [
     icon: "✅"
   },
   {
-    name: "Drug Licence",
-    title: "Regulatory Approval",
-    desc: "Official authorization from regulatory bodies to manufacture and distribute high-grade medical and pharmaceutical products.",
-    file: "DRUG LICENCE.pdf",
-    icon: "📋"
-  },
-  {
     name: "Trade Mark Certificate",
     title: "Brand Authenticity",
     desc: "Legal protection of the Ebiza brand, ensuring you receive genuine products developed by our certified experts.",

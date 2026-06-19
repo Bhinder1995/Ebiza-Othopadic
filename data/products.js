@@ -338,7 +338,7 @@ export const PRODUCTS = {
   "EE-09": {
     "name": "Leg Restrainer",
     "desc": "Immobilizes the leg for post-surgical safety",
-    "mrp": "300.00",
+    "mrp": "350.00",
     "sizes": "UNI",
     "img": "/images/products/EE-09.jpg",
     "cat": "foot-ankle"
